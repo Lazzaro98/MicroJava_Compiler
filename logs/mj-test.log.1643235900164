@@ -1,0 +1,216 @@
+INFO  23:22:55,785 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  23:22:55,893 - #4 program
+INFO  23:22:55,894 - #46 test302
+INFO  23:22:55,894 - #11 const
+INFO  23:22:55,895 - #46 int
+INFO  23:22:55,895 - #46 jedan
+INFO  23:22:55,896 - #12 =
+INFO  23:22:55,897 - #45 1
+INFO  23:22:55,897 - #10 ;
+INFO  23:22:55,897 - #5 {
+INFO  23:22:55,898 - #18 void
+INFO  23:22:55,899 - #46 main
+INFO  23:22:55,899 - #7 (
+INFO  23:22:55,899 - #8 )
+INFO  23:22:55,900 - #46 int
+INFO  23:22:55,901 - #46 a
+INFO  23:22:55,901 - #10 ;
+INFO  23:22:55,902 - #46 int
+INFO  23:22:55,902 - #46 b
+INFO  23:22:55,902 - #10 ;
+INFO  23:22:55,902 - #46 int
+INFO  23:22:55,903 - #46 c
+INFO  23:22:55,903 - #10 ;
+INFO  23:22:55,903 - #5 {
+INFO  23:22:55,903 - #46 a
+INFO  23:22:55,904 - #12 =
+INFO  23:22:55,904 - #45 4
+INFO  23:22:55,904 - #10 ;
+INFO  23:22:55,904 - #46 b
+INFO  23:22:55,905 - #12 =
+INFO  23:22:55,905 - #45 2
+INFO  23:22:55,905 - #10 ;
+INFO  23:22:55,905 - #46 c
+INFO  23:22:55,905 - #12 =
+INFO  23:22:55,905 - #46 b
+INFO  23:22:55,905 - #27 +
+INFO  23:22:55,905 - #46 a
+INFO  23:22:55,907 - #10 ;
+INFO  23:22:55,907 - #24 print
+INFO  23:22:55,907 - #7 (
+INFO  23:22:55,907 - #46 c
+INFO  23:22:55,907 - #8 )
+INFO  23:22:55,907 - #10 ;
+INFO  23:22:55,907 - #6 }
+INFO  23:22:55,907 - #6 }
+INFO  23:22:55,913 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       jedan
+        NumConstDeclaration(
+         1
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           b
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         c
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementDesignator(
+                    DesignatorStatementEq(
+                      DesignatorSingle(
+                       a
+                      ) [DesignatorSingle]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           4
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [DesignatorStatementEq]
+                  ) [SingleStatementDesignator]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     b
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   c
+                  ) [DesignatorSingle]
+                  AddExpr(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSingle(
+                           b
+                          ) [DesignatorSingle]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         a
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [AddExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     c
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:22:55,914 - ===================================
+INFO  23:22:55,918 - Deklarisana konstanta jedan na liniji 5
+INFO  23:22:55,918 - Obradjuje se funkcija main na liniji 9
+INFO  23:22:55,918 - Deklarisana promenljiva a tipa int na liniji 10
+INFO  23:22:55,918 - Deklarisana promenljiva b tipa int na liniji 11
+INFO  23:22:55,918 - Deklarisana promenljiva c tipa int na liniji 12
+INFO  23:22:55,919 - Dodela vrednosti a na liniji 14
+INFO  23:22:55,919 - Dodela vrednosti b na liniji 15
+INFO  23:22:55,919 - Dodela vrednosti c na liniji 16
+INFO  23:22:55,919 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 17
+INFO  23:22:55,919 -  Print count calls = 0
+INFO  23:22:55,919 -  Deklarisanih promenljivih ima = 3
+INFO  23:22:55,919 - ===================================
+INFO  23:22:55,927 - Parsiranje uspesno zavrseno

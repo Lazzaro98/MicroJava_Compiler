@@ -1,0 +1,162 @@
+INFO  22:50:47,881 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:50:47,967 - #4 program
+INFO  22:50:47,967 - #46 test302
+INFO  22:50:47,967 - #11 const
+INFO  22:50:47,969 - #46 int
+INFO  22:50:47,969 - #46 jedan
+INFO  22:50:47,970 - #12 =
+INFO  22:50:47,970 - #45 1
+INFO  22:50:47,970 - #10 ;
+INFO  22:50:47,972 - #5 {
+INFO  22:50:47,972 - #18 void
+INFO  22:50:47,973 - #46 main
+INFO  22:50:47,974 - #7 (
+INFO  22:50:47,974 - #8 )
+INFO  22:50:47,975 - #46 int
+INFO  22:50:47,975 - #46 a
+INFO  22:50:47,976 - #10 ;
+INFO  22:50:47,976 - #46 int
+INFO  22:50:47,977 - #46 b
+INFO  22:50:47,977 - #10 ;
+INFO  22:50:47,977 - #5 {
+INFO  22:50:47,978 - #46 a
+INFO  22:50:47,978 - #12 =
+INFO  22:50:47,979 - #45 4
+INFO  22:50:47,979 - #10 ;
+INFO  22:50:47,979 - #46 b
+INFO  22:50:47,979 - #12 =
+INFO  22:50:47,979 - #45 2
+INFO  22:50:47,979 - #10 ;
+INFO  22:50:47,979 - #24 print
+INFO  22:50:47,980 - #7 (
+INFO  22:50:47,980 - #46 a
+INFO  22:50:47,980 - #8 )
+INFO  22:50:47,980 - #10 ;
+INFO  22:50:47,980 - #6 }
+INFO  22:50:47,980 - #6 }
+INFO  22:50:47,985 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       jedan
+        NumConstDeclaration(
+         1
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           a
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         b
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     a
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         4
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   b
+                  ) [DesignatorSingle]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     a
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:50:47,986 - ===================================
+INFO  22:50:47,991 - Deklarisana konstanta jedan na liniji 5
+INFO  22:50:47,991 - Obradjuje se funkcija main na liniji 9
+INFO  22:50:47,991 - Deklarisana promenljiva a tipa int na liniji 10
+INFO  22:50:47,991 - Deklarisana promenljiva b tipa int na liniji 11
+INFO  22:50:47,991 - Dodela vrednosti a na liniji 13
+INFO  22:50:47,991 - Dodela vrednosti b na liniji 14
+INFO  22:50:47,992 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 16
+INFO  22:50:47,992 -  Print count calls = 0
+INFO  22:50:47,992 -  Deklarisanih promenljivih ima = 2
+INFO  22:50:47,992 - ===================================
+INFO  22:50:47,998 - Parsiranje uspesno zavrseno

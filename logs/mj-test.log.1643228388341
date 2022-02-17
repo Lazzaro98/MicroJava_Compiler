@@ -1,0 +1,199 @@
+INFO  21:19:06,856 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  21:19:06,920 - #4 program
+INFO  21:19:06,920 - #46 test301
+INFO  21:19:06,920 - #11 const
+INFO  21:19:06,922 - #46 int
+INFO  21:19:06,922 - #46 pet
+INFO  21:19:06,923 - #12 =
+INFO  21:19:06,923 - #45 5
+INFO  21:19:06,924 - #10 ;
+INFO  21:19:06,924 - #46 int
+INFO  21:19:06,925 - #46 niz
+INFO  21:19:06,925 - #13 [
+INFO  21:19:06,925 - #14 ]
+INFO  21:19:06,925 - #10 ;
+INFO  21:19:06,926 - #5 {
+INFO  21:19:06,926 - #18 void
+INFO  21:19:06,927 - #46 x
+INFO  21:19:06,927 - #7 (
+INFO  21:19:06,927 - #8 )
+INFO  21:19:06,928 - #5 {
+INFO  21:19:06,928 - #24 print
+INFO  21:19:06,930 - #7 (
+INFO  21:19:06,930 - #45 2
+INFO  21:19:06,930 - #8 )
+INFO  21:19:06,930 - #10 ;
+INFO  21:19:06,930 - #6 }
+INFO  21:19:06,930 - #18 void
+INFO  21:19:06,931 - #46 main
+INFO  21:19:06,931 - #7 (
+INFO  21:19:06,931 - #8 )
+INFO  21:19:06,931 - #46 int
+INFO  21:19:06,931 - #46 bodovi
+INFO  21:19:06,931 - #10 ;
+INFO  21:19:06,931 - #5 {
+INFO  21:19:06,931 - #46 bodovi
+INFO  21:19:06,931 - #12 =
+INFO  21:19:06,931 - #45 0
+INFO  21:19:06,931 - #10 ;
+INFO  21:19:06,932 - #46 bodovi
+INFO  21:19:06,932 - #19 ++
+INFO  21:19:06,932 - #10 ;
+INFO  21:19:06,932 - #24 print
+INFO  21:19:06,932 - #7 (
+INFO  21:19:06,932 - #46 pet
+INFO  21:19:06,932 - #8 )
+INFO  21:19:06,933 - #10 ;
+INFO  21:19:06,933 - #6 }
+INFO  21:19:06,933 - #6 }
+INFO  21:19:06,940 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgramEmpty(
+      ) [DeclarationListProgramEmpty]
+      DeclarationConst(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+         pet
+          NumConstDeclaration(
+           5
+          ) [NumConstDeclaration]
+          ConstDeclarationPomListEmpty(
+          ) [ConstDeclarationPomListEmpty]
+        ) [ConstDeclaration]
+      ) [DeclarationConst]
+    ) [DeclarationListProgram]
+    DeclarationVar(
+      VarDeclarationSquares(
+        Type(
+         int
+        ) [Type]
+       niz
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclarationSquares]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodVoidName(
+         x
+        ) [MethodVoidName]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     bodovi
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementInc(
+                  DesignatorSingle(
+                   bodovi
+                  ) [DesignatorSingle]
+                ) [DesignatorStatementInc]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     pet
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  21:19:06,941 - ===================================
+INFO  21:19:06,946 - Deklarisana konstanta pet na liniji 6
+INFO  21:19:06,946 - Deklarisan niz niz tipa int na liniji 8
+INFO  21:19:06,946 - Obradjuje se funkcija x na liniji 12
+INFO  21:19:06,946 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 13
+INFO  21:19:06,946 - Obradjuje se funkcija main na liniji 17
+INFO  21:19:06,946 - Deklarisana promenljiva bodovi tipa int na liniji 18
+INFO  21:19:06,946 - Dodela vrednosti bodovi na liniji 20
+INFO  21:19:06,947 - Inkrementiranje promenljive bodovi na liniji 21
+INFO  21:19:06,947 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 22
+INFO  21:19:06,947 -  Print count calls = 0
+INFO  21:19:06,947 -  Deklarisanih promenljivih ima = 2
+INFO  21:19:06,947 - ===================================
+INFO  21:19:06,956 - Parsiranje uspesno zavrseno

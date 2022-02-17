@@ -1,0 +1,122 @@
+INFO  00:23:55,809 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  00:23:55,868 - #4 program
+INFO  00:23:55,868 - #46 test301
+INFO  00:23:55,869 - #5 {
+INFO  00:23:55,870 - #18 void
+INFO  00:23:55,872 - #46 main
+INFO  00:23:55,872 - #7 (
+INFO  00:23:55,872 - #8 )
+INFO  00:23:55,873 - #5 {
+INFO  00:23:55,873 - #37 if
+INFO  00:23:55,874 - #7 (
+INFO  00:23:55,874 - #45 1
+INFO  00:23:55,874 - #3 ==
+INFO  00:23:55,875 - #45 1
+INFO  00:23:55,875 - #38 ||
+INFO  00:23:55,877 - #45 1
+INFO  00:23:55,877 - #32 !=
+INFO  00:23:55,877 - #45 5
+INFO  00:23:55,878 - #8 )
+INFO  00:23:55,879 - #5 {
+INFO  00:23:55,879 - #6 }
+INFO  00:23:55,879 - #6 }
+INFO  00:23:55,881 - #6 }
+INFO  00:23:55,889 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        UnmatchedStmt(
+          UnmatchedIf(
+            IFCondition1(
+              Condition(
+                CondTerm(
+                  ConditionFactor(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    EqualsOp(
+                    ) [EqualsOp]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [ConditionFactor]
+                  ConditionFactorListEmpty(
+                  ) [ConditionFactorListEmpty]
+                ) [CondTerm]
+                ConditionTermList(
+                  LeftOr1(
+                    ConditionTermListEmpty(
+                    ) [ConditionTermListEmpty]
+                  ) [LeftOr1]
+                  CondTerm(
+                    ConditionFactor(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                      NoEqualsOp(
+                      ) [NoEqualsOp]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           5
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [ConditionFactor]
+                    ConditionFactorListEmpty(
+                    ) [ConditionFactorListEmpty]
+                  ) [CondTerm]
+                ) [ConditionTermList]
+              ) [Condition]
+            ) [IFCondition1]
+            MatchedStmt(
+              StatementsLabelListNoLabel(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                ) [Statements]
+              ) [StatementsLabelListNoLabel]
+            ) [MatchedStmt]
+          ) [UnmatchedIf]
+        ) [UnmatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  00:23:55,891 - ===================================
+INFO  00:23:55,897 - Obradjuje se funkcija main na liniji 7
+INFO  00:23:55,897 - Izvrsavanje poredjenje izraza  na liniji 11
+INFO  00:23:55,897 - Izvrsavanje poredjenje izraza  na liniji 11
+INFO  00:23:55,897 - Obrada IF naredbe  na liniji 11
+INFO  00:23:55,898 -  Print count calls = 0
+INFO  00:23:55,898 -  Deklarisanih promenljivih ima = 0
+INFO  00:23:55,898 - ===================================
+INFO  00:23:55,905 - Parsiranje uspesno zavrseno

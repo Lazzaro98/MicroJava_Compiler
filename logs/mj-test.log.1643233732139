@@ -1,0 +1,61 @@
+INFO  22:47:25,465 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:47:25,548 - #4 program
+INFO  22:47:25,548 - #46 test302
+INFO  22:47:25,549 - #11 const
+INFO  22:47:25,550 - #46 int
+INFO  22:47:25,550 - #46 jedan
+INFO  22:47:25,551 - #12 =
+INFO  22:47:25,551 - #45 1
+INFO  22:47:25,552 - #10 ;
+INFO  22:47:25,553 - #5 {
+INFO  22:47:25,553 - #18 void
+INFO  22:47:25,554 - #46 main
+INFO  22:47:25,554 - #7 (
+INFO  22:47:25,554 - #8 )
+INFO  22:47:25,555 - #5 {
+INFO  22:47:25,556 - #6 }
+INFO  22:47:25,557 - #6 }
+INFO  22:47:25,562 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       jedan
+        NumConstDeclaration(
+         1
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:47:25,563 - ===================================
+INFO  22:47:25,568 - Deklarisana konstanta jedan na liniji 5
+INFO  22:47:25,568 - Obradjuje se funkcija main na liniji 25
+INFO  22:47:25,569 -  Print count calls = 0
+INFO  22:47:25,569 -  Deklarisanih promenljivih ima = 0
+INFO  22:47:25,569 - ===================================
+INFO  22:47:25,570 - Parsiranje uspesno zavrseno

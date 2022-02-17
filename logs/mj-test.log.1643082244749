@@ -1,0 +1,79 @@
+INFO  04:28:54,172 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  04:28:54,245 - #3 program
+INFO  04:28:54,245 - #45 test301
+INFO  04:28:54,245 - #4 {
+INFO  04:28:54,246 - #17 void
+INFO  04:28:54,247 - #45 main
+INFO  04:28:54,247 - #6 (
+INFO  04:28:54,247 - #7 )
+INFO  04:28:54,248 - #4 {
+INFO  04:28:54,249 - #23 print
+INFO  04:28:54,249 - #6 (
+INFO  04:28:54,250 - #44 1
+INFO  04:28:54,250 - #7 )
+INFO  04:28:54,250 - #9 ;
+INFO  04:28:54,250 - #23 print
+INFO  04:28:54,251 - #6 (
+INFO  04:28:54,251 - #44 2
+INFO  04:28:54,251 - #7 )
+INFO  04:28:54,251 - #9 ;
+INFO  04:28:54,251 - #5 }
+INFO  04:28:54,251 - #5 }
+INFO  04:28:54,258 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  04:28:54,258 - ===================================
+INFO  04:28:54,261 - Obradjuje se funkcija main na liniji 7
+INFO  04:28:54,261 -  Print count calls = 2
+INFO  04:28:54,261 -  Deklarisanih promenljivih ima = 0
+INFO  04:28:54,261 - ===================================
+INFO  04:28:54,264 - Parsiranje uspesno zavrseno

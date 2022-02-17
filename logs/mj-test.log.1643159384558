@@ -1,0 +1,200 @@
+INFO  02:09:16,151 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  02:09:16,206 - #3 program
+INFO  02:09:16,206 - #45 test301
+INFO  02:09:16,206 - #10 const
+INFO  02:09:16,207 - #45 int
+INFO  02:09:16,208 - #45 nula
+INFO  02:09:16,208 - #11 =
+INFO  02:09:16,208 - #44 0
+INFO  02:09:16,208 - #9 ;
+INFO  02:09:16,209 - #10 const
+INFO  02:09:16,209 - #45 int
+INFO  02:09:16,209 - #45 jedan
+INFO  02:09:16,209 - #11 =
+INFO  02:09:16,209 - #44 1
+INFO  02:09:16,209 - #9 ;
+INFO  02:09:16,209 - #10 const
+INFO  02:09:16,209 - #45 int
+INFO  02:09:16,210 - #45 pet
+INFO  02:09:16,210 - #11 =
+INFO  02:09:16,210 - #44 5
+INFO  02:09:16,210 - #9 ;
+INFO  02:09:16,210 - #45 int
+INFO  02:09:16,210 - #45 niz
+INFO  02:09:16,210 - #12 [
+INFO  02:09:16,210 - #13 ]
+INFO  02:09:16,210 - #9 ;
+INFO  02:09:16,211 - #45 char
+INFO  02:09:16,211 - #45 nizch
+INFO  02:09:16,211 - #12 [
+INFO  02:09:16,211 - #13 ]
+INFO  02:09:16,211 - #9 ;
+INFO  02:09:16,211 - #4 {
+INFO  02:09:16,211 - #17 void
+INFO  02:09:16,212 - #45 main
+INFO  02:09:16,212 - #6 (
+INFO  02:09:16,212 - #7 )
+INFO  02:09:16,213 - #45 int
+INFO  02:09:16,213 - #45 bodovi
+INFO  02:09:16,213 - #9 ;
+INFO  02:09:16,213 - #45 bool
+INFO  02:09:16,214 - #45 bt
+INFO  02:09:16,214 - #9 ;
+INFO  02:09:16,214 - #4 {
+INFO  02:09:16,214 - #45 bodovi
+INFO  02:09:16,215 - #11 =
+INFO  02:09:16,215 - #45 bodovi
+INFO  02:09:16,215 - #26 +
+INFO  02:09:16,216 - #44 1
+INFO  02:09:16,217 - #9 ;
+INFO  02:09:16,218 - #5 }
+INFO  02:09:16,218 - #5 }
+INFO  02:09:16,224 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgram(
+          DeclarationListProgram(
+            DeclarationListProgramEmpty(
+            ) [DeclarationListProgramEmpty]
+            DeclarationConst(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+               nula
+                NumConstDeclaration(
+                 0
+                ) [NumConstDeclaration]
+                ConstDeclarationPomListEmpty(
+                ) [ConstDeclarationPomListEmpty]
+              ) [ConstDeclaration]
+            ) [DeclarationConst]
+          ) [DeclarationListProgram]
+          DeclarationConst(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+             jedan
+              NumConstDeclaration(
+               1
+              ) [NumConstDeclaration]
+              ConstDeclarationPomListEmpty(
+              ) [ConstDeclarationPomListEmpty]
+            ) [ConstDeclaration]
+          ) [DeclarationConst]
+        ) [DeclarationListProgram]
+        DeclarationConst(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+           pet
+            NumConstDeclaration(
+             5
+            ) [NumConstDeclaration]
+            ConstDeclarationPomListEmpty(
+            ) [ConstDeclarationPomListEmpty]
+          ) [ConstDeclaration]
+        ) [DeclarationConst]
+      ) [DeclarationListProgram]
+      DeclarationVar(
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [DeclarationVar]
+    ) [DeclarationListProgram]
+    DeclarationVar(
+      VarDeclarationSquares(
+        Type(
+         char
+        ) [Type]
+       nizch
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclarationSquares]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+         bt
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSingle(
+                 bodovi
+                ) [DesignatorSingle]
+                AddExpr(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         bodovi
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermSingleFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [AddExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  02:09:16,225 - ===================================
+INFO  02:09:16,227 - Deklarisana promenljiva bodovi tipa int na liniji 14
+INFO  02:09:16,228 - Deklarisana promenljiva bt tipa bool na liniji 15
+INFO  02:09:16,228 -  Print count calls = 0
+INFO  02:09:16,228 -  Deklarisanih promenljivih ima = 2
+INFO  02:09:16,228 - ===================================
+INFO  02:09:16,228 - Parsiranje uspesno zavrseno

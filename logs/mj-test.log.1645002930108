@@ -1,0 +1,295 @@
+INFO  10:15:06,249 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  10:15:06,394 - #4 program
+INFO  10:15:06,395 - #46 test302
+INFO  10:15:06,395 - #11 const
+INFO  10:15:06,397 - #46 int
+INFO  10:15:06,397 - #46 pet
+INFO  10:15:06,399 - #12 =
+INFO  10:15:06,399 - #45 5
+INFO  10:15:06,399 - #10 ;
+INFO  10:15:06,401 - #46 int
+INFO  10:15:06,402 - #46 nizglobal
+INFO  10:15:06,402 - #13 [
+INFO  10:15:06,402 - #14 ]
+INFO  10:15:06,402 - #10 ;
+INFO  10:15:06,404 - #17 record
+INFO  10:15:06,404 - #46 TestRecord
+INFO  10:15:06,404 - #5 {
+INFO  10:15:06,405 - #46 int
+INFO  10:15:06,406 - #46 x
+INFO  10:15:06,406 - #10 ;
+INFO  10:15:06,406 - #46 int
+INFO  10:15:06,407 - #46 y
+INFO  10:15:06,407 - #10 ;
+INFO  10:15:06,407 - #6 }
+INFO  10:15:06,407 - #5 {
+INFO  10:15:06,407 - #18 void
+INFO  10:15:06,408 - #46 main
+INFO  10:15:06,409 - #7 (
+INFO  10:15:06,409 - #8 )
+INFO  10:15:06,410 - #46 TestRecord
+INFO  10:15:06,410 - #46 testrecord
+INFO  10:15:06,410 - #10 ;
+INFO  10:15:06,410 - #5 {
+INFO  10:15:06,411 - #46 testrecord
+INFO  10:15:06,412 - #12 =
+INFO  10:15:06,412 - #26 new
+INFO  10:15:06,412 - #46 TestRecord
+INFO  10:15:06,412 - #10 ;
+INFO  10:15:06,413 - #46 testrecord
+INFO  10:15:06,414 - #21 .
+INFO  10:15:06,414 - #46 x
+INFO  10:15:06,414 - #12 =
+INFO  10:15:06,414 - #46 nizglobal
+INFO  10:15:06,414 - #13 [
+INFO  10:15:06,415 - #45 2
+INFO  10:15:06,415 - #14 ]
+INFO  10:15:06,416 - #29 *
+INFO  10:15:06,416 - #46 test4x
+INFO  10:15:06,418 - #10 ;
+INFO  10:15:06,419 - #46 testrecord
+INFO  10:15:06,419 - #21 .
+INFO  10:15:06,419 - #46 y
+INFO  10:15:06,419 - #12 =
+INFO  10:15:06,419 - #46 nizglobal
+INFO  10:15:06,419 - #13 [
+INFO  10:15:06,419 - #45 4
+INFO  10:15:06,419 - #14 ]
+INFO  10:15:06,419 - #29 *
+INFO  10:15:06,419 - #7 (
+INFO  10:15:06,419 - #46 testrecord
+INFO  10:15:06,420 - #21 .
+INFO  10:15:06,420 - #46 x
+INFO  10:15:06,420 - #8 )
+INFO  10:15:06,420 - #10 ;
+INFO  10:15:06,420 - #6 }
+INFO  10:15:06,420 - #6 }
+INFO  10:15:06,427 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgramEmpty(
+        ) [DeclarationListProgramEmpty]
+        DeclarationConst(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+           pet
+            NumConstDeclaration(
+             5
+            ) [NumConstDeclaration]
+            ConstDeclarationPomListEmpty(
+            ) [ConstDeclarationPomListEmpty]
+          ) [ConstDeclaration]
+        ) [DeclarationConst]
+      ) [DeclarationListProgram]
+      DeclarationVar(
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         nizglobal
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [DeclarationVar]
+    ) [DeclarationListProgram]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             x
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           y
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           TestRecord
+          ) [Type]
+         testrecord
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     testrecord
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNew(
+                          Type(
+                           TestRecord
+                          ) [Type]
+                        ) [FactorNew]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorDot(
+                    DesignatorSingle(
+                     testrecord
+                    ) [DesignatorSingle]
+                   x
+                  ) [DesignatorDot]
+                  TermExpr(
+                    TermMulFactor(
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSquare(
+                            DesignatorSingle(
+                             nizglobal
+                            ) [DesignatorSingle]
+                            TermExpr(
+                              TermSingleFactor(
+                                FactorNumConst(
+                                 2
+                                ) [FactorNumConst]
+                              ) [TermSingleFactor]
+                            ) [TermExpr]
+                          ) [DesignatorSquare]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                      MulopMul(
+                      ) [MulopMul]
+                      FactorDesignator(
+                        DesignatorSingle(
+                         test4x
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermMulFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorDot(
+                  DesignatorSingle(
+                   testrecord
+                  ) [DesignatorSingle]
+                 y
+                ) [DesignatorDot]
+                TermExpr(
+                  TermMulFactor(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSquare(
+                          DesignatorSingle(
+                           nizglobal
+                          ) [DesignatorSingle]
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorNumConst(
+                               4
+                              ) [FactorNumConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [DesignatorSquare]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                    MulopMul(
+                    ) [MulopMul]
+                    FactorExpr(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorDesignator(
+                            DesignatorDot(
+                              DesignatorSingle(
+                               testrecord
+                              ) [DesignatorSingle]
+                             x
+                            ) [DesignatorDot]
+                          ) [FactorDesignator]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [FactorExpr]
+                  ) [TermMulFactor]
+                ) [TermExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  10:15:06,428 - ===================================
+INFO  10:15:06,433 - Deklarisana konstanta pet na liniji 4
+INFO  10:15:06,433 - Deklarisan niz nizglobal tipa int na liniji 6
+INFO  10:15:06,434 - Deklarisana promenljiva x tipa int na liniji 9
+INFO  10:15:06,434 - Deklarisana promenljiva y tipa int na liniji 10
+INFO  10:15:06,434 - Obradjuje se funkcija main na liniji 13
+INFO  10:15:06,434 - Deklarisana promenljiva testrecord tipa TestRecord na liniji 14
+INFO  10:15:06,434 - Napravljen je objekat korisnickog tipa TestRecord  na liniji 17
+INFO  10:15:06,434 - Dodela vrednosti testrecord na liniji 17
+INFO  10:15:06,435 - Dohvatanje vrednosti polja x objekta testrecord klase record na liniji 18
+INFO  10:15:06,435 - Pristupiljeno elementu niza nizglobal na liniji 18
+ERROR 10:15:06,435 - Ime test4x nije deklarisano  na liniji 18
+ERROR 10:15:06,435 -  Nekompatibilni tipovi u izrazu za sabiranje/oduzimanje. Ne mozete sabrati/oduzeti none i int na liniji 18
+ERROR 10:15:06,435 - Nekompatibilni tipovi u dodeli vrednosti! none i int na liniji 18
+INFO  10:15:06,435 - Dohvatanje vrednosti polja y objekta testrecord klase record na liniji 19
+INFO  10:15:06,435 - Pristupiljeno elementu niza nizglobal na liniji 19
+INFO  10:15:06,435 - Dohvatanje vrednosti polja x objekta testrecord klase record na liniji 19
+INFO  10:15:06,436 - Dodela vrednosti y na liniji 19
+INFO  10:15:06,436 -  Print count calls = 0
+INFO  10:15:06,436 -  Deklarisanih promenljivih ima = 4
+INFO  10:15:06,436 - ===================================
+ERROR 10:15:06,437 - Parsiranje neuspesno.

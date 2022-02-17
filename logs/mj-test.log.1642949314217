@@ -1,0 +1,186 @@
+INFO  15:48:04,287 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  15:48:04,345 - #3 program
+INFO  15:48:04,345 - #45 test301
+INFO  15:48:04,345 - #16 record
+INFO  15:48:04,347 - #45 TestRecord
+INFO  15:48:04,347 - #4 {
+INFO  15:48:04,347 - #45 int
+INFO  15:48:04,347 - #45 p
+INFO  15:48:04,348 - #9 ;
+INFO  15:48:04,348 - #45 int
+INFO  15:48:04,349 - #45 p1
+INFO  15:48:04,349 - #9 ;
+INFO  15:48:04,349 - #45 int
+INFO  15:48:04,349 - #45 p2
+INFO  15:48:04,349 - #9 ;
+INFO  15:48:04,349 - #45 TestRecord
+INFO  15:48:04,349 - #45 t1
+INFO  15:48:04,349 - #9 ;
+INFO  15:48:04,349 - #5 }
+INFO  15:48:04,350 - #4 {
+INFO  15:48:04,350 - #45 int
+INFO  15:48:04,352 - #45 inkrement
+INFO  15:48:04,352 - #6 (
+INFO  15:48:04,352 - #7 )
+INFO  15:48:04,352 - #45 TestRecord
+INFO  15:48:04,352 - #45 t2
+INFO  15:48:04,352 - #9 ;
+INFO  15:48:04,353 - #4 {
+INFO  15:48:04,353 - #45 t2
+INFO  15:48:04,353 - #20 .
+INFO  15:48:04,353 - #45 t1
+INFO  15:48:04,353 - #20 .
+INFO  15:48:04,353 - #45 x
+INFO  15:48:04,353 - #11 =
+INFO  15:48:04,354 - #44 2
+INFO  15:48:04,354 - #9 ;
+INFO  15:48:04,354 - #5 }
+INFO  15:48:04,354 - #17 void
+INFO  15:48:04,355 - #45 main
+INFO  15:48:04,355 - #6 (
+INFO  15:48:04,355 - #7 )
+INFO  15:48:04,355 - #4 {
+INFO  15:48:04,355 - #5 }
+INFO  15:48:04,355 - #5 }
+INFO  15:48:04,362 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationListEmpty(
+                ) [VarDeclarationListEmpty]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 p
+                  VarDeclarationListPomEmpty(
+                  ) [VarDeclarationListPomEmpty]
+                ) [VarDeclaration]
+              ) [VarDeclarationList]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+               p1
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             p2
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t1
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         inkrement
+        ) [MethodTypeName_]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t2
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorDot(
+                    DesignatorDot(
+                      DesignatorSingle(
+                       t2
+                      ) [DesignatorSingle]
+                     t1
+                    ) [DesignatorDot]
+                   x
+                  ) [DesignatorDot]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:48:04,364 - ===================================
+INFO  15:48:04,367 - Deklarisana promenljiva p na liniji 7
+INFO  15:48:04,368 - Deklarisana promenljiva p1 na liniji 8
+INFO  15:48:04,368 - Deklarisana promenljiva p2 na liniji 9
+INFO  15:48:04,368 - Deklarisana promenljiva t1 na liniji 10
+INFO  15:48:04,368 - Obradjuje se funkcija inkrement na liniji 16
+INFO  15:48:04,368 - Deklarisana promenljiva t2 na liniji 17
+INFO  15:48:04,368 - Dohvatanje vrednosti polja t1 klase t2  na liniji 19
+ERROR 15:48:04,368 - Dohvatanje polja x koje ne postoji u klasi t2 na liniji 19
+INFO  15:48:04,368 - Dodela vrednosti  na liniji 19
+ERROR 15:48:04,369 - Greska na liniji 19 :  nekompatibilni tipovi u dodeli vrednosti! 
+ERROR 15:48:04,369 - Semanticka greska na liniji 16: funkcija inkrement nema return iskaz!
+INFO  15:48:04,369 - Obradjuje se funkcija main na liniji 27
+INFO  15:48:04,369 -  Print count calls = 0
+INFO  15:48:04,369 -  Deklarisanih promenljivih ima = 5
+INFO  15:48:04,369 - ===================================
+ERROR 15:48:04,370 - Parsiranje neuspesno.

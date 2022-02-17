@@ -1,0 +1,171 @@
+INFO  21:43:58,392 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  21:43:58,462 - #4 program
+INFO  21:43:58,462 - #46 test301
+INFO  21:43:58,462 - #11 const
+INFO  21:43:58,464 - #46 int
+INFO  21:43:58,464 - #46 pet
+INFO  21:43:58,464 - #12 =
+INFO  21:43:58,464 - #45 5
+INFO  21:43:58,465 - #10 ;
+INFO  21:43:58,466 - #5 {
+INFO  21:43:58,466 - #18 void
+INFO  21:43:58,469 - #46 x
+INFO  21:43:58,469 - #7 (
+INFO  21:43:58,469 - #8 )
+INFO  21:43:58,470 - #5 {
+INFO  21:43:58,470 - #24 print
+INFO  21:43:58,471 - #7 (
+INFO  21:43:58,471 - #45 2
+INFO  21:43:58,471 - #8 )
+INFO  21:43:58,472 - #10 ;
+INFO  21:43:58,472 - #6 }
+INFO  21:43:58,473 - #18 void
+INFO  21:43:58,473 - #46 main
+INFO  21:43:58,473 - #7 (
+INFO  21:43:58,473 - #8 )
+INFO  21:43:58,474 - #46 int
+INFO  21:43:58,474 - #46 bodovi
+INFO  21:43:58,474 - #10 ;
+INFO  21:43:58,475 - #46 int
+INFO  21:43:58,476 - #46 niz
+INFO  21:43:58,476 - #13 [
+INFO  21:43:58,476 - #14 ]
+INFO  21:43:58,476 - #10 ;
+INFO  21:43:58,476 - #5 {
+INFO  21:43:58,476 - #46 niz
+INFO  21:43:58,476 - #12 =
+INFO  21:43:58,476 - #26 new
+INFO  21:43:58,476 - #46 int
+INFO  21:43:58,477 - #13 [
+INFO  21:43:58,477 - #45 3
+INFO  21:43:58,477 - #14 ]
+INFO  21:43:58,477 - #10 ;
+INFO  21:43:58,477 - #6 }
+INFO  21:43:58,477 - #6 }
+INFO  21:43:58,486 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       pet
+        NumConstDeclaration(
+         5
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodVoidName(
+         x
+        ) [MethodVoidName]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSingle(
+                 niz
+                ) [DesignatorSingle]
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNewSquare(
+                      Type(
+                       int
+                      ) [Type]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           3
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [FactorNewSquare]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  21:43:58,486 - ===================================
+INFO  21:43:58,491 - Deklarisana konstanta pet na liniji 6
+INFO  21:43:58,492 - Obradjuje se funkcija x na liniji 11
+INFO  21:43:58,492 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 12
+INFO  21:43:58,492 - Obradjuje se funkcija main na liniji 16
+INFO  21:43:58,492 - Deklarisana promenljiva bodovi tipa int na liniji 17
+INFO  21:43:58,493 - Deklarisan niz niz tipa int na liniji 18
+INFO  21:43:58,493 - Napravljen je niz objekata tipa arr na liniji 20
+INFO  21:43:58,493 - Dodela vrednosti niz na liniji 20
+INFO  21:43:58,493 -  Print count calls = 0
+INFO  21:43:58,493 -  Deklarisanih promenljivih ima = 2
+INFO  21:43:58,493 - ===================================
+INFO  21:43:58,500 - Parsiranje uspesno zavrseno

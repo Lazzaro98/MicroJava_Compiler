@@ -1,0 +1,93 @@
+INFO  08:09:01,767 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  08:09:01,814 - #4 program
+INFO  08:09:01,815 - #46 test302
+INFO  08:09:01,815 - #5 {
+INFO  08:09:01,816 - #18 void
+INFO  08:09:01,817 - #46 main
+INFO  08:09:01,817 - #7 (
+INFO  08:09:01,818 - #8 )
+INFO  08:09:01,818 - #46 int
+INFO  08:09:01,819 - #46 niz
+INFO  08:09:01,819 - #13 [
+INFO  08:09:01,820 - #14 ]
+INFO  08:09:01,820 - #10 ;
+INFO  08:09:01,820 - #5 {
+INFO  08:09:01,821 - #46 niz
+INFO  08:09:01,821 - #13 [
+INFO  08:09:01,821 - #45 1
+INFO  08:09:01,821 - #14 ]
+INFO  08:09:01,822 - #12 =
+INFO  08:09:01,822 - #45 55
+INFO  08:09:01,822 - #10 ;
+INFO  08:09:01,823 - #6 }
+INFO  08:09:01,823 - #6 }
+INFO  08:09:01,828 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSquare(
+                  DesignatorSingle(
+                   niz
+                  ) [DesignatorSingle]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorSquare]
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     55
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  08:09:01,828 - ===================================
+INFO  08:09:01,831 - Obradjuje se funkcija main na liniji 5
+INFO  08:09:01,831 - Deklarisan niz niz tipa int na liniji 6
+INFO  08:09:01,831 - Pristupiljeno elementu niza niz na liniji 8
+INFO  08:09:01,831 - Dodela vrednosti null na liniji 8
+INFO  08:09:01,831 -  Print count calls = 0
+INFO  08:09:01,831 -  Deklarisanih promenljivih ima = 1
+INFO  08:09:01,831 - ===================================
+INFO  08:09:01,839 - Parsiranje uspesno zavrseno

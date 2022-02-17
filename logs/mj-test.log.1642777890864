@@ -1,0 +1,58 @@
+INFO  16:11:16,103 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  16:11:16,170 - #3 program
+INFO  16:11:16,170 - #45 test302
+INFO  16:11:16,170 - #16 record
+INFO  16:11:16,171 - #45 Test
+INFO  16:11:16,171 - #4 {
+INFO  16:11:16,172 - #45 int
+INFO  16:11:16,172 - #45 niz
+INFO  16:11:16,173 - #12 [
+INFO  16:11:16,173 - #13 ]
+INFO  16:11:16,173 - #9 ;
+INFO  16:11:16,173 - #45 int
+INFO  16:11:16,174 - #45 a
+INFO  16:11:16,174 - #9 ;
+INFO  16:11:16,174 - #5 }
+INFO  16:11:16,174 - #4 {
+INFO  16:11:16,175 - #5 }
+INFO  16:11:16,176 - Program1(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclListProgram1(
+    DeclListEmpty(
+    ) [DeclListEmpty]
+    DeclRecord(
+      RecordDeclaration(
+       Test
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationSingle2(
+               niz
+              ) [VarDeclarationSingle2]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationSingle1(
+             a
+            ) [VarDeclarationSingle1]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclRecord]
+  ) [DeclListProgram1]
+  NoMethodDecls(
+  ) [NoMethodDecls]
+) [Program1]
+INFO  16:11:16,177 - ===================================
+INFO  16:11:16,179 -  Print count calls = 0
+INFO  16:11:16,179 -  Deklarisanih promenljivih ima = 2

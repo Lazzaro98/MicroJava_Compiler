@@ -26,6 +26,8 @@ public class SemanticPass extends VisitorAdaptor {
 	public SemanticPass() {
 		super();
 		Tab.insert(Obj.Type, "bool", boolType); // dodali smo bool u tabelu simbola
+		method_params.put("ord", new ArrayList<Struct>());
+		method_params.get("ord").add(Tab.charType);
 	}
 
 	// moji tipovi ce kretati od 10 hehe
@@ -41,8 +43,11 @@ public class SemanticPass extends VisitorAdaptor {
 	boolean returnFound = false;
 
 	public boolean errorDetected = false;
+	
+	private Obj currentRecord = Tab.noObj;
 
 	HashMap<String, ArrayList<Struct>> method_params = new HashMap<String, ArrayList<Struct>>();
+	ArrayList<String> defined_labels = new ArrayList<String>();
 
 	public void report_error(String message, SyntaxNode info) {
 		errorDetected = true;
@@ -123,7 +128,11 @@ public class SemanticPass extends VisitorAdaptor {
 	public void visit(VarDeclaration arg) {
 		boolean postoji = (Tab.find(arg.getVarName())) != Tab.noObj;
 		if (!postoji) {
-			Obj inserted = Tab.insert(Obj.Var, arg.getVarName(), arg.getType().struct);
+			Obj inserted;
+			if(this.currentRecord == Tab.noObj)
+				inserted = Tab.insert(Obj.Var, arg.getVarName(), arg.getType().struct);
+			else
+				inserted = Tab.insert(Obj.Fld, arg.getVarName(), arg.getType().struct);
 			varDeclCount++;
 			report_info("Deklarisana promenljiva " + arg.getVarName() + " tipa " + ((Type) arg.getType()).getTypeName(),
 					arg);
@@ -191,8 +200,13 @@ public class SemanticPass extends VisitorAdaptor {
 	public void visit(VarDeclarationSquares arg) {
 		boolean postoji = (Tab.find(arg.getVarName())) != Tab.noObj;
 		if (!postoji) {
+			
 			Struct arrayType = new Struct(Struct.Array, arg.getType().struct);
-			Obj inserted = Tab.insert(Obj.Var, arg.getVarName(), arrayType);
+			Obj inserted;
+			if(this.currentRecord == Tab.noObj)
+				inserted = Tab.insert(Obj.Var, arg.getVarName(), arrayType);
+			else 
+				inserted = Tab.insert(Obj.Fld, arg.getVarName(), arrayType);
 			varDeclCount++;
 			report_info("Deklarisan niz " + arg.getVarName() + " tipa " + ((Type) arg.getType()).getTypeName(), arg);
 			arg.struct = arrayType;
@@ -346,7 +360,7 @@ public class SemanticPass extends VisitorAdaptor {
 						"Dohvatanje vrednosti polja " + arg.getPolje() + " objekta " + arg.getDesignator().obj.getName()
 								+ " klase " + this.getTypeName(arg.getDesignator().obj.getType().getKind()),
 						arg);
-
+			//	arg.obj = new Obj(Obj.Fld, arg.getDesignator().obj.getName(), arg.getDesignator().obj.getType().getElemType());
 				arg.obj = postoji;
 			} else {
 				report_error("Dohvatanje polja " + arg.getPolje() + " koje ne postoji u klasi "
@@ -715,11 +729,13 @@ public class SemanticPass extends VisitorAdaptor {
 		//System.out.println("record pronadjen");
 		arg.obj = Tab.insert(Obj.Type, arg.getRecordName(), new Struct(RECORD_STRUCT_ID));
 		Tab.openScope();
+		this.currentRecord = arg.obj;
 	}
 
 	public void visit(RecordDeclaration arg) {
 		Tab.chainLocalSymbols(arg.getRecordDeclName().obj.getType());
 		Tab.closeScope();
+		this.currentRecord = Tab.noObj;
 	}
 
 	// SingleStatement :
@@ -763,6 +779,16 @@ public class SemanticPass extends VisitorAdaptor {
 		}
 	}
 	
+	
+	//Label addition
+	public void visit(Label arg) {
+		if(defined_labels.contains(arg.getLabelName())) {
+			report_error("Label " + arg.getLabelName() + " has multiple definitions.", arg);
+		} else {
+			this.defined_labels.add(arg.getLabelName());
+		}
+	}
+
 	// (SingleStatementOrd) ORD LPAREN CHAR RPAREN SEMI
 
 

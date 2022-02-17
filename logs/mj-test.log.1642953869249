@@ -1,0 +1,230 @@
+INFO  17:04:19,999 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:04:20,056 - #3 program
+INFO  17:04:20,057 - #45 test301
+INFO  17:04:20,057 - #16 record
+INFO  17:04:20,058 - #45 TestRecord
+INFO  17:04:20,058 - #4 {
+INFO  17:04:20,058 - #45 int
+INFO  17:04:20,059 - #45 p
+INFO  17:04:20,060 - #9 ;
+INFO  17:04:20,060 - #45 int
+INFO  17:04:20,061 - #45 p1
+INFO  17:04:20,061 - #9 ;
+INFO  17:04:20,061 - #45 int
+INFO  17:04:20,061 - #45 p2
+INFO  17:04:20,061 - #9 ;
+INFO  17:04:20,061 - #45 TestRecord
+INFO  17:04:20,061 - #45 t1
+INFO  17:04:20,061 - #9 ;
+INFO  17:04:20,061 - #5 }
+INFO  17:04:20,061 - #4 {
+INFO  17:04:20,062 - #45 int
+INFO  17:04:20,064 - #45 inkrement
+INFO  17:04:20,064 - #6 (
+INFO  17:04:20,064 - #7 )
+INFO  17:04:20,064 - #45 TestRecord
+INFO  17:04:20,064 - #45 t2
+INFO  17:04:20,065 - #9 ;
+INFO  17:04:20,065 - #45 char
+INFO  17:04:20,065 - #45 x
+INFO  17:04:20,065 - #9 ;
+INFO  17:04:20,065 - #4 {
+INFO  17:04:20,065 - #45 x
+INFO  17:04:20,065 - #11 =
+INFO  17:04:20,066 - #44 2
+INFO  17:04:20,066 - #9 ;
+INFO  17:04:20,066 - #45 inkrement
+INFO  17:04:20,067 - #6 (
+INFO  17:04:20,067 - #44 2
+INFO  17:04:20,067 - #7 )
+INFO  17:04:20,068 - #9 ;
+INFO  17:04:20,068 - #43 return
+INFO  17:04:20,068 - #44 2
+INFO  17:04:20,068 - #9 ;
+INFO  17:04:20,069 - #5 }
+INFO  17:04:20,069 - #17 void
+INFO  17:04:20,069 - #45 main
+INFO  17:04:20,069 - #6 (
+INFO  17:04:20,069 - #7 )
+INFO  17:04:20,070 - #4 {
+INFO  17:04:20,070 - #5 }
+INFO  17:04:20,070 - #5 }
+INFO  17:04:20,076 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationListEmpty(
+                ) [VarDeclarationListEmpty]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 p
+                  VarDeclarationListPomEmpty(
+                  ) [VarDeclarationListPomEmpty]
+                ) [VarDeclaration]
+              ) [VarDeclarationList]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+               p1
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             p2
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t1
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         inkrement
+        ) [MethodTypeName_]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               TestRecord
+              ) [Type]
+             t2
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+           x
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementDesignator(
+                    DesignatorStatementEq(
+                      DesignatorSingle(
+                       x
+                      ) [DesignatorSingle]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           2
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [DesignatorStatementEq]
+                  ) [SingleStatementDesignator]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementActParams(
+                    DesignatorSingle(
+                     inkrement
+                    ) [DesignatorSingle]
+                    ActParamsSingle(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           2
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [ActParamsSingle]
+                  ) [DesignatorStatementActParams]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementReturn(
+              TermExpr(
+                TermSingleFactor(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [StatementReturn]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:04:20,076 - ===================================
+INFO  17:04:20,081 - Deklarisana promenljiva p na liniji 7
+INFO  17:04:20,081 - Deklarisana promenljiva p1 na liniji 8
+INFO  17:04:20,081 - Deklarisana promenljiva p2 na liniji 9
+INFO  17:04:20,081 - Deklarisana promenljiva t1 na liniji 10
+INFO  17:04:20,081 - Obradjuje se funkcija inkrement na liniji 16
+INFO  17:04:20,082 - Deklarisana promenljiva t2 na liniji 17
+INFO  17:04:20,082 - Deklarisana promenljiva x na liniji 18
+INFO  17:04:20,082 - Dodela vrednosti  na liniji 20
+ERROR 17:04:20,082 - Greska na liniji 20 :  nekompatibilni tipovi u dodeli vrednosti! 
+INFO  17:04:20,082 - Obradjuje se funkcija main na liniji 29
+INFO  17:04:20,082 -  Print count calls = 0
+INFO  17:04:20,082 -  Deklarisanih promenljivih ima = 6
+INFO  17:04:20,082 - ===================================
+ERROR 17:04:20,083 - Parsiranje neuspesno.

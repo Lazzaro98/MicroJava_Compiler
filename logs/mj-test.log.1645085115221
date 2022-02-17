@@ -1,0 +1,201 @@
+INFO  09:04:53,699 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  09:04:53,768 - #4 program
+INFO  09:04:53,769 - #46 test302
+INFO  09:04:53,769 - #5 {
+INFO  09:04:53,770 - #18 void
+INFO  09:04:53,771 - #46 main
+INFO  09:04:53,771 - #7 (
+INFO  09:04:53,771 - #8 )
+INFO  09:04:53,772 - #46 int
+INFO  09:04:53,773 - #46 x
+INFO  09:04:53,774 - #10 ;
+INFO  09:04:53,774 - #46 int
+INFO  09:04:53,775 - #46 y
+INFO  09:04:53,775 - #10 ;
+INFO  09:04:53,775 - #46 int
+INFO  09:04:53,775 - #46 z
+INFO  09:04:53,775 - #10 ;
+INFO  09:04:53,776 - #5 {
+INFO  09:04:53,776 - #23 read
+INFO  09:04:53,776 - #7 (
+INFO  09:04:53,777 - #46 x
+INFO  09:04:53,778 - #8 )
+INFO  09:04:53,778 - #10 ;
+INFO  09:04:53,778 - #23 read
+INFO  09:04:53,778 - #7 (
+INFO  09:04:53,779 - #46 y
+INFO  09:04:53,779 - #8 )
+INFO  09:04:53,779 - #10 ;
+INFO  09:04:53,779 - #23 read
+INFO  09:04:53,779 - #7 (
+INFO  09:04:53,779 - #46 z
+INFO  09:04:53,779 - #8 )
+INFO  09:04:53,779 - #10 ;
+INFO  09:04:53,780 - #24 print
+INFO  09:04:53,780 - #7 (
+INFO  09:04:53,780 - #46 x
+INFO  09:04:53,780 - #8 )
+INFO  09:04:53,780 - #10 ;
+INFO  09:04:53,780 - #24 print
+INFO  09:04:53,781 - #7 (
+INFO  09:04:53,781 - #46 y
+INFO  09:04:53,781 - #8 )
+INFO  09:04:53,781 - #10 ;
+INFO  09:04:53,781 - #24 print
+INFO  09:04:53,781 - #7 (
+INFO  09:04:53,781 - #46 z
+INFO  09:04:53,781 - #8 )
+INFO  09:04:53,782 - #10 ;
+INFO  09:04:53,782 - #6 }
+INFO  09:04:53,782 - #6 }
+INFO  09:04:53,789 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             x
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           y
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         z
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              ListStatement(
+                ListStatement(
+                  NoStmt(
+                  ) [NoStmt]
+                  MatchedStmt(
+                    StatementNoLabelSingle(
+                      SingleStatementRead(
+                        DesignatorSingle(
+                         x
+                        ) [DesignatorSingle]
+                      ) [SingleStatementRead]
+                    ) [StatementNoLabelSingle]
+                  ) [MatchedStmt]
+                ) [ListStatement]
+                MatchedStmt(
+                  StatementNoLabelSingle(
+                    SingleStatementRead(
+                      DesignatorSingle(
+                       y
+                      ) [DesignatorSingle]
+                    ) [SingleStatementRead]
+                  ) [StatementNoLabelSingle]
+                ) [MatchedStmt]
+              ) [ListStatement]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementRead(
+                    DesignatorSingle(
+                     z
+                    ) [DesignatorSingle]
+                  ) [SingleStatementRead]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementPrint(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         x
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [SingleStatementPrint]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSingle(
+                       y
+                      ) [DesignatorSingle]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     z
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  09:04:53,790 - ===================================
+INFO  09:04:53,795 - Obradjuje se funkcija main na liniji 6
+INFO  09:04:53,795 - Deklarisana promenljiva x tipa int na liniji 7
+INFO  09:04:53,795 - Deklarisana promenljiva y tipa int na liniji 8
+INFO  09:04:53,795 - Deklarisana promenljiva z tipa int na liniji 9
+INFO  09:04:53,796 - Izvrsavanje READ naredbe nad argumentom x na liniji 11
+INFO  09:04:53,796 - Izvrsavanje READ naredbe nad argumentom y na liniji 12
+INFO  09:04:53,796 - Izvrsavanje READ naredbe nad argumentom z na liniji 13
+INFO  09:04:53,796 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 14
+INFO  09:04:53,796 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 15
+INFO  09:04:53,796 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 16
+INFO  09:04:53,797 -  Print count calls = 0
+INFO  09:04:53,797 -  Deklarisanih promenljivih ima = 3
+INFO  09:04:53,797 - ===================================
+INFO  09:04:53,804 - Parsiranje uspesno zavrseno

@@ -1,0 +1,266 @@
+INFO  21:20:19,709 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  21:20:19,784 - #3 program
+INFO  21:20:19,784 - #45 test301
+INFO  21:20:19,785 - #10 const
+INFO  21:20:19,786 - #45 int
+INFO  21:20:19,787 - #45 nula
+INFO  21:20:19,787 - #11 =
+INFO  21:20:19,788 - #44 0
+INFO  21:20:19,788 - #9 ;
+INFO  21:20:19,789 - #10 const
+INFO  21:20:19,789 - #45 int
+INFO  21:20:19,789 - #45 jedan
+INFO  21:20:19,789 - #11 =
+INFO  21:20:19,790 - #44 1
+INFO  21:20:19,790 - #9 ;
+INFO  21:20:19,790 - #10 const
+INFO  21:20:19,790 - #45 int
+INFO  21:20:19,790 - #45 pet
+INFO  21:20:19,790 - #11 =
+INFO  21:20:19,790 - #44 5
+INFO  21:20:19,790 - #9 ;
+INFO  21:20:19,791 - #45 int
+INFO  21:20:19,792 - #45 niz
+INFO  21:20:19,792 - #12 [
+INFO  21:20:19,792 - #13 ]
+INFO  21:20:19,792 - #9 ;
+INFO  21:20:19,793 - #45 char
+INFO  21:20:19,794 - #45 nizch
+INFO  21:20:19,794 - #12 [
+INFO  21:20:19,794 - #13 ]
+INFO  21:20:19,794 - #9 ;
+INFO  21:20:19,794 - #16 record
+INFO  21:20:19,794 - #45 TestRecord
+INFO  21:20:19,794 - #4 {
+INFO  21:20:19,794 - #45 int
+INFO  21:20:19,795 - #45 p
+INFO  21:20:19,795 - #9 ;
+INFO  21:20:19,796 - #5 }
+INFO  21:20:19,796 - #45 TestRecord
+INFO  21:20:19,796 - #45 t1
+INFO  21:20:19,797 - #9 ;
+INFO  21:20:19,797 - #4 {
+INFO  21:20:19,797 - #45 int
+INFO  21:20:19,797 - #45 sum
+INFO  21:20:19,797 - #6 (
+INFO  21:20:19,798 - #45 int
+INFO  21:20:19,798 - #45 z
+INFO  21:20:19,798 - #8 ,
+INFO  21:20:19,799 - #45 int
+INFO  21:20:19,800 - #45 d
+INFO  21:20:19,800 - #7 )
+INFO  21:20:19,800 - #4 {
+INFO  21:20:19,801 - #43 return
+INFO  21:20:19,802 - #44 5
+INFO  21:20:19,802 - #9 ;
+INFO  21:20:19,803 - #5 }
+INFO  21:20:19,803 - #17 void
+INFO  21:20:19,804 - #45 main
+INFO  21:20:19,804 - #6 (
+INFO  21:20:19,804 - #7 )
+INFO  21:20:19,805 - #45 int
+INFO  21:20:19,805 - #45 bodovi
+INFO  21:20:19,805 - #9 ;
+INFO  21:20:19,805 - #4 {
+INFO  21:20:19,805 - #5 }
+INFO  21:20:19,805 - #5 }
+INFO  21:20:19,812 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgram(
+          DeclarationListProgram(
+            DeclarationListProgram(
+              DeclarationListProgram(
+                DeclarationListProgramEmpty(
+                ) [DeclarationListProgramEmpty]
+                DeclarationConst(
+                  ConstDeclaration(
+                    Type(
+                     int
+                    ) [Type]
+                   nula
+                    NumConstDeclaration(
+                     0
+                    ) [NumConstDeclaration]
+                    ConstDeclarationPomListEmpty(
+                    ) [ConstDeclarationPomListEmpty]
+                  ) [ConstDeclaration]
+                ) [DeclarationConst]
+              ) [DeclarationListProgram]
+              DeclarationConst(
+                ConstDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 jedan
+                  NumConstDeclaration(
+                   1
+                  ) [NumConstDeclaration]
+                  ConstDeclarationPomListEmpty(
+                  ) [ConstDeclarationPomListEmpty]
+                ) [ConstDeclaration]
+              ) [DeclarationConst]
+            ) [DeclarationListProgram]
+            DeclarationConst(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+               pet
+                NumConstDeclaration(
+                 5
+                ) [NumConstDeclaration]
+                ConstDeclarationPomListEmpty(
+                ) [ConstDeclarationPomListEmpty]
+              ) [ConstDeclaration]
+            ) [DeclarationConst]
+          ) [DeclarationListProgram]
+          DeclarationVar(
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             niz
+              Squares(
+              ) [Squares]
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [DeclarationVar]
+        ) [DeclarationListProgram]
+        DeclarationVar(
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+           nizch
+            Squares(
+            ) [Squares]
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [DeclarationVar]
+      ) [DeclarationListProgram]
+      DeclarationRecord(
+        RecordDeclaration(
+          RecordDeclarationName(
+           TestRecord
+          ) [RecordDeclarationName]
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             p
+              NoSquares(
+              ) [NoSquares]
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+        ) [RecordDeclaration]
+      ) [DeclarationRecord]
+    ) [DeclarationListProgram]
+    DeclarationVar(
+      VarDeclaration(
+        Type(
+         TestRecord
+        ) [Type]
+       t1
+        NoSquares(
+        ) [NoSquares]
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclaration]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         sum
+        ) [MethodTypeName_]
+        FormalParams(
+          FormalParamsSingleSquare(
+            Type(
+             int
+            ) [Type]
+           z
+          ) [FormalParamsSingleSquare]
+          FormalParamsListPom(
+            FormalParamsListPomEmpty(
+            ) [FormalParamsListPomEmpty]
+            FormalParamsSingleSquare(
+              Type(
+               int
+              ) [Type]
+             d
+            ) [FormalParamsSingleSquare]
+          ) [FormalParamsListPom]
+        ) [FormalParams]
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementReturn(
+              TermExpr(
+                TermSingleFactor(
+                  FactorNumConst(
+                   5
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [StatementReturn]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          NoSquares(
+          ) [NoSquares]
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  21:20:19,812 - ===================================
+INFO  21:20:19,816 - Deklarisana konstanta nula
+INFO  21:20:19,816 - Deklarisana konstanta jedan
+INFO  21:20:19,817 - Deklarisana konstanta pet
+INFO  21:20:19,817 - Deklarisana promenljiva niz na liniji 9
+INFO  21:20:19,817 - Deklarisana promenljiva nizch na liniji 10
+INFO  21:20:19,817 - Deklarisana promenljiva p na liniji 13
+INFO  21:20:19,817 - Deklarisana promenljiva t1 na liniji 16
+INFO  21:20:19,817 - Obradjuje se funkcija sum na liniji 18
+INFO  21:20:19,818 - Obradjuje se method name 
+INFO  21:20:19,818 - Deklarisana promenljiva bodovi na liniji 25

@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 26/0/2022 20:53:11
+// 17/1/2022 8:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -133,6 +133,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(IFCondition1 IFCondition1) { visit(); }
     public void visit(NoStmt NoStmt) { visit(); }
     public void visit(ListStatement ListStatement) { visit(); }
+    public void visit(GotoSingleStatement GotoSingleStatement) { visit(); }
     public void visit(SingleStatementPrint SingleStatementPrint) { visit(); }
     public void visit(SingleStatementPrintNumconst SingleStatementPrintNumconst) { visit(); }
     public void visit(SingleStatementRead SingleStatementRead) { visit(); }
@@ -140,6 +141,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(DesignatorSquare DesignatorSquare) { visit(); }
     public void visit(DesignatorDot DesignatorDot) { visit(); }
     public void visit(DesignatorSingle DesignatorSingle) { visit(); }
+    public void visit(DesigatorStatementError DesigatorStatementError) { visit(); }
     public void visit(DesignatorStatementActParamsEmpty DesignatorStatementActParamsEmpty) { visit(); }
     public void visit(DesignatorStatementActParams DesignatorStatementActParams) { visit(); }
     public void visit(DesignatorStatementDec DesignatorStatementDec) { visit(); }
@@ -147,6 +149,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(DesignatorStatementEq DesignatorStatementEq) { visit(); }
     public void visit(FormParsDerived1 FormParsDerived1) { visit(); }
     public void visit(FormalParams FormalParams) { visit(); }
+    public void visit(FormalParameterError FormalParameterError) { visit(); }
     public void visit(FormParsSingleN FormParsSingleN) { visit(); }
     public void visit(FormalParamsSingleSquare FormalParamsSingleSquare) { visit(); }
     public void visit(FormalParamsListEmpty FormalParamsListEmpty) { visit(); }
@@ -168,12 +171,14 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(BoolConstDeclaration BoolConstDeclaration) { visit(); }
     public void visit(CharConstDeclaration CharConstDeclaration) { visit(); }
     public void visit(NumConstDeclaration NumConstDeclaration) { visit(); }
+    public void visit(ConstDeclarationError ConstDeclarationError) { visit(); }
     public void visit(ConstDeclaration ConstDeclaration) { visit(); }
     public void visit(ConstDeclarationListProgram ConstDeclarationListProgram) { visit(); }
     public void visit(ConstDeclarationListEmpty ConstDeclarationListEmpty) { visit(); }
     public void visit(ConstDeclarationList ConstDeclarationList) { visit(); }
     public void visit(ConstDeclarationPomListEmpty ConstDeclarationPomListEmpty) { visit(); }
     public void visit(ConstDeclarationPomList ConstDeclarationPomList) { visit(); }
+    public void visit(VarDeclarationError VarDeclarationError) { visit(); }
     public void visit(VarDeclarationSquares VarDeclarationSquares) { visit(); }
     public void visit(VarDeclaration VarDeclaration) { visit(); }
     public void visit(VarDeclarationListProgram VarDeclarationListProgram) { visit(); }

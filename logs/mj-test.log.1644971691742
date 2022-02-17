@@ -1,0 +1,130 @@
+INFO  01:34:27,428 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  01:34:27,474 - #4 program
+INFO  01:34:27,475 - #46 test302
+INFO  01:34:27,475 - #5 {
+INFO  01:34:27,476 - #18 void
+INFO  01:34:27,476 - #46 main
+INFO  01:34:27,476 - #7 (
+INFO  01:34:27,477 - #8 )
+INFO  01:34:27,477 - #46 int
+INFO  01:34:27,478 - #46 niz
+INFO  01:34:27,478 - #13 [
+INFO  01:34:27,478 - #14 ]
+INFO  01:34:27,478 - #10 ;
+INFO  01:34:27,479 - #5 {
+INFO  01:34:27,479 - #46 niz
+INFO  01:34:27,480 - #12 =
+INFO  01:34:27,480 - #26 new
+INFO  01:34:27,480 - #46 int
+INFO  01:34:27,480 - #13 [
+INFO  01:34:27,480 - #45 2
+INFO  01:34:27,480 - #14 ]
+INFO  01:34:27,481 - #10 ;
+INFO  01:34:27,482 - #24 print
+INFO  01:34:27,482 - #7 (
+INFO  01:34:27,482 - #46 niz
+INFO  01:34:27,482 - #13 [
+INFO  01:34:27,482 - #45 1
+INFO  01:34:27,482 - #14 ]
+INFO  01:34:27,482 - #8 )
+INFO  01:34:27,482 - #10 ;
+INFO  01:34:27,482 - #6 }
+INFO  01:34:27,483 - #6 }
+INFO  01:34:27,487 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   niz
+                  ) [DesignatorSingle]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNewSquare(
+                        Type(
+                         int
+                        ) [Type]
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorNumConst(
+                             2
+                            ) [FactorNumConst]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [FactorNewSquare]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSquare(
+                      DesignatorSingle(
+                       niz
+                      ) [DesignatorSingle]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [DesignatorSquare]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  01:34:27,487 - ===================================
+INFO  01:34:27,490 - Obradjuje se funkcija main na liniji 5
+INFO  01:34:27,490 - Deklarisan niz niz tipa int na liniji 6
+INFO  01:34:27,490 - Napravljen je niz objekata tipa arr na liniji 8
+INFO  01:34:27,490 - Dodela vrednosti niz na liniji 8
+INFO  01:34:27,491 - Pristupiljeno elementu niza niz na liniji 9
+INFO  01:34:27,491 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 9
+INFO  01:34:27,491 -  Print count calls = 0
+INFO  01:34:27,491 -  Deklarisanih promenljivih ima = 1
+INFO  01:34:27,491 - ===================================
+INFO  01:34:27,496 - Parsiranje uspesno zavrseno

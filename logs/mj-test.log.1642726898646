@@ -1,0 +1,138 @@
+INFO  01:52:48,718 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  01:52:48,755 - #2 program
+INFO  01:52:48,755 - #44 MJProgram
+INFO  01:52:48,755 - #44 int
+INFO  01:52:48,756 - #44 x
+INFO  01:52:48,757 - #8 ;
+INFO  01:52:48,758 - #44 int
+INFO  01:52:48,758 - #44 y
+INFO  01:52:48,759 - #8 ;
+INFO  01:52:48,759 - #3 {
+INFO  01:52:48,760 - #44 int
+INFO  01:52:48,761 - #44 main
+INFO  01:52:48,761 - #5 (
+INFO  01:52:48,761 - #6 )
+INFO  01:52:48,761 - #3 {
+INFO  01:52:48,762 - #22 print
+INFO  01:52:48,763 - #5 (
+INFO  01:52:48,763 - #43 1
+INFO  01:52:48,763 - #6 )
+INFO  01:52:48,764 - #8 ;
+INFO  01:52:48,764 - #44 x
+INFO  01:52:48,765 - #10 =
+INFO  01:52:48,766 - #44 y
+INFO  01:52:48,766 - #25 +
+INFO  01:52:48,766 - #43 5
+INFO  01:52:48,766 - #8 ;
+INFO  01:52:48,767 - #22 print
+INFO  01:52:48,767 - #5 (
+INFO  01:52:48,767 - #43 2
+INFO  01:52:48,767 - #6 )
+INFO  01:52:48,767 - #8 ;
+INFO  01:52:48,767 - #4 }
+INFO  01:52:48,767 - #4 }
+INFO  01:52:48,769 - Program1(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  VarDeclGl(
+    VarDeclarationListProgram(
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationSingle1(
+           x
+          ) [VarDeclarationSingle1]
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationSingle1(
+         y
+        ) [VarDeclarationSingle1]
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclaration]
+    ) [VarDeclarationListProgram]
+  ) [VarDeclGl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  Term(
+                    Const(
+                     1
+                    ) [Const]
+                  ) [Term]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               x
+              ) [Designator]
+              AddExpr(
+                TermExpr(
+                  Term(
+                    Var(
+                      Designator(
+                       y
+                      ) [Designator]
+                    ) [Var]
+                  ) [Term]
+                ) [TermExpr]
+                Addop(
+                ) [Addop]
+                Term(
+                  Const(
+                   5
+                  ) [Const]
+                ) [Term]
+              ) [AddExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Const(
+                 2
+                ) [Const]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program1]
+INFO  01:52:48,770 - ===================================
+INFO  01:52:48,771 -  Print count calls = 2
+INFO  01:52:48,771 -  Deklarisanih promenljivih ima = 2

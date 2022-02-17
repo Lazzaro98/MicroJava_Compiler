@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 26/0/2022 20:53:11
+// 17/1/2022 8:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -133,6 +133,7 @@ public interface Visitor {
     public void visit(IFCondition1 IFCondition1);
     public void visit(NoStmt NoStmt);
     public void visit(ListStatement ListStatement);
+    public void visit(GotoSingleStatement GotoSingleStatement);
     public void visit(SingleStatementPrint SingleStatementPrint);
     public void visit(SingleStatementPrintNumconst SingleStatementPrintNumconst);
     public void visit(SingleStatementRead SingleStatementRead);
@@ -140,6 +141,7 @@ public interface Visitor {
     public void visit(DesignatorSquare DesignatorSquare);
     public void visit(DesignatorDot DesignatorDot);
     public void visit(DesignatorSingle DesignatorSingle);
+    public void visit(DesigatorStatementError DesigatorStatementError);
     public void visit(DesignatorStatementActParamsEmpty DesignatorStatementActParamsEmpty);
     public void visit(DesignatorStatementActParams DesignatorStatementActParams);
     public void visit(DesignatorStatementDec DesignatorStatementDec);
@@ -147,6 +149,7 @@ public interface Visitor {
     public void visit(DesignatorStatementEq DesignatorStatementEq);
     public void visit(FormParsDerived1 FormParsDerived1);
     public void visit(FormalParams FormalParams);
+    public void visit(FormalParameterError FormalParameterError);
     public void visit(FormParsSingleN FormParsSingleN);
     public void visit(FormalParamsSingleSquare FormalParamsSingleSquare);
     public void visit(FormalParamsListEmpty FormalParamsListEmpty);
@@ -168,12 +171,14 @@ public interface Visitor {
     public void visit(BoolConstDeclaration BoolConstDeclaration);
     public void visit(CharConstDeclaration CharConstDeclaration);
     public void visit(NumConstDeclaration NumConstDeclaration);
+    public void visit(ConstDeclarationError ConstDeclarationError);
     public void visit(ConstDeclaration ConstDeclaration);
     public void visit(ConstDeclarationListProgram ConstDeclarationListProgram);
     public void visit(ConstDeclarationListEmpty ConstDeclarationListEmpty);
     public void visit(ConstDeclarationList ConstDeclarationList);
     public void visit(ConstDeclarationPomListEmpty ConstDeclarationPomListEmpty);
     public void visit(ConstDeclarationPomList ConstDeclarationPomList);
+    public void visit(VarDeclarationError VarDeclarationError);
     public void visit(VarDeclarationSquares VarDeclarationSquares);
     public void visit(VarDeclaration VarDeclaration);
     public void visit(VarDeclarationListProgram VarDeclarationListProgram);

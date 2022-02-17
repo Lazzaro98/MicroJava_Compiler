@@ -1,0 +1,96 @@
+INFO  00:36:45,492 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  00:36:45,543 - #6 program
+INFO  00:36:45,543 - #3 MJProgram
+INFO  00:36:45,543 - #3 int
+INFO  00:36:45,544 - #3 x
+INFO  00:36:45,544 - #12 ;
+INFO  00:36:45,545 - #7 {
+INFO  00:36:45,545 - #3 int
+INFO  00:36:45,545 - #3 main
+INFO  00:36:45,546 - #9 (
+INFO  00:36:45,546 - #10 )
+INFO  00:36:45,546 - #7 {
+INFO  00:36:45,547 - #26 print
+INFO  00:36:45,547 - #9 (
+INFO  00:36:45,547 - #2 1
+INFO  00:36:45,547 - #10 )
+INFO  00:36:45,548 - #12 ;
+INFO  00:36:45,549 - #26 print
+INFO  00:36:45,549 - #9 (
+INFO  00:36:45,549 - #2 2
+INFO  00:36:45,549 - #10 )
+INFO  00:36:45,550 - #12 ;
+INFO  00:36:45,550 - #8 }
+INFO  00:36:45,550 - #8 }
+INFO  00:36:45,552 - Program1(
+ MJProgram
+  VarDeclarationList(
+    VarDeclarationListEmpty(
+    ) [VarDeclarationListEmpty]
+    VarDeclaration(
+      Type1(
+       int
+      ) [Type1]
+      VarDeclarationSingle1(
+       x
+      ) [VarDeclarationSingle1]
+      VarDeclarationListPomEmpty(
+      ) [VarDeclarationListPomEmpty]
+    ) [VarDeclaration]
+  ) [VarDeclarationList]
+  MethodDeclList1(
+    NoMethodDecls(
+    ) [NoMethodDecls]
+    MethodDecl1(
+      MethodType1(
+        Type1(
+         int
+        ) [Type1]
+      ) [MethodType1]
+     main
+      FormParsNo(
+      ) [FormParsNo]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      StatementListN(
+        StatementListN(
+          NoStatementsN(
+          ) [NoStatementsN]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                Expr1(
+                  Term1(
+                   1
+                    MulopFactorListEmpty(
+                    ) [MulopFactorListEmpty]
+                  ) [Term1]
+                  AddOppTermListEmpty(
+                  ) [AddOppTermListEmpty]
+                ) [Expr1]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [StatementListN]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              Expr1(
+                Term1(
+                 2
+                  MulopFactorListEmpty(
+                  ) [MulopFactorListEmpty]
+                ) [Term1]
+                AddOppTermListEmpty(
+                ) [AddOppTermListEmpty]
+              ) [Expr1]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [StatementListN]
+    ) [MethodDecl1]
+  ) [MethodDeclList1]
+) [Program1]
+INFO  00:36:45,552 - ===================================
+INFO  00:36:45,554 -  Print count calls = 0
+INFO  00:36:45,554 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,86 @@
+INFO  05:53:59,600 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  05:53:59,664 - #3 program
+INFO  05:53:59,664 - #45 test302
+INFO  05:53:59,664 - #45 int
+INFO  05:53:59,665 - #45 i1
+INFO  05:53:59,666 - #8 ,
+INFO  05:53:59,666 - #45 i2
+INFO  05:53:59,667 - #9 ;
+INFO  05:53:59,667 - #4 {
+INFO  05:53:59,667 - #17 void
+INFO  05:53:59,668 - #45 main
+INFO  05:53:59,669 - #6 (
+INFO  05:53:59,669 - #7 )
+INFO  05:53:59,670 - #4 {
+INFO  05:53:59,670 - #45 i2
+INFO  05:53:59,671 - #11 =
+INFO  05:53:59,671 - #44 1
+INFO  05:53:59,672 - #9 ;
+INFO  05:53:59,672 - #5 }
+INFO  05:53:59,673 - #5 }
+INFO  05:53:59,680 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationVar(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+       i1
+        VarDeclarationListPom(
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+         i2
+        ) [VarDeclarationListPom]
+      ) [VarDeclaration]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSingle(
+                 i2
+                ) [DesignatorSingle]
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  05:53:59,681 - ===================================
+INFO  05:53:59,684 - Deklarisana promenljiva i2 tipa int na liniji 4
+INFO  05:53:59,684 - Deklarisana promenljiva i1 tipa int na liniji 5
+INFO  05:53:59,684 - Obradjuje se funkcija main na liniji 10
+INFO  05:53:59,685 - Dodela vrednosti i2 na liniji 12
+INFO  05:53:59,685 -  Print count calls = 0
+INFO  05:53:59,685 -  Deklarisanih promenljivih ima = 2
+INFO  05:53:59,685 - ===================================
+INFO  05:53:59,685 - Parsiranje uspesno zavrseno

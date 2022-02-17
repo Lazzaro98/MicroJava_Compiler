@@ -1,0 +1,218 @@
+INFO  01:08:31,243 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  01:08:31,342 - #4 program
+INFO  01:08:31,342 - #46 test301
+INFO  01:08:31,343 - #5 {
+INFO  01:08:31,344 - #18 void
+INFO  01:08:31,345 - #46 main
+INFO  01:08:31,345 - #7 (
+INFO  01:08:31,346 - #8 )
+INFO  01:08:31,346 - #46 int
+INFO  01:08:31,347 - #46 x
+INFO  01:08:31,348 - #10 ;
+INFO  01:08:31,349 - #5 {
+INFO  01:08:31,349 - #46 x
+INFO  01:08:31,350 - #12 =
+INFO  01:08:31,350 - #45 0
+INFO  01:08:31,350 - #10 ;
+INFO  01:08:31,350 - #40 do
+INFO  01:08:31,351 - #5 {
+INFO  01:08:31,352 - #46 x
+INFO  01:08:31,352 - #19 ++
+INFO  01:08:31,352 - #10 ;
+INFO  01:08:31,353 - #37 if
+INFO  01:08:31,354 - #7 (
+INFO  01:08:31,354 - #46 x
+INFO  01:08:31,354 - #3 ==
+INFO  01:08:31,354 - #45 5
+INFO  01:08:31,356 - #8 )
+INFO  01:08:31,360 - #42 break
+INFO  01:08:31,360 - #10 ;
+INFO  01:08:31,361 - #6 }
+INFO  01:08:31,361 - #41 while
+INFO  01:08:31,362 - #7 (
+INFO  01:08:31,362 - #45 1
+INFO  01:08:31,364 - #8 )
+INFO  01:08:31,364 - #10 ;
+INFO  01:08:31,364 - #24 print
+INFO  01:08:31,364 - #7 (
+INFO  01:08:31,364 - #46 x
+INFO  01:08:31,364 - #8 )
+INFO  01:08:31,364 - #10 ;
+INFO  01:08:31,364 - #6 }
+INFO  01:08:31,364 - #6 }
+INFO  01:08:31,369 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         x
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     x
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementDoWhile(
+              DoStmt(
+              ) [DoStmt]
+              ListStatement(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  StatementsLabelListNoLabel(
+                    Statements(
+                      ListStatement(
+                        ListStatement(
+                          NoStmt(
+                          ) [NoStmt]
+                          MatchedStmt(
+                            StatementNoLabelSingle(
+                              SingleStatementDesignator(
+                                DesignatorStatementInc(
+                                  DesignatorSingle(
+                                   x
+                                  ) [DesignatorSingle]
+                                ) [DesignatorStatementInc]
+                              ) [SingleStatementDesignator]
+                            ) [StatementNoLabelSingle]
+                          ) [MatchedStmt]
+                        ) [ListStatement]
+                        UnmatchedStmt(
+                          UnmatchedIf(
+                            IFCondition1(
+                              Condition(
+                                CondTerm(
+                                  ConditionFactor(
+                                    TermExpr(
+                                      TermSingleFactor(
+                                        FactorDesignator(
+                                          DesignatorSingle(
+                                           x
+                                          ) [DesignatorSingle]
+                                        ) [FactorDesignator]
+                                      ) [TermSingleFactor]
+                                    ) [TermExpr]
+                                    EqualsOp(
+                                    ) [EqualsOp]
+                                    TermExpr(
+                                      TermSingleFactor(
+                                        FactorNumConst(
+                                         5
+                                        ) [FactorNumConst]
+                                      ) [TermSingleFactor]
+                                    ) [TermExpr]
+                                  ) [ConditionFactor]
+                                  ConditionFactorListEmpty(
+                                  ) [ConditionFactorListEmpty]
+                                ) [CondTerm]
+                                ConditionTermListEmpty(
+                                ) [ConditionTermListEmpty]
+                              ) [Condition]
+                            ) [IFCondition1]
+                            MatchedStmt(
+                              StatementBreak(
+                              ) [StatementBreak]
+                            ) [MatchedStmt]
+                          ) [UnmatchedIf]
+                        ) [UnmatchedStmt]
+                      ) [ListStatement]
+                    ) [Statements]
+                  ) [StatementsLabelListNoLabel]
+                ) [MatchedStmt]
+              ) [ListStatement]
+              DoCondition1(
+                DoConditionStart1(
+                ) [DoConditionStart1]
+                Condition(
+                  CondTerm(
+                    ConditionFactorSingle(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [ConditionFactorSingle]
+                    ConditionFactorListEmpty(
+                    ) [ConditionFactorListEmpty]
+                  ) [CondTerm]
+                  ConditionTermListEmpty(
+                  ) [ConditionTermListEmpty]
+                ) [Condition]
+              ) [DoCondition1]
+            ) [StatementDoWhile]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     x
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  01:08:31,371 - ===================================
+INFO  01:08:31,377 - Obradjuje se funkcija main na liniji 7
+INFO  01:08:31,377 - Deklarisana promenljiva x tipa int na liniji 8
+INFO  01:08:31,378 - Dodela vrednosti x na liniji 10
+INFO  01:08:31,378 - Inkrementiranje promenljive x na liniji 12
+INFO  01:08:31,378 - Izvrsavanje poredjenje izraza  na liniji 13
+INFO  01:08:31,378 - Obrada IF naredbe  na liniji 13
+ERROR 01:08:31,378 - Uslov mora biti tipa boolean  na liniji 14
+INFO  01:08:31,378 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 15
+INFO  01:08:31,379 -  Print count calls = 0
+INFO  01:08:31,379 -  Deklarisanih promenljivih ima = 1
+INFO  01:08:31,379 - ===================================
+ERROR 01:08:31,380 - Parsiranje neuspesno.

@@ -1,0 +1,142 @@
+INFO  13:24:09,931 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  13:24:10,002 - #3 program
+INFO  13:24:10,002 - #45 test301
+INFO  13:24:10,003 - #16 record
+INFO  13:24:10,004 - #45 TestRecord
+INFO  13:24:10,005 - #4 {
+INFO  13:24:10,005 - #45 int
+INFO  13:24:10,006 - #45 p
+INFO  13:24:10,007 - #9 ;
+INFO  13:24:10,007 - #5 }
+INFO  13:24:10,007 - #4 {
+INFO  13:24:10,008 - #45 int
+INFO  13:24:10,008 - #45 inkrement
+INFO  13:24:10,008 - #6 (
+INFO  13:24:10,008 - #7 )
+INFO  13:24:10,009 - #45 TestRecord
+INFO  13:24:10,009 - #45 t2
+INFO  13:24:10,009 - #9 ;
+INFO  13:24:10,009 - #4 {
+INFO  13:24:10,009 - #45 t2
+INFO  13:24:10,011 - #20 .
+INFO  13:24:10,011 - #45 t1
+INFO  13:24:10,011 - #20 .
+INFO  13:24:10,011 - #45 x
+INFO  13:24:10,011 - #11 =
+INFO  13:24:10,011 - #44 2
+INFO  13:24:10,012 - #9 ;
+INFO  13:24:10,012 - #5 }
+INFO  13:24:10,013 - #17 void
+INFO  13:24:10,013 - #45 main
+INFO  13:24:10,013 - #6 (
+INFO  13:24:10,013 - #7 )
+INFO  13:24:10,013 - #4 {
+INFO  13:24:10,013 - #5 }
+INFO  13:24:10,013 - #5 }
+INFO  13:24:10,019 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           p
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         inkrement
+        ) [MethodTypeName_]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t2
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorDot(
+                    DesignatorDot(
+                      DesignatorSingle(
+                       t2
+                      ) [DesignatorSingle]
+                     t1
+                    ) [DesignatorDot]
+                   x
+                  ) [DesignatorDot]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:24:10,020 - ===================================
+INFO  13:24:10,023 - Deklarisana promenljiva p na liniji 7
+INFO  13:24:10,024 - Obradjuje se funkcija inkrement na liniji 13
+INFO  13:24:10,024 - Deklarisana promenljiva t2 na liniji 14
+INFO  13:24:10,024 - Dodela vrednosti  na liniji 16
+ERROR 13:24:10,024 - Greska na liniji 16 :  nekompatibilni tipovi u dodeli vrednosti! 
+ERROR 13:24:10,025 - Semanticka greska na liniji 13: funkcija inkrement nema return iskaz!
+INFO  13:24:10,025 - Obradjuje se funkcija main na liniji 24
+INFO  13:24:10,025 -  Print count calls = 0
+INFO  13:24:10,025 -  Deklarisanih promenljivih ima = 2
+INFO  13:24:10,025 - ===================================
+ERROR 13:24:10,026 - Parsiranje neuspesno.

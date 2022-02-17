@@ -1,0 +1,192 @@
+//Test 302
+
+program test302
+	const int pet = 5;
+	
+	int global;
+	int nizglobal[];
+	
+	record TestRecord {
+		int x;
+		int y;
+		int p[];
+	}
+{
+	void ispisi(char c){
+		print(c);
+	}
+	
+	int ispisi_with_ret(char c){
+		print(c);
+		return 2;
+	}
+	
+	
+	int inkrementiraj(int x) {
+		return x+1;
+	}
+	
+	int dekrementiraj(int x){
+		return x-1;
+	}
+	
+	int saberi(int a, int b) {
+		return a + b;
+	}
+	
+	int saberi_print(int a, int b, int c, int d)
+	int x;
+	int y;
+	{
+		x = a + d;
+		y = b + c;
+		print('T'); print('E'); print('S'); print('T'); print('1'); print('2');print(':'); print(' ');
+		print(saberi(x, y));
+		print(eol);
+		return x + y;
+	}
+	
+	int oduzmi(int a, int b) {
+		return a - b;
+	}
+	
+	int pomnozi(int a, int b){
+		return a*b;
+	}
+	
+	int podeli(int a, int b) {
+		return a/b;
+	}
+	
+	
+	void main()
+		int test1x;
+		int test1y;
+		int test2x;
+		int test2y;
+		int test4x;
+		int test4y;
+		int testniz[];
+		char testnizc[];
+		TestRecord testrecord;
+	{
+		// TEST1:		Correct test result: 9 		-> testing basic operations
+		test1x = 2;
+		test1y = pet + 5 - test1x + 1;
+		print('T'); print('E'); print('S'); print('T'); print('1'); print(':'); print(' ');
+		print(test1y);
+		print(eol);
+		
+		// TEST2:		Correct test result: 291 		-> testing basic operations
+		print('T'); print('E'); print('S'); print('T'); print('2'); print(':'); print(' ');
+		test2x = 15;
+		test2y = test2x * test2x + test2x*3 - 6*6 + (test2x + 3*test2x) - test2x/5;
+		print(test2y);
+		print(eol);
+		
+		//TEST3:		Correct test result: TT 		-> testing functions, functions with return value without storing the value.
+		print('T'); print('E'); print('S'); print('T'); print('3'); print(':'); print(' ');
+		ispisi('T');
+		ispisi_with_ret('T');
+		print(eol);
+		
+		//TEST4:		Correct test result: 80 		-> testing functions
+		print('T'); print('E'); print('S'); print('T'); print('4'); print(':'); print(' ');
+		test4x = 8;
+		test4y = test4x*test4x/test4x;
+		print(oduzmi(saberi(57, 31), oduzmi(test4x*test4x, (test4x/test4x)*((test4x-1)*test4x))));
+		print(eol);
+		
+		//TEST5:		Correct test result: 101 		-> testing functions
+		print('T'); print('E'); print('S'); print('T'); print('5'); print(':'); print(' ');
+		print(inkrementiraj(dekrementiraj(inkrementiraj(dekrementiraj(inkrementiraj(dekrementiraj(101)))))));
+		print(eol);
+		
+		//TEST6:		Correct test result: 490 		-> testing array
+		print('T'); print('E'); print('S'); print('T'); print('6'); print(':'); print(' ');
+		testniz = new int[5];
+		testniz[0] = 98;
+		testniz[1] = 2;
+		testniz[2] = 3;
+		testniz[3] = 4;
+		testniz[4] = 5;
+		print(testniz[0] * testniz[1 + testniz[testniz[1]]]);
+		print(eol);
+		
+		//TEST7:		Correct test result: TEST7 		-> testing char array
+		print('T'); print('E'); print('S'); print('T'); print('7'); print(':'); print(' ');
+		testnizc = new char[5];
+		testnizc[0] = 'T';
+		testnizc[1] = 'E';
+		testnizc[2] = 'S';
+		testnizc[3] = 'T';
+		testnizc[4] = '7';
+		print(testnizc[0]);print(testnizc[1]);print(testnizc[2]);print(testnizc[3]);print(testnizc[4]);
+		print(eol);
+		
+		//TEST8:    	Correct test result: 24  		-> testing global var
+		print('T'); print('E'); print('S'); print('T'); print('8'); print(':'); print(' ');
+		global = testniz[2] * test4x;
+		print(global);
+		print(eol);
+		
+		//TEST9:		Correct test result: 120  		-> testing global array
+		print('T'); print('E'); print('S'); print('T'); print('9'); print(':'); print(' ');
+		nizglobal = new int[5];
+		nizglobal[1] = testniz[2] * test4x; 
+		nizglobal[2] =  testniz[4] * (nizglobal[1]);
+		print(nizglobal[2]);
+		print(eol);
+		
+		//TEST10		Correct test result: 120  		-> testing record vars
+		print('T'); print('E'); print('S'); print('T'); print('1');print('0'); print(':'); print(' ');
+		testrecord = new TestRecord;
+		testrecord.x = testniz[2] * test4x; 
+		testrecord.y = testniz[4] * (testrecord.x);
+		print(testrecord.y);
+		print(eol);
+		
+		//TEST11		Correct test result: 363  		-> testing record with arrays
+		print('T'); print('E'); print('S'); print('T'); print('1');print('1'); print(':'); print(' ');
+		testrecord.p = new int[5];
+		testrecord.p[1] = 5;
+		testrecord.p[3] = 33;
+		testrecord.p[2] = 6;
+		testrecord.p[4] = 11;
+		print(testrecord.p[4] * testrecord.p[3]);
+		print(eol);
+		
+		//TEST12 		Correct test result: 44  		-> testing multiple functions combined with records and arrays
+		saberi_print(testrecord.p[1],testrecord.p[2] * testniz[1],global,9/3); 
+		
+		//TEST13		Correct test result: 27  		-> testing increment/decrement
+		print('T'); print('E'); print('S'); print('T'); print('1');print('3'); print(':'); print(' ');
+		global++; global++; global++; global++;
+		global--;global--;global--;
+		global++;global++;
+		print(global);
+		print(eol);
+		
+		
+		//TEST14		Correct test result: 8  		-> testing increment/decrement with arrays
+		print('T'); print('E'); print('S'); print('T'); print('1');print('4'); print(':'); print(' ');
+		testniz[4]++; testniz[4]++; testniz[4]++; testniz[4]++; testniz[4]++; 
+		testniz[4]--;testniz[4]--;
+		print(testniz[4]);
+		print(eol);
+		
+		
+		//TEST15		Correct test result: 400  		-> testing increment/decrement with record and arrays
+		print('T'); print('E'); print('S'); print('T'); print('1');print('5'); print(':'); print(' ');
+		testrecord.p = new int[5];
+		testrecord.p[1] = 4;
+		testrecord.p[4] = 101;
+		testrecord.p[4]++;testrecord.p[4]++;testrecord.p[4]++;testrecord.p[4]++;
+		testrecord.p[4]--;testrecord.p[4]--;testrecord.p[4]--;testrecord.p[4]--;testrecord.p[4]--;testrecord.p[4]--;
+		print(pomnozi(inkrementiraj(testrecord.p[4]), testrecord.p[1]));
+		print(eol);
+		
+		
+	}
+}
+

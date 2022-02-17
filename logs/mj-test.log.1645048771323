@@ -1,0 +1,127 @@
+INFO  22:53:31,226 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:53:31,298 - #4 program
+INFO  22:53:31,299 - #46 test301
+INFO  22:53:31,299 - #5 {
+INFO  22:53:31,300 - #18 void
+INFO  22:53:31,301 - #46 main
+INFO  22:53:31,301 - #7 (
+INFO  22:53:31,301 - #8 )
+INFO  22:53:31,302 - #46 int
+INFO  22:53:31,303 - #46 x
+INFO  22:53:31,303 - #10 ;
+INFO  22:53:31,304 - #5 {
+INFO  22:53:31,304 - #37 if
+INFO  22:53:31,305 - #7 (
+INFO  22:53:31,305 - #45 2
+INFO  22:53:31,305 - #3 ==
+INFO  22:53:31,306 - #45 1
+INFO  22:53:31,307 - #8 )
+INFO  22:53:31,309 - #5 {
+INFO  22:53:31,309 - #24 print
+INFO  22:53:31,309 - #7 (
+INFO  22:53:31,311 - #48 y
+INFO  22:53:31,311 - #8 )
+INFO  22:53:31,312 - #10 ;
+INFO  22:53:31,312 - #6 }
+INFO  22:53:31,312 - #6 }
+INFO  22:53:31,313 - #6 }
+INFO  22:53:31,320 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         x
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        UnmatchedStmt(
+          UnmatchedIf(
+            IFCondition1(
+              Condition(
+                CondTerm(
+                  ConditionFactor(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    EqualsOp(
+                    ) [EqualsOp]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [ConditionFactor]
+                  ConditionFactorListEmpty(
+                  ) [ConditionFactorListEmpty]
+                ) [CondTerm]
+                ConditionTermListEmpty(
+                ) [ConditionTermListEmpty]
+              ) [Condition]
+            ) [IFCondition1]
+            MatchedStmt(
+              StatementsLabelListNoLabel(
+                Statements(
+                  ListStatement(
+                    NoStmt(
+                    ) [NoStmt]
+                    MatchedStmt(
+                      StatementNoLabelSingle(
+                        SingleStatementPrint(
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorCharConst(
+                               y
+                              ) [FactorCharConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [SingleStatementPrint]
+                      ) [StatementNoLabelSingle]
+                    ) [MatchedStmt]
+                  ) [ListStatement]
+                ) [Statements]
+              ) [StatementsLabelListNoLabel]
+            ) [MatchedStmt]
+          ) [UnmatchedIf]
+        ) [UnmatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:53:31,321 - ===================================
+INFO  22:53:31,325 - Obradjuje se funkcija main na liniji 7
+INFO  22:53:31,325 - Deklarisana promenljiva x tipa int na liniji 8
+INFO  22:53:31,325 - Izvrsavanje poredjenje izraza  na liniji 10
+INFO  22:53:31,325 - Obradjena char konstanta y i setovan joj je tip char na liniji 11
+INFO  22:53:31,325 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 11
+INFO  22:53:31,326 - Obrada IF naredbe  na liniji 10
+INFO  22:53:31,326 -  Print count calls = 0
+INFO  22:53:31,326 -  Deklarisanih promenljivih ima = 1
+INFO  22:53:31,326 - ===================================
+INFO  22:53:31,333 - Parsiranje uspesno zavrseno

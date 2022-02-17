@@ -1,0 +1,191 @@
+INFO  20:13:49,725 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  20:13:49,777 - #3 program
+INFO  20:13:49,777 - #45 test301
+INFO  20:13:49,777 - #10 const
+INFO  20:13:49,779 - #45 int
+INFO  20:13:49,779 - #45 nula
+INFO  20:13:49,779 - #11 =
+INFO  20:13:49,780 - #44 0
+INFO  20:13:49,780 - #9 ;
+INFO  20:13:49,780 - #10 const
+INFO  20:13:49,781 - #45 int
+INFO  20:13:49,781 - #45 jedan
+INFO  20:13:49,781 - #11 =
+INFO  20:13:49,781 - #44 1
+INFO  20:13:49,781 - #9 ;
+INFO  20:13:49,781 - #10 const
+INFO  20:13:49,781 - #45 int
+INFO  20:13:49,781 - #45 pet
+INFO  20:13:49,781 - #11 =
+INFO  20:13:49,781 - #44 5
+INFO  20:13:49,782 - #9 ;
+INFO  20:13:49,785 - #45 int
+INFO  20:13:49,785 - #45 niz
+INFO  20:13:49,785 - #12 [
+INFO  20:13:49,785 - #13 ]
+INFO  20:13:49,786 - #9 ;
+INFO  20:13:49,787 - #45 char
+INFO  20:13:49,787 - #45 nizch
+INFO  20:13:49,787 - #12 [
+INFO  20:13:49,787 - #13 ]
+INFO  20:13:49,787 - #9 ;
+INFO  20:13:49,787 - #16 record
+INFO  20:13:49,787 - #45 TestRecord
+INFO  20:13:49,787 - #4 {
+INFO  20:13:49,787 - #45 int
+INFO  20:13:49,788 - #45 p
+INFO  20:13:49,788 - #9 ;
+INFO  20:13:49,789 - #5 }
+INFO  20:13:49,789 - #4 {
+INFO  20:13:49,789 - #17 void
+INFO  20:13:49,790 - #45 main
+INFO  20:13:49,790 - #6 (
+INFO  20:13:49,790 - #7 )
+INFO  20:13:49,791 - #45 int
+INFO  20:13:49,791 - #45 bodovi
+INFO  20:13:49,791 - #9 ;
+INFO  20:13:49,791 - #4 {
+INFO  20:13:49,791 - #5 }
+INFO  20:13:49,792 - #5 }
+INFO  20:13:49,797 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgram(
+          DeclarationListProgram(
+            DeclarationListProgram(
+              DeclarationListProgramEmpty(
+              ) [DeclarationListProgramEmpty]
+              DeclarationConst(
+                ConstDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 nula
+                  NumConstDeclaration(
+                   0
+                  ) [NumConstDeclaration]
+                  ConstDeclarationPomListEmpty(
+                  ) [ConstDeclarationPomListEmpty]
+                ) [ConstDeclaration]
+              ) [DeclarationConst]
+            ) [DeclarationListProgram]
+            DeclarationConst(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+               jedan
+                NumConstDeclaration(
+                 1
+                ) [NumConstDeclaration]
+                ConstDeclarationPomListEmpty(
+                ) [ConstDeclarationPomListEmpty]
+              ) [ConstDeclaration]
+            ) [DeclarationConst]
+          ) [DeclarationListProgram]
+          DeclarationConst(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+             pet
+              NumConstDeclaration(
+               5
+              ) [NumConstDeclaration]
+              ConstDeclarationPomListEmpty(
+              ) [ConstDeclarationPomListEmpty]
+            ) [ConstDeclaration]
+          ) [DeclarationConst]
+        ) [DeclarationListProgram]
+        DeclarationVar(
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           niz
+            Squares(
+            ) [Squares]
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [DeclarationVar]
+      ) [DeclarationListProgram]
+      DeclarationVar(
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+         nizch
+          Squares(
+          ) [Squares]
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [DeclarationVar]
+    ) [DeclarationListProgram]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           p
+            NoSquares(
+            ) [NoSquares]
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          NoSquares(
+          ) [NoSquares]
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:13:49,798 - ===================================
+INFO  20:13:49,802 - Deklarisana konstanta nula
+INFO  20:13:49,802 - Deklarisana konstanta jedan
+INFO  20:13:49,802 - Deklarisana konstanta pet
+INFO  20:13:49,802 - Deklarisana promenljiva niz na liniji 9
+INFO  20:13:49,802 - Deklarisana promenljiva nizch na liniji 10
+INFO  20:13:49,802 - Deklarisana promenljiva p na liniji 12
+INFO  20:13:49,803 - Deklarisana promenljiva bodovi na liniji 16
+INFO  20:13:49,803 -  Print count calls = 0
+INFO  20:13:49,803 -  Deklarisanih promenljivih ima = 4
+INFO  20:13:49,803 - ===================================
+INFO  20:13:49,803 - Parsiranje uspesno zavrseno

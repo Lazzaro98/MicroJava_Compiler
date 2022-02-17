@@ -1,0 +1,249 @@
+INFO  05:12:07,935 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  05:12:08,002 - #3 program
+INFO  05:12:08,003 - #45 test301
+INFO  05:12:08,003 - #4 {
+INFO  05:12:08,004 - #45 int
+INFO  05:12:08,005 - #45 k
+INFO  05:12:08,005 - #6 (
+INFO  05:12:08,005 - #7 )
+INFO  05:12:08,006 - #45 int
+INFO  05:12:08,007 - #45 c
+INFO  05:12:08,007 - #9 ;
+INFO  05:12:08,007 - #4 {
+INFO  05:12:08,008 - #45 c
+INFO  05:12:08,008 - #11 =
+INFO  05:12:08,008 - #44 2
+INFO  05:12:08,008 - #9 ;
+INFO  05:12:08,009 - #23 print
+INFO  05:12:08,009 - #6 (
+INFO  05:12:08,010 - #44 0
+INFO  05:12:08,010 - #7 )
+INFO  05:12:08,010 - #9 ;
+INFO  05:12:08,010 - #43 return
+INFO  05:12:08,011 - #45 c
+INFO  05:12:08,011 - #26 +
+INFO  05:12:08,012 - #44 2
+INFO  05:12:08,014 - #9 ;
+INFO  05:12:08,014 - #5 }
+INFO  05:12:08,014 - #17 void
+INFO  05:12:08,015 - #45 main
+INFO  05:12:08,015 - #6 (
+INFO  05:12:08,015 - #7 )
+INFO  05:12:08,015 - #45 int
+INFO  05:12:08,015 - #45 x
+INFO  05:12:08,016 - #9 ;
+INFO  05:12:08,016 - #4 {
+INFO  05:12:08,016 - #45 x
+INFO  05:12:08,016 - #11 =
+INFO  05:12:08,016 - #44 2
+INFO  05:12:08,016 - #9 ;
+INFO  05:12:08,016 - #23 print
+INFO  05:12:08,016 - #6 (
+INFO  05:12:08,017 - #45 x
+INFO  05:12:08,017 - #7 )
+INFO  05:12:08,017 - #9 ;
+INFO  05:12:08,017 - #23 print
+INFO  05:12:08,017 - #6 (
+INFO  05:12:08,017 - #44 2
+INFO  05:12:08,017 - #7 )
+INFO  05:12:08,018 - #9 ;
+INFO  05:12:08,018 - #45 k
+INFO  05:12:08,018 - #6 (
+INFO  05:12:08,018 - #7 )
+INFO  05:12:08,018 - #9 ;
+INFO  05:12:08,019 - #5 }
+INFO  05:12:08,019 - #5 }
+INFO  05:12:08,026 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeName_]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           c
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementDesignator(
+                    DesignatorStatementEq(
+                      DesignatorSingle(
+                       c
+                      ) [DesignatorSingle]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           2
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [DesignatorStatementEq]
+                  ) [SingleStatementDesignator]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementPrint(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       0
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [SingleStatementPrint]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementReturn(
+              AddExpr(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSingle(
+                       c
+                      ) [DesignatorSingle]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+                AddopPlus(
+                ) [AddopPlus]
+                TermSingleFactor(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [AddExpr]
+            ) [StatementReturn]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         x
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementDesignator(
+                    DesignatorStatementEq(
+                      DesignatorSingle(
+                       x
+                      ) [DesignatorSingle]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           2
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [DesignatorStatementEq]
+                  ) [SingleStatementDesignator]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementPrint(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         x
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [SingleStatementPrint]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementActParamsEmpty(
+                DesignatorSingle(
+                 k
+                ) [DesignatorSingle]
+              ) [DesignatorStatementActParamsEmpty]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  05:12:08,028 - ===================================
+INFO  05:12:08,032 - Obradjuje se funkcija k na liniji 6
+INFO  05:12:08,032 - Deklarisana promenljiva c na liniji 6
+INFO  05:12:08,032 - Dodela vrednosti  na liniji 7
+INFO  05:12:08,032 - Obradjuje se funkcija main na liniji 11
+INFO  05:12:08,032 - Deklarisana promenljiva x na liniji 12
+INFO  05:12:08,032 - Dodela vrednosti  na liniji 14
+INFO  05:12:08,033 - Pozivanje funkcije k na liniji 17
+INFO  05:12:08,033 -  Print count calls = 3
+INFO  05:12:08,033 -  Deklarisanih promenljivih ima = 2
+INFO  05:12:08,033 - ===================================
+INFO  05:12:08,038 - Parsiranje uspesno zavrseno

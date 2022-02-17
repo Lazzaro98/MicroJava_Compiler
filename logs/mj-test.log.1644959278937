@@ -1,0 +1,413 @@
+INFO  22:07:43,068 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:07:43,123 - #4 program
+INFO  22:07:43,123 - #46 test302
+INFO  22:07:43,123 - #11 const
+INFO  22:07:43,124 - #46 int
+INFO  22:07:43,124 - #46 pet
+INFO  22:07:43,125 - #12 =
+INFO  22:07:43,125 - #45 5
+INFO  22:07:43,125 - #10 ;
+INFO  22:07:43,126 - #5 {
+INFO  22:07:43,126 - #18 void
+INFO  22:07:43,127 - #46 func
+INFO  22:07:43,127 - #7 (
+INFO  22:07:43,127 - #8 )
+INFO  22:07:43,127 - #5 {
+INFO  22:07:43,128 - #24 print
+INFO  22:07:43,129 - #7 (
+INFO  22:07:43,129 - #48 y
+INFO  22:07:43,129 - #8 )
+INFO  22:07:43,130 - #10 ;
+INFO  22:07:43,130 - #6 }
+INFO  22:07:43,134 - #18 void
+INFO  22:07:43,134 - #46 main
+INFO  22:07:43,134 - #7 (
+INFO  22:07:43,134 - #8 )
+INFO  22:07:43,134 - #46 int
+INFO  22:07:43,135 - #46 test1x
+INFO  22:07:43,135 - #10 ;
+INFO  22:07:43,135 - #46 int
+INFO  22:07:43,135 - #46 test2x
+INFO  22:07:43,136 - #10 ;
+INFO  22:07:43,136 - #5 {
+INFO  22:07:43,136 - #46 test1x
+INFO  22:07:43,136 - #12 =
+INFO  22:07:43,136 - #45 2
+INFO  22:07:43,136 - #10 ;
+INFO  22:07:43,136 - #46 test2x
+INFO  22:07:43,136 - #12 =
+INFO  22:07:43,136 - #46 pet
+INFO  22:07:43,136 - #27 +
+INFO  22:07:43,137 - #45 5
+INFO  22:07:43,137 - #28 -
+INFO  22:07:43,138 - #46 test1x
+INFO  22:07:43,138 - #27 +
+INFO  22:07:43,138 - #45 1
+INFO  22:07:43,138 - #10 ;
+INFO  22:07:43,138 - #24 print
+INFO  22:07:43,138 - #7 (
+INFO  22:07:43,138 - #48 T
+INFO  22:07:43,139 - #8 )
+INFO  22:07:43,139 - #10 ;
+INFO  22:07:43,139 - #24 print
+INFO  22:07:43,139 - #7 (
+INFO  22:07:43,139 - #48 E
+INFO  22:07:43,139 - #8 )
+INFO  22:07:43,139 - #10 ;
+INFO  22:07:43,139 - #24 print
+INFO  22:07:43,139 - #7 (
+INFO  22:07:43,139 - #48 S
+INFO  22:07:43,139 - #8 )
+INFO  22:07:43,139 - #10 ;
+INFO  22:07:43,139 - #24 print
+INFO  22:07:43,139 - #7 (
+INFO  22:07:43,140 - #48 T
+INFO  22:07:43,140 - #8 )
+INFO  22:07:43,140 - #10 ;
+INFO  22:07:43,140 - #24 print
+INFO  22:07:43,140 - #7 (
+INFO  22:07:43,140 - #48 1
+INFO  22:07:43,140 - #8 )
+INFO  22:07:43,140 - #10 ;
+INFO  22:07:43,140 - #24 print
+INFO  22:07:43,140 - #7 (
+INFO  22:07:43,140 - #48 :
+INFO  22:07:43,140 - #8 )
+INFO  22:07:43,140 - #10 ;
+INFO  22:07:43,140 - #24 print
+INFO  22:07:43,140 - #7 (
+INFO  22:07:43,141 - #48  
+INFO  22:07:43,141 - #8 )
+INFO  22:07:43,141 - #10 ;
+INFO  22:07:43,141 - #24 print
+INFO  22:07:43,141 - #7 (
+INFO  22:07:43,141 - #46 test2x
+INFO  22:07:43,141 - #8 )
+INFO  22:07:43,141 - #10 ;
+INFO  22:07:43,141 - #46 func
+INFO  22:07:43,141 - #7 (
+INFO  22:07:43,141 - #8 )
+INFO  22:07:43,141 - #10 ;
+INFO  22:07:43,141 - #6 }
+INFO  22:07:43,142 - #6 }
+INFO  22:07:43,150 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       pet
+        NumConstDeclaration(
+         5
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodVoidName(
+         func
+        ) [MethodVoidName]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorCharConst(
+                     y
+                    ) [FactorCharConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           test1x
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         test2x
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              ListStatement(
+                ListStatement(
+                  ListStatement(
+                    ListStatement(
+                      ListStatement(
+                        ListStatement(
+                          ListStatement(
+                            NoStmt(
+                            ) [NoStmt]
+                            MatchedStmt(
+                              StatementNoLabelSingle(
+                                SingleStatementDesignator(
+                                  DesignatorStatementEq(
+                                    DesignatorSingle(
+                                     test1x
+                                    ) [DesignatorSingle]
+                                    TermExpr(
+                                      TermSingleFactor(
+                                        FactorNumConst(
+                                         2
+                                        ) [FactorNumConst]
+                                      ) [TermSingleFactor]
+                                    ) [TermExpr]
+                                  ) [DesignatorStatementEq]
+                                ) [SingleStatementDesignator]
+                              ) [StatementNoLabelSingle]
+                            ) [MatchedStmt]
+                          ) [ListStatement]
+                          MatchedStmt(
+                            StatementNoLabelSingle(
+                              SingleStatementDesignator(
+                                DesignatorStatementEq(
+                                  DesignatorSingle(
+                                   test2x
+                                  ) [DesignatorSingle]
+                                  AddExpr(
+                                    AddExpr(
+                                      AddExpr(
+                                        TermExpr(
+                                          TermSingleFactor(
+                                            FactorDesignator(
+                                              DesignatorSingle(
+                                               pet
+                                              ) [DesignatorSingle]
+                                            ) [FactorDesignator]
+                                          ) [TermSingleFactor]
+                                        ) [TermExpr]
+                                        AddopPlus(
+                                        ) [AddopPlus]
+                                        TermSingleFactor(
+                                          FactorNumConst(
+                                           5
+                                          ) [FactorNumConst]
+                                        ) [TermSingleFactor]
+                                      ) [AddExpr]
+                                      AddopMinus(
+                                      ) [AddopMinus]
+                                      TermSingleFactor(
+                                        FactorDesignator(
+                                          DesignatorSingle(
+                                           test1x
+                                          ) [DesignatorSingle]
+                                        ) [FactorDesignator]
+                                      ) [TermSingleFactor]
+                                    ) [AddExpr]
+                                    AddopPlus(
+                                    ) [AddopPlus]
+                                    TermSingleFactor(
+                                      FactorNumConst(
+                                       1
+                                      ) [FactorNumConst]
+                                    ) [TermSingleFactor]
+                                  ) [AddExpr]
+                                ) [DesignatorStatementEq]
+                              ) [SingleStatementDesignator]
+                            ) [StatementNoLabelSingle]
+                          ) [MatchedStmt]
+                        ) [ListStatement]
+                        MatchedStmt(
+                          StatementNoLabelSingle(
+                            SingleStatementPrint(
+                              TermExpr(
+                                TermSingleFactor(
+                                  FactorCharConst(
+                                   T
+                                  ) [FactorCharConst]
+                                ) [TermSingleFactor]
+                              ) [TermExpr]
+                            ) [SingleStatementPrint]
+                          ) [StatementNoLabelSingle]
+                        ) [MatchedStmt]
+                      ) [ListStatement]
+                      MatchedStmt(
+                        StatementNoLabelSingle(
+                          SingleStatementPrint(
+                            TermExpr(
+                              TermSingleFactor(
+                                FactorCharConst(
+                                 E
+                                ) [FactorCharConst]
+                              ) [TermSingleFactor]
+                            ) [TermExpr]
+                          ) [SingleStatementPrint]
+                        ) [StatementNoLabelSingle]
+                      ) [MatchedStmt]
+                    ) [ListStatement]
+                    MatchedStmt(
+                      StatementNoLabelSingle(
+                        SingleStatementPrint(
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorCharConst(
+                               S
+                              ) [FactorCharConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [SingleStatementPrint]
+                      ) [StatementNoLabelSingle]
+                    ) [MatchedStmt]
+                  ) [ListStatement]
+                  MatchedStmt(
+                    StatementNoLabelSingle(
+                      SingleStatementPrint(
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorCharConst(
+                             T
+                            ) [FactorCharConst]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [SingleStatementPrint]
+                    ) [StatementNoLabelSingle]
+                  ) [MatchedStmt]
+                ) [ListStatement]
+                MatchedStmt(
+                  StatementNoLabelSingle(
+                    SingleStatementPrint(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorCharConst(
+                           1
+                          ) [FactorCharConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [SingleStatementPrint]
+                  ) [StatementNoLabelSingle]
+                ) [MatchedStmt]
+              ) [ListStatement]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementPrint(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorCharConst(
+                         :
+                        ) [FactorCharConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [SingleStatementPrint]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementPrint(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorCharConst(
+                        
+                      ) [FactorCharConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [SingleStatementPrint]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementPrint(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSingle(
+                       test2x
+                      ) [DesignatorSingle]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [SingleStatementPrint]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementActParamsEmpty(
+                DesignatorSingle(
+                 func
+                ) [DesignatorSingle]
+              ) [DesignatorStatementActParamsEmpty]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:07:43,151 - ===================================
+INFO  22:07:43,155 - Deklarisana konstanta pet na liniji 4
+INFO  22:07:43,155 - Obradjuje se funkcija func na liniji 8
+INFO  22:07:43,156 - Obradjena char konstanta y i setovan joj je tip char na liniji 9
+INFO  22:07:43,156 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 9
+INFO  22:07:43,156 - Obradjuje se funkcija main na liniji 12
+INFO  22:07:43,156 - Deklarisana promenljiva test1x tipa int na liniji 13
+INFO  22:07:43,156 - Deklarisana promenljiva test2x tipa int na liniji 14
+INFO  22:07:43,158 - Dodela vrednosti test1x na liniji 17
+INFO  22:07:43,159 - Dodela vrednosti test2x na liniji 18
+INFO  22:07:43,159 - Obradjena char konstanta T i setovan joj je tip char na liniji 19
+INFO  22:07:43,159 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,159 - Obradjena char konstanta E i setovan joj je tip char na liniji 19
+INFO  22:07:43,159 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,159 - Obradjena char konstanta S i setovan joj je tip char na liniji 19
+INFO  22:07:43,159 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,159 - Obradjena char konstanta T i setovan joj je tip char na liniji 19
+INFO  22:07:43,159 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,160 - Obradjena char konstanta 1 i setovan joj je tip char na liniji 19
+INFO  22:07:43,160 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,160 - Obradjena char konstanta : i setovan joj je tip char na liniji 19
+INFO  22:07:43,160 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,160 - Obradjena char konstanta   i setovan joj je tip char na liniji 19
+INFO  22:07:43,160 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 19
+INFO  22:07:43,160 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 20
+INFO  22:07:43,160 - Pozivanje funkcije func na liniji 21
+INFO  22:07:43,160 -  Print count calls = 0
+INFO  22:07:43,161 -  Deklarisanih promenljivih ima = 2
+INFO  22:07:43,161 - ===================================
+INFO  22:07:43,165 - Parsiranje uspesno zavrseno

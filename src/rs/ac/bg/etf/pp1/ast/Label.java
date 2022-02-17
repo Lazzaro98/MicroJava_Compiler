@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 26/0/2022 20:53:11
+// 17/1/2022 8:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -10,12 +10,9 @@ public class Label implements SyntaxNode {
     private SyntaxNode parent;
     private int line;
     private String labelName;
-    private ColonHelper ColonHelper;
 
-    public Label (String labelName, ColonHelper ColonHelper) {
+    public Label (String labelName) {
         this.labelName=labelName;
-        this.ColonHelper=ColonHelper;
-        if(ColonHelper!=null) ColonHelper.setParent(this);
     }
 
     public String getLabelName() {
@@ -24,14 +21,6 @@ public class Label implements SyntaxNode {
 
     public void setLabelName(String labelName) {
         this.labelName=labelName;
-    }
-
-    public ColonHelper getColonHelper() {
-        return ColonHelper;
-    }
-
-    public void setColonHelper(ColonHelper ColonHelper) {
-        this.ColonHelper=ColonHelper;
     }
 
     public SyntaxNode getParent() {
@@ -55,16 +44,13 @@ public class Label implements SyntaxNode {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(ColonHelper!=null) ColonHelper.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(ColonHelper!=null) ColonHelper.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(ColonHelper!=null) ColonHelper.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -74,12 +60,6 @@ public class Label implements SyntaxNode {
         buffer.append("Label(\n");
 
         buffer.append(" "+tab+labelName);
-        buffer.append("\n");
-
-        if(ColonHelper!=null)
-            buffer.append(ColonHelper.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
         buffer.append("\n");
 
         buffer.append(tab);

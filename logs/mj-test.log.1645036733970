@@ -1,0 +1,329 @@
+INFO  19:36:33,551 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  19:36:33,621 - #4 program
+INFO  19:36:33,621 - #46 test301
+INFO  19:36:33,621 - #17 record
+INFO  19:36:33,622 - #46 TestRecord3
+INFO  19:36:33,623 - #5 {
+INFO  19:36:33,623 - #46 int
+INFO  19:36:33,623 - #46 j
+INFO  19:36:33,625 - #10 ;
+INFO  19:36:33,627 - #6 }
+INFO  19:36:33,628 - #17 record
+INFO  19:36:33,629 - #46 TestRecord2
+INFO  19:36:33,629 - #5 {
+INFO  19:36:33,629 - #46 TestRecord3
+INFO  19:36:33,629 - #46 m
+INFO  19:36:33,629 - #10 ;
+INFO  19:36:33,629 - #6 }
+INFO  19:36:33,630 - #17 record
+INFO  19:36:33,630 - #46 TestRecord
+INFO  19:36:33,630 - #5 {
+INFO  19:36:33,631 - #46 TestRecord2
+INFO  19:36:33,631 - #46 x
+INFO  19:36:33,631 - #10 ;
+INFO  19:36:33,632 - #6 }
+INFO  19:36:33,632 - #5 {
+INFO  19:36:33,632 - #18 void
+INFO  19:36:33,633 - #46 main
+INFO  19:36:33,633 - #7 (
+INFO  19:36:33,633 - #8 )
+INFO  19:36:33,634 - #46 TestRecord
+INFO  19:36:33,634 - #46 test
+INFO  19:36:33,634 - #10 ;
+INFO  19:36:33,634 - #5 {
+INFO  19:36:33,635 - #46 test
+INFO  19:36:33,635 - #12 =
+INFO  19:36:33,635 - #26 new
+INFO  19:36:33,635 - #46 TestRecord
+INFO  19:36:33,636 - #10 ;
+INFO  19:36:33,636 - #46 test
+INFO  19:36:33,637 - #21 .
+INFO  19:36:33,637 - #46 x
+INFO  19:36:33,637 - #12 =
+INFO  19:36:33,637 - #26 new
+INFO  19:36:33,637 - #46 TestRecord2
+INFO  19:36:33,637 - #10 ;
+INFO  19:36:33,638 - #46 test
+INFO  19:36:33,638 - #21 .
+INFO  19:36:33,638 - #46 x
+INFO  19:36:33,638 - #21 .
+INFO  19:36:33,638 - #46 m
+INFO  19:36:33,638 - #12 =
+INFO  19:36:33,638 - #26 new
+INFO  19:36:33,639 - #46 TestRecord3
+INFO  19:36:33,639 - #10 ;
+INFO  19:36:33,639 - #46 test
+INFO  19:36:33,639 - #21 .
+INFO  19:36:33,639 - #46 x
+INFO  19:36:33,639 - #21 .
+INFO  19:36:33,639 - #46 m
+INFO  19:36:33,639 - #21 .
+INFO  19:36:33,640 - #46 j
+INFO  19:36:33,640 - #12 =
+INFO  19:36:33,640 - #45 2
+INFO  19:36:33,640 - #10 ;
+INFO  19:36:33,641 - #24 print
+INFO  19:36:33,641 - #7 (
+INFO  19:36:33,641 - #46 test
+INFO  19:36:33,641 - #21 .
+INFO  19:36:33,641 - #46 x
+INFO  19:36:33,641 - #21 .
+INFO  19:36:33,642 - #46 m
+INFO  19:36:33,642 - #21 .
+INFO  19:36:33,642 - #46 j
+INFO  19:36:33,642 - #8 )
+INFO  19:36:33,642 - #10 ;
+INFO  19:36:33,643 - #6 }
+INFO  19:36:33,643 - #6 }
+INFO  19:36:33,651 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgramEmpty(
+        ) [DeclarationListProgramEmpty]
+        DeclarationRecord(
+          RecordDeclaration(
+            RecordDeclarationName(
+             TestRecord3
+            ) [RecordDeclarationName]
+            VarDeclarationList(
+              VarDeclarationListEmpty(
+              ) [VarDeclarationListEmpty]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+               j
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [VarDeclarationList]
+          ) [RecordDeclaration]
+        ) [DeclarationRecord]
+      ) [DeclarationListProgram]
+      DeclarationRecord(
+        RecordDeclaration(
+          RecordDeclarationName(
+           TestRecord2
+          ) [RecordDeclarationName]
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               TestRecord3
+              ) [Type]
+             m
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+        ) [RecordDeclaration]
+      ) [DeclarationRecord]
+    ) [DeclarationListProgram]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             TestRecord2
+            ) [Type]
+           x
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           TestRecord
+          ) [Type]
+         test
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              ListStatement(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  StatementNoLabelSingle(
+                    SingleStatementDesignator(
+                      DesignatorStatementEq(
+                        DesignatorSingle(
+                         test
+                        ) [DesignatorSingle]
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorNew(
+                              Type(
+                               TestRecord
+                              ) [Type]
+                            ) [FactorNew]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [DesignatorStatementEq]
+                    ) [SingleStatementDesignator]
+                  ) [StatementNoLabelSingle]
+                ) [MatchedStmt]
+              ) [ListStatement]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementDesignator(
+                    DesignatorStatementEq(
+                      DesignatorDot(
+                        DesignatorSingle(
+                         test
+                        ) [DesignatorSingle]
+                       x
+                      ) [DesignatorDot]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNew(
+                            Type(
+                             TestRecord2
+                            ) [Type]
+                          ) [FactorNew]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [DesignatorStatementEq]
+                  ) [SingleStatementDesignator]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorDot(
+                      DesignatorDot(
+                        DesignatorSingle(
+                         test
+                        ) [DesignatorSingle]
+                       x
+                      ) [DesignatorDot]
+                     m
+                    ) [DesignatorDot]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNew(
+                          Type(
+                           TestRecord3
+                          ) [Type]
+                        ) [FactorNew]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorDot(
+                    DesignatorDot(
+                      DesignatorDot(
+                        DesignatorSingle(
+                         test
+                        ) [DesignatorSingle]
+                       x
+                      ) [DesignatorDot]
+                     m
+                    ) [DesignatorDot]
+                   j
+                  ) [DesignatorDot]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorDot(
+                      DesignatorDot(
+                        DesignatorDot(
+                          DesignatorSingle(
+                           test
+                          ) [DesignatorSingle]
+                         x
+                        ) [DesignatorDot]
+                       m
+                      ) [DesignatorDot]
+                     j
+                    ) [DesignatorDot]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:36:33,652 - ===================================
+INFO  19:36:33,656 - Deklarisana promenljiva j tipa int na liniji 11
+INFO  19:36:33,656 - Deklarisana promenljiva m tipa TestRecord3 na liniji 14
+INFO  19:36:33,656 - Deklarisana promenljiva x tipa TestRecord2 na liniji 20
+INFO  19:36:33,656 - Obradjuje se funkcija main na liniji 28
+INFO  19:36:33,656 - Deklarisana promenljiva test tipa TestRecord na liniji 29
+INFO  19:36:33,657 - Napravljen je objekat korisnickog tipa TestRecord  na liniji 31
+INFO  19:36:33,657 - Dodela vrednosti test na liniji 31
+INFO  19:36:33,657 - Dohvatanje vrednosti polja x objekta test klase record na liniji 32
+INFO  19:36:33,657 - Napravljen je objekat korisnickog tipa TestRecord2  na liniji 32
+INFO  19:36:33,657 - Dodela vrednosti x na liniji 32
+INFO  19:36:33,658 - Dohvatanje vrednosti polja x objekta test klase record na liniji 33
+INFO  19:36:33,658 - Dohvatanje vrednosti polja m objekta x klase record na liniji 33
+INFO  19:36:33,658 - Napravljen je objekat korisnickog tipa TestRecord3  na liniji 33
+INFO  19:36:33,659 - Dodela vrednosti m na liniji 33
+INFO  19:36:33,659 - Dohvatanje vrednosti polja x objekta test klase record na liniji 35
+INFO  19:36:33,659 - Dohvatanje vrednosti polja m objekta x klase record na liniji 35
+INFO  19:36:33,659 - Dohvatanje vrednosti polja j objekta m klase record na liniji 35
+INFO  19:36:33,659 - Dodela vrednosti j na liniji 35
+INFO  19:36:33,659 - Dohvatanje vrednosti polja x objekta test klase record na liniji 36
+INFO  19:36:33,659 - Dohvatanje vrednosti polja m objekta x klase record na liniji 36
+INFO  19:36:33,660 - Dohvatanje vrednosti polja j objekta m klase record na liniji 36
+INFO  19:36:33,660 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 36
+INFO  19:36:33,662 -  Print count calls = 0
+INFO  19:36:33,662 -  Deklarisanih promenljivih ima = 4
+INFO  19:36:33,662 - ===================================
+INFO  19:36:33,674 - Parsiranje uspesno zavrseno

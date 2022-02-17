@@ -1,0 +1,417 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected = false;
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal ORD,EQUAL_COMPARE, PROG, LBRACE, RBRACE, LPAREN, RPAREN, COMMA, SEMI, CONST, EQUAL, LSQUARE, RSQUARE, CLASS, EXTENDS, RECORD, VOID, INC, DEC, DOT, COLON, READ, PRINT, GOTO, NEW, PLUS, MINUS, MUL, DIV, MOD, NOT_EQUAL, GREATER, GREATER_EQUAL, LESS, LESS_EQUAL, IF, OR, ELSE, DO, WHILE, BREAK, CONTINUE, RETURN;
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Integer BOOLEAN;
+terminal Character CHAR;
+terminal AND;
+
+nonterminal MethodDeclList, Do, FuncCallNoParams, ColonHelper, IfCondition, ElseStart, DoCondition, DoConditionStart;
+nonterminal StatementList, FormalParamList, FormalParamDecl, Statement;
+nonterminal Addop, ActualPars, ActPars;
+nonterminal Matched, Unmatched;
+nonterminal ConstDeclList, ActParsFunc;
+nonterminal VarDeclList, VarDeclSingle;
+nonterminal DeclList, DeclListProgram, VarDeclListProgram, ConstDeclListProgram;
+nonterminal FormParsListPom, FormParsList, FormParsSingle;
+nonterminal Squares;
+nonterminal FormParsPotential, SingleStatement;
+nonterminal Relop, Mulop;
+nonterminal CondFact, CondFactList, CondTerm, CondTermList;
+nonterminal Condition, Label, Statements;
+nonterminal PotentialMinus, DeclListProgramPom;
+nonterminal Decl;
+nonterminal DesignatorChoice, DesignatorChoiceList, LeftOr, LeftAnd;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, MethodDecl, MethodTypeName, MethodType, Designator, RecordDecl, RecordDeclName, FormPars;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Factor, Expr, ConstType, ConstDeclPomList, VarDecl, DesignatorStatement, ConstDecl, VarDeclListPom;
+
+
+Program ::= (Program) PROG ProgramName:p DeclListProgram LBRACE MethodDeclList RBRACE;
+
+ProgramName ::= (ProgramName) IDENT:programName;
+
+// ---------- Declarations for VarDecl ----------
+
+//{, VarDecl}
+VarDeclListPom ::= (VarDeclarationListPomSquare) VarDeclListPom COMMA IDENT:varName LSQUARE RSQUARE
+				|
+				(VarDeclarationListPom) VarDeclListPom COMMA IDENT:varName 
+				|
+				(VarDeclarationListPomEmpty) /* epsilon */
+				;
+
+//{VarDecl}
+VarDeclList ::= (VarDeclarationList) VarDeclList VarDecl
+				|
+				(VarDeclarationListEmpty) /* epsilon */
+				;
+				
+// used for Program
+VarDeclListProgram ::= (VarDeclarationListProgram) VarDeclList VarDecl;
+		
+VarDecl ::= (VarDeclaration) Type IDENT:varName VarDeclListPom SEMI
+			|
+			(VarDeclarationSquares) Type IDENT:varName LSQUARE RSQUARE VarDeclListPom SEMI
+			|
+			(VarDeclarationError) error:l 
+			{: parser.report_error("Recovering from error in var declaration." + lleft, null); :}
+			;
+
+
+
+
+// ---------- Declarations for const -------------
+
+
+//{, ConstDecl}
+ConstDeclPomList ::= (ConstDeclarationPomList) ConstDeclPomList COMMA IDENT:constName EQUAL ConstType:constType
+					|
+					(ConstDeclarationPomListEmpty) /* epsilon */
+					;
+//{ConstDecl}
+ConstDeclList ::= (ConstDeclarationList) ConstDeclList ConstDecl
+				|
+				(ConstDeclarationListEmpty) /* epsilon */
+				;
+				
+//Used for program
+ConstDeclListProgram ::= (ConstDeclarationListProgram) ConstDeclList ConstDecl;
+
+ConstDecl ::= (ConstDeclaration) CONST Type:type IDENT:constName EQUAL ConstType:constType ConstDeclPomList SEMI
+			|
+			(ConstDeclarationError) CONST error SEMI:l 
+			{: parser.report_error("Const declaration error recovering." + lleft, null); :}
+			;
+
+ConstType ::= (NumConstDeclaration) NUMBER:num
+            |
+            (CharConstDeclaration) CHAR:chr
+            |
+            (BoolConstDeclaration) BOOLEAN:bool
+            ;
+
+// ---------- Declarations for decl -------------
+
+Decl ::= (DeclarationConst) ConstDecl
+		|
+		(DeclarationVar) VarDecl
+		|
+		(DeclarationRecord) RecordDecl
+		;
+
+
+DeclListProgram ::= (DeclarationListProgram) DeclListProgram Decl
+		|
+		(DeclarationListProgramEmpty) /* epsilon */
+		;
+
+		
+// ---------- Declarations for Method -------------
+
+MethodDecl ::= (MethodDeclaration) MethodTypeName LPAREN FormPars RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+
+MethodTypeName ::= (MethodTypeName_) Type:retType IDENT:methName
+				|
+				(MethodVoidName) VOID:retType IDENT:methName
+				; 
+
+
+            
+MethodDeclList ::= (MethodDeclarationList) MethodDeclList MethodDecl
+				|
+				(MethodDeclarationListEmpty) /* epsilon */
+				;
+				
+
+
+
+
+// ---------- Declarations for record -------------
+
+RecordDecl ::= (RecordDeclaration) RECORD RecordDeclName:recordName LBRACE VarDeclList RBRACE;
+
+RecordDeclName ::= (RecordDeclarationName) IDENT:recordName;
+
+
+// ---------- Declarations for FormPars -------------
+
+//{, FormParSingle}
+FormParsListPom ::= (FormalParamsListPom) FormParsListPom COMMA FormParsSingle
+            |
+            (FormalParamsListPomEmpty) /* epsilon */
+            ;
+            
+//{FormPars}
+FormParsList ::= (FormalParamsList) FormParsList FormPars
+				|
+				(FormalParamsListEmpty) /* epsilon */
+				;
+				
+FormParsSingle ::= (FormalParamsSingleSquare) Type IDENT:formparssingle
+				|
+				(FormParsSingleN) Type IDENT:formparssinglesquare LSQUARE RSQUARE
+				|
+				(FormalParameterError) error:l
+				{: parser.report_error("Formal param error recovering." + lleft, null); :}
+				;
+
+FormPars ::= (FormalParams) FormParsSingle FormParsListPom
+			| /* epsilon */
+			; // TODO: ovde ne bi trebalo da bleji epsilon.. ali bez njega nece da radi... zasto?? Pitaj ducu :(
+
+				
+				
+// ---------- Declarations for Designator -------------
+
+DesignatorStatement ::= (DesignatorStatementEq) Designator EQUAL Expr
+					| (DesignatorStatementInc) Designator INC
+					| (DesignatorStatementDec) Designator DEC
+					| (DesignatorStatementActParams) Designator LPAREN ActPars RPAREN //procedure
+					| (DesignatorStatementActParamsEmpty) Designator LPAREN RPAREN // procedure
+					| (DesigatorStatementError) error SEMI:l
+					{: parser.report_error("Designator statement error recovering. " + lleft, null); :}
+					;
+
+
+Designator ::= (DesignatorSingle) IDENT:name // klasa1.klasa2.polje => 
+			|
+			(DesignatorDot) Designator DOT IDENT:polje 
+			|
+			(DesignatorSquare) Designator LSQUARE Expr:e RSQUARE
+			;
+			
+
+
+// ---------- Declarations for Statement -------------
+
+SingleStatement ::= (SingleStatementDesignator) DesignatorStatement SEMI
+					|
+					(SingleStatementRead) READ LPAREN Designator RPAREN SEMI
+					|
+					(SingleStatementPrintNumconst) PRINT LPAREN Expr COMMA NUMBER RPAREN SEMI
+                    |
+                    (SingleStatementPrint) PRINT LPAREN Expr RPAREN SEMI
+                    |
+                    (GotoSingleStatement) GOTO IDENT SEMI
+                    ;
+
+
+StatementList ::= (ListStatement) StatementList Statement
+				|
+				(NoStmt) /* epsilon */
+				;
+				
+
+IfCondition ::= (IFCondition1) IF LPAREN Condition;
+ElseStart ::= (ElseStart1) ELSE;
+
+Statement ::= (MatchedStmt) Matched
+		   |
+		   (UnmatchedStmt) Unmatched
+		   ; 
+
+
+Unmatched ::= (UnmatchedIf) IfCondition RPAREN Statement
+		 	|
+		 	(UnmatchedIfElse) IfCondition RPAREN Matched ElseStart Unmatched
+		 	;
+		 
+
+Do ::= (DoStmt) DO;
+DoCondition ::= (DoCondition1) DoConditionStart Condition;
+DoConditionStart ::= (DoConditionStart1) WHILE LPAREN;
+
+Matched ::= (StatementDoWhile) Do StatementList DoCondition RPAREN SEMI
+			|
+			(StatementBreak) BREAK SEMI
+			|
+			(StatementContinue) CONTINUE SEMI
+			|
+			(StatementReturnNull) RETURN SEMI
+			|
+			(StatementReturn) RETURN Expr SEMI
+			|
+			(StatementIfElse) IfCondition RPAREN Matched ElseStart Matched
+			|
+			(StatementLabelSingle) Label ColonHelper SingleStatement
+            |
+            (StatementNoLabelSingle) SingleStatement
+            |
+            (StatementLabelList) Label ColonHelper Statements
+            |
+            (StatementsLabelListNoLabel) Statements
+            ;
+			
+			
+			
+Statements ::= (Statements) LBRACE StatementList RBRACE;
+
+// ---------- Declarations for Expr, Term, Factor -------------
+
+Expr ::= (AddExpr) Expr:te Addop Term:t
+		|
+		(AddExprMin) Expr:te MINUS Addop Term:t
+	 	|
+	 	(TermExpr) Term:t
+	 	|
+	 	(TermExprMin) MINUS Term:t
+		;
+
+Term ::= (TermMulFactor) Term Mulop Factor:t 
+		|
+		(TermSingleFactor) Factor:t
+		;
+
+Factor ::= (FactorNumConst) NUMBER 
+		|
+		(FactorCharConst) CHAR 
+		|
+		(FactorExpr) LPAREN Expr RPAREN 
+		|
+		(FactorBoolConst) BOOLEAN
+		|
+		(FactorNewSquare) NEW Type LSQUARE Expr RSQUARE
+        |
+        (FactorNew) NEW Type
+		|
+		(FactorDesignator) Designator:d
+		| 
+		(FuncCallP) Designator:func LPAREN ActPars RPAREN
+		|
+		(FuncCallNP) Designator:func LPAREN  RPAREN
+		;
+
+
+// ---------- Declarations for ActPars-------------
+
+ActParsFunc ::= (ActParamsFuncCall) ActPars
+			|
+			(ActParamsFuncCallEmpty) /* epsilon */
+			;
+			 
+ActPars ::= (ActParams) ActPars COMMA Expr
+			|
+			(ActParamsSingle) Expr
+			;
+
+
+// ---------- Declarations for Condition-------------
+
+Condition ::= (Condition) CondTerm CondTermList;
+
+LeftOr ::= (LeftOr1) CondTermList OR;
+LeftAnd ::= (LeftAnd1) CondFactList AND;
+
+CondTermList ::= (ConditionTermList) LeftOr CondTerm
+				|
+				(ConditionTermListEmpty) /* epsilon */
+				;
+
+CondTerm ::= (CondTerm) CondFact CondFactList;
+
+CondFactList ::= (ConditionFactorList) LeftAnd CondFact
+				|
+				(ConditionFactorListEmpty) /* epsilon */
+				;
+
+CondFact ::= (ConditionFactor) Expr Relop Expr
+			|
+			(ConditionFactorSingle) Expr
+			;
+
+
+
+// ---------- little decls xd ------------
+
+Label ::= (Label) IDENT:labelName COLON;
+Type ::= (Type) IDENT:typeName;
+
+
+
+// ---------- Declarations for Operations -------------
+
+Addop ::= (AddopPlus) PLUS
+		|
+		(AddopMinus) MINUS
+		;
+
+Mulop ::= (MulopMul) MUL
+		| (MulopDiv) DIV
+		| (MulopMod) MOD
+		;
+
+Relop ::= (EqualsOp) EQUAL_COMPARE
+	    | 
+	   	(NoEqualsOp) NOT_EQUAL
+	   	| 
+	   	(GreaterOp) GREATER
+	    | 
+	   	(GreaterEqualsOperator) GREATER_EQUAL
+	   	| 
+	   	(LessOperator) LESS 
+	    | 
+	   	(LessEqualsOperator) LESS_EQUAL
+        ;
+        
+Squares ::= (YesSquares) LSQUARE RSQUARE
+				|
+				(NoSquares) /* epsilon */
+				;
+				
+ColonHelper ::= (ColonHelp) COLON;
+
+		
+		
+

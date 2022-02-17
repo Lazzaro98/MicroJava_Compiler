@@ -1,0 +1,189 @@
+INFO  04:18:28,084 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  04:18:28,144 - #2 program
+INFO  04:18:28,145 - #44 MJProgram
+INFO  04:18:28,145 - #44 int
+INFO  04:18:28,146 - #44 x
+INFO  04:18:28,147 - #8 ;
+INFO  04:18:28,148 - #44 int
+INFO  04:18:28,148 - #44 y
+INFO  04:18:28,148 - #8 ;
+INFO  04:18:28,148 - #44 int
+INFO  04:18:28,148 - #44 pi
+INFO  04:18:28,148 - #8 ;
+INFO  04:18:28,148 - #3 {
+INFO  04:18:28,149 - #44 int
+INFO  04:18:28,149 - #44 main
+INFO  04:18:28,150 - #5 (
+INFO  04:18:28,150 - #6 )
+INFO  04:18:28,150 - #3 {
+INFO  04:18:28,151 - #22 print
+INFO  04:18:28,151 - #5 (
+INFO  04:18:28,151 - #43 1
+INFO  04:18:28,152 - #6 )
+INFO  04:18:28,153 - #8 ;
+INFO  04:18:28,153 - #44 x
+INFO  04:18:28,153 - #10 =
+INFO  04:18:28,154 - #44 y
+INFO  04:18:28,154 - #25 +
+INFO  04:18:28,154 - #43 5
+INFO  04:18:28,155 - #8 ;
+INFO  04:18:28,155 - #44 pi
+INFO  04:18:28,156 - #10 =
+INFO  04:18:28,156 - #44 x
+INFO  04:18:28,156 - #8 ;
+INFO  04:18:28,156 - #22 print
+INFO  04:18:28,156 - #5 (
+INFO  04:18:28,156 - #43 2
+INFO  04:18:28,156 - #6 )
+INFO  04:18:28,156 - #8 ;
+INFO  04:18:28,157 - #4 }
+INFO  04:18:28,157 - #4 }
+INFO  04:18:28,158 - Program1(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  VarDeclGl(
+    VarDeclarationListProgram(
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationSingle1(
+             x
+            ) [VarDeclarationSingle1]
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationSingle1(
+           y
+          ) [VarDeclarationSingle1]
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationSingle1(
+         pi
+        ) [VarDeclarationSingle1]
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclaration]
+    ) [VarDeclarationListProgram]
+  ) [VarDeclGl]
+  MethodDeclList1(
+    NoMethodDecls(
+    ) [NoMethodDecls]
+    MethodDecl1(
+      MethodType1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodType1]
+     main
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementPrint(
+                    TermExpr(
+                      TermF(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermF]
+                    ) [TermExpr]
+                  ) [SingleStatementPrint]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [StatementList1]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    Designator2(
+                     x
+                    ) [Designator2]
+                    AddExpr(
+                      TermExpr(
+                        TermF(
+                          FactorDesignator(
+                            Designator2(
+                             y
+                            ) [Designator2]
+                          ) [FactorDesignator]
+                        ) [TermF]
+                      ) [TermExpr]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      TermF(
+                        FactorNumConst(
+                         5
+                        ) [FactorNumConst]
+                      ) [TermF]
+                    ) [AddExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [StatementList1]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  Designator2(
+                   pi
+                  ) [Designator2]
+                  TermExpr(
+                    TermF(
+                      FactorDesignator(
+                        Designator2(
+                         x
+                        ) [Designator2]
+                      ) [FactorDesignator]
+                    ) [TermF]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [StatementList1]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [StatementList1]
+    ) [MethodDecl1]
+  ) [MethodDeclList1]
+) [Program1]
+INFO  04:18:28,159 - ===================================
+INFO  04:18:28,160 -  Print count calls = 2
+INFO  04:18:28,161 -  Deklarisanih promenljivih ima = 3

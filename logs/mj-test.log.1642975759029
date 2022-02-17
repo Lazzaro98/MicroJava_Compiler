@@ -1,0 +1,190 @@
+INFO  23:09:04,637 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  23:09:04,687 - #3 program
+INFO  23:09:04,687 - #45 test301
+INFO  23:09:04,687 - #16 record
+INFO  23:09:04,688 - #45 TestRecord
+INFO  23:09:04,688 - #4 {
+INFO  23:09:04,689 - #45 int
+INFO  23:09:04,689 - #45 p
+INFO  23:09:04,690 - #12 [
+INFO  23:09:04,690 - #13 ]
+INFO  23:09:04,690 - #9 ;
+INFO  23:09:04,690 - #45 int
+INFO  23:09:04,690 - #45 k
+INFO  23:09:04,691 - #9 ;
+INFO  23:09:04,691 - #45 TestRecord
+INFO  23:09:04,691 - #45 pom
+INFO  23:09:04,691 - #12 [
+INFO  23:09:04,691 - #13 ]
+INFO  23:09:04,691 - #9 ;
+INFO  23:09:04,691 - #5 }
+INFO  23:09:04,691 - #4 {
+INFO  23:09:04,693 - #17 void
+INFO  23:09:04,693 - #45 inkrement
+INFO  23:09:04,693 - #6 (
+INFO  23:09:04,693 - #45 int
+INFO  23:09:04,694 - #45 a
+INFO  23:09:04,694 - #7 )
+INFO  23:09:04,694 - #45 TestRecord
+INFO  23:09:04,694 - #45 t2
+INFO  23:09:04,694 - #12 [
+INFO  23:09:04,694 - #13 ]
+INFO  23:09:04,694 - #9 ;
+INFO  23:09:04,694 - #4 {
+INFO  23:09:04,695 - #5 }
+INFO  23:09:04,695 - #17 void
+INFO  23:09:04,696 - #45 main
+INFO  23:09:04,696 - #6 (
+INFO  23:09:04,696 - #7 )
+INFO  23:09:04,696 - #45 char
+INFO  23:09:04,697 - #45 k
+INFO  23:09:04,697 - #9 ;
+INFO  23:09:04,697 - #4 {
+INFO  23:09:04,697 - #45 inkrement
+INFO  23:09:04,697 - #6 (
+INFO  23:09:04,697 - #45 k
+INFO  23:09:04,697 - #7 )
+INFO  23:09:04,698 - #9 ;
+INFO  23:09:04,698 - #5 }
+INFO  23:09:04,698 - #5 }
+INFO  23:09:04,704 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationListEmpty(
+              ) [VarDeclarationListEmpty]
+              VarDeclarationSquares(
+                Type(
+                 int
+                ) [Type]
+               p
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclarationSquares]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             k
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclarationSquares(
+            Type(
+             TestRecord
+            ) [Type]
+           pom
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclarationSquares]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodVoidName(
+         inkrement
+        ) [MethodVoidName]
+        FormalParams(
+          FormalParamsSingleSquare(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormalParamsSingleSquare]
+          FormalParamsListPomEmpty(
+          ) [FormalParamsListPomEmpty]
+        ) [FormalParams]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclarationSquares(
+            Type(
+             TestRecord
+            ) [Type]
+           t2
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclarationSquares]
+        ) [VarDeclarationList]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+         k
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementActParams(
+                DesignatorSingle(
+                 inkrement
+                ) [DesignatorSingle]
+                ActParamsSingle(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         k
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [ActParamsSingle]
+              ) [DesignatorStatementActParams]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:09:04,705 - ===================================
+INFO  23:09:04,708 - Deklaracija niza p  na liniji 7
+INFO  23:09:04,708 - Deklarisana promenljiva k na liniji 8
+INFO  23:09:04,708 - Deklaracija niza pom  na liniji 9
+INFO  23:09:04,708 - Obradjuje se funkcija inkrement na liniji 14
+INFO  23:09:04,708 - Deklaracija niza t2  na liniji 15
+INFO  23:09:04,708 - Obradjuje se funkcija main na liniji 21
+INFO  23:09:04,709 - Deklarisana promenljiva k na liniji 22
+ERROR 23:09:04,709 - Ocekivani parametri funkcije inkrement se ne poklapaju sa prosledjenim parametrima  na liniji 24
+INFO  23:09:04,709 -  Print count calls = 0
+INFO  23:09:04,709 -  Deklarisanih promenljivih ima = 2
+INFO  23:09:04,709 - ===================================
+ERROR 23:09:04,709 - Parsiranje neuspesno.

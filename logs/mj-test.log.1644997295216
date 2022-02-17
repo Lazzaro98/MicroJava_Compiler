@@ -1,0 +1,55 @@
+INFO  08:38:47,194 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  08:38:47,247 - #4 program
+INFO  08:38:47,247 - #46 test302
+INFO  08:38:47,247 - #5 {
+INFO  08:38:47,248 - #18 void
+INFO  08:38:47,248 - #46 main
+INFO  08:38:47,248 - #7 (
+INFO  08:38:47,249 - #8 )
+INFO  08:38:47,249 - #46 int
+INFO  08:38:47,250 - #46 niz
+INFO  08:38:47,250 - #13 [
+INFO  08:38:47,250 - #14 ]
+INFO  08:38:47,250 - #10 ;
+INFO  08:38:47,251 - #5 {
+INFO  08:38:47,251 - #6 }
+INFO  08:38:47,252 - #6 }
+INFO  08:38:47,257 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  08:38:47,258 - ===================================
+INFO  08:38:47,261 - Obradjuje se funkcija main na liniji 5
+INFO  08:38:47,262 - Deklarisan niz niz tipa int na liniji 6
+INFO  08:38:47,262 -  Print count calls = 0
+INFO  08:38:47,262 -  Deklarisanih promenljivih ima = 1
+INFO  08:38:47,262 - ===================================
+INFO  08:38:47,266 - Parsiranje uspesno zavrseno

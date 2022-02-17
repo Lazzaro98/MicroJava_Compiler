@@ -1,0 +1,101 @@
+INFO  19:42:11,660 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  19:42:11,733 - #4 program
+INFO  19:42:11,734 - #46 test301
+INFO  19:42:11,734 - #5 {
+INFO  19:42:11,736 - #18 void
+INFO  19:42:11,736 - #46 main
+INFO  19:42:11,737 - #7 (
+INFO  19:42:11,737 - #8 )
+INFO  19:42:11,738 - #5 {
+INFO  19:42:11,739 - #37 if
+INFO  19:42:11,740 - #7 (
+INFO  19:42:11,740 - #45 1
+INFO  19:42:11,740 - #3 ==
+INFO  19:42:11,741 - #45 1
+INFO  19:42:11,742 - #8 )
+INFO  19:42:11,745 - #24 print
+INFO  19:42:11,745 - #7 (
+INFO  19:42:11,746 - #48 a
+INFO  19:42:11,746 - #8 )
+INFO  19:42:11,746 - #10 ;
+INFO  19:42:11,746 - #6 }
+INFO  19:42:11,747 - #6 }
+INFO  19:42:11,754 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        UnmatchedStmt(
+          UnmatchedIf(
+            IFCondition1(
+              Condition(
+                CondTerm(
+                  ConditionFactor(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    EqualsOp(
+                    ) [EqualsOp]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [ConditionFactor]
+                  ConditionFactorListEmpty(
+                  ) [ConditionFactorListEmpty]
+                ) [CondTerm]
+                ConditionTermListEmpty(
+                ) [ConditionTermListEmpty]
+              ) [Condition]
+            ) [IFCondition1]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementPrint(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorCharConst(
+                       a
+                      ) [FactorCharConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [SingleStatementPrint]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [UnmatchedIf]
+        ) [UnmatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:42:11,755 - ===================================
+INFO  19:42:11,763 - Obradjuje se funkcija main na liniji 7
+INFO  19:42:11,763 - Izvrsavanje poredjenje izraza  na liniji 9
+INFO  19:42:11,764 - Obradjena char konstanta a i setovan joj je tip char na liniji 10
+INFO  19:42:11,764 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 10
+INFO  19:42:11,764 - Obrada IF naredbe  na liniji 9
+INFO  19:42:11,765 -  Print count calls = 0
+INFO  19:42:11,765 -  Deklarisanih promenljivih ima = 0
+INFO  19:42:11,765 - ===================================
+INFO  19:42:11,773 - Parsiranje uspesno zavrseno

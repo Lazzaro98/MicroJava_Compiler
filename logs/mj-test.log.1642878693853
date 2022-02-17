@@ -1,0 +1,200 @@
+INFO  20:05:46,377 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  20:05:46,442 - #3 program
+INFO  20:05:46,442 - #45 test302
+INFO  20:05:46,443 - #10 const
+INFO  20:05:46,444 - #45 int
+INFO  20:05:46,444 - #45 jedan
+INFO  20:05:46,444 - #11 =
+INFO  20:05:46,445 - #44 1
+INFO  20:05:46,445 - #9 ;
+INFO  20:05:46,445 - #45 int
+INFO  20:05:46,446 - #45 i
+INFO  20:05:46,446 - #9 ;
+INFO  20:05:46,448 - #45 bool
+INFO  20:05:46,449 - #45 ibool
+INFO  20:05:46,449 - #9 ;
+INFO  20:05:46,449 - #45 int
+INFO  20:05:46,449 - #45 niz2
+INFO  20:05:46,449 - #9 ;
+INFO  20:05:46,449 - #16 record
+INFO  20:05:46,449 - #45 Test
+INFO  20:05:46,449 - #4 {
+INFO  20:05:46,450 - #45 int
+INFO  20:05:46,451 - #45 niz
+INFO  20:05:46,451 - #12 [
+INFO  20:05:46,451 - #13 ]
+INFO  20:05:46,451 - #9 ;
+INFO  20:05:46,451 - #45 int
+INFO  20:05:46,451 - #45 a
+INFO  20:05:46,451 - #9 ;
+INFO  20:05:46,451 - #5 }
+INFO  20:05:46,451 - #45 Test
+INFO  20:05:46,452 - #45 t1
+INFO  20:05:46,452 - #9 ;
+INFO  20:05:46,452 - #45 Test
+INFO  20:05:46,452 - #45 t2
+INFO  20:05:46,452 - #9 ;
+INFO  20:05:46,452 - #4 {
+INFO  20:05:46,452 - #17 void
+INFO  20:05:46,453 - #45 main
+INFO  20:05:46,453 - #6 (
+INFO  20:05:46,453 - #7 )
+INFO  20:05:46,453 - #4 {
+INFO  20:05:46,454 - #5 }
+INFO  20:05:46,454 - #5 }
+INFO  20:05:46,467 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgram(
+          DeclarationListProgram(
+            DeclarationListProgram(
+              DeclarationListProgram(
+                DeclarationListProgramEmpty(
+                ) [DeclarationListProgramEmpty]
+                DeclarationConst(
+                  ConstDeclaration(
+                    Type(
+                     int
+                    ) [Type]
+                   jedan
+                    NumConstDeclaration(
+                     1
+                    ) [NumConstDeclaration]
+                    ConstDeclarationPomListEmpty(
+                    ) [ConstDeclarationPomListEmpty]
+                  ) [ConstDeclaration]
+                ) [DeclarationConst]
+              ) [DeclarationListProgram]
+              DeclarationVar(
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 i
+                  NoSquares(
+                  ) [NoSquares]
+                  VarDeclarationListPomEmpty(
+                  ) [VarDeclarationListPomEmpty]
+                ) [VarDeclaration]
+              ) [DeclarationVar]
+            ) [DeclarationListProgram]
+            DeclarationVar(
+              VarDeclaration(
+                Type(
+                 bool
+                ) [Type]
+               ibool
+                NoSquares(
+                ) [NoSquares]
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [DeclarationVar]
+          ) [DeclarationListProgram]
+          DeclarationVar(
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             niz2
+              NoSquares(
+              ) [NoSquares]
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [DeclarationVar]
+        ) [DeclarationListProgram]
+        DeclarationRecord(
+          RecordDeclaration(
+            RecordDeclarationName(
+             Test
+            ) [RecordDeclarationName]
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationListEmpty(
+                ) [VarDeclarationListEmpty]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 niz
+                  Squares(
+                  ) [Squares]
+                  VarDeclarationListPomEmpty(
+                  ) [VarDeclarationListPomEmpty]
+                ) [VarDeclaration]
+              ) [VarDeclarationList]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+               a
+                NoSquares(
+                ) [NoSquares]
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [VarDeclarationList]
+          ) [RecordDeclaration]
+        ) [DeclarationRecord]
+      ) [DeclarationListProgram]
+      DeclarationVar(
+        VarDeclaration(
+          Type(
+           Test
+          ) [Type]
+         t1
+          NoSquares(
+          ) [NoSquares]
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [DeclarationVar]
+    ) [DeclarationListProgram]
+    DeclarationVar(
+      VarDeclaration(
+        Type(
+         Test
+        ) [Type]
+       t2
+        NoSquares(
+        ) [NoSquares]
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclaration]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:05:46,468 - ===================================
+INFO  20:05:46,470 - Deklarisana konstanta jedan
+INFO  20:05:46,471 - Deklarisana promenljiva i na liniji 7
+ERROR 20:05:46,471 - Nije pronadjen tip bool u tabeli simbola
+INFO  20:05:46,471 - Deklarisana promenljiva ibool na liniji 8
+INFO  20:05:46,471 - Deklarisana promenljiva niz2 na liniji 10
+INFO  20:05:46,471 - Deklarisana promenljiva niz na liniji 13
+INFO  20:05:46,471 - Deklarisana promenljiva a na liniji 14
+INFO  20:05:46,471 - Deklarisana promenljiva t1 na liniji 17
+INFO  20:05:46,471 - Deklarisana promenljiva t2 na liniji 18
+INFO  20:05:46,472 -  Print count calls = 0
+INFO  20:05:46,472 -  Deklarisanih promenljivih ima = 7
+INFO  20:05:46,472 - ===================================
+ERROR 20:05:46,472 - Parsiranje neuspesno.

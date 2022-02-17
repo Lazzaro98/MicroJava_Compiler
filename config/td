@@ -1,0 +1,85 @@
+//goto
+boolean exists = adrese_labela.containsKey(arg.getI1());
+		if(!exists) {
+			Code.put(0);
+			
+			int adr = Code.pc - 2;
+			
+			if(!nerazresene_adrese_labela.containsKey(arg.getI1())) {
+				List<Integer> tmp = new ArrayList<>();
+				tmp.add(adr);
+				nerazresene_adrese_labela.put(arg.getI1(), (ArrayList<Integer>) tmp);
+			}else {
+				nerazresene_adrese_labela.get(arg.getI1()).add(adr);
+			}
+		}
+//label
+Object parent = label.getParent();
+		if (parent instanceof StatementLabelSingle || parent instanceof StatementLabelList) {
+			adrese_labela.put(label.getName(), Code.pc);
+			if(nerazresene_adrese_labela.containsKey(label.getName())) {
+				for(int i : nerazresene_adrese_labela.get(label.getName())) {
+					Code.fixup(i);
+				}
+				nerazresene_adrese_labela.get(label.getName());
+				nerazresene_adrese_labela.remove(label.getName());
+			}
+		}
+		
+		
+		//for 
+		
+		/**********************************************************************************************/
+
+	Stack<Integer> fixUpEntryFor = new Stack<Integer>();
+	Stack<Integer> fixUpEndFor = new Stack<Integer>();
+	Stack<Integer> beginingEndFor = new Stack<Integer>();
+
+	public void visit(ForCondition forCondition) {
+		Code.put(Code.const_1);
+		fixUpEntryFor.push(Code.pc + 1);
+		Code.putFalseJump(Code.eq, Code.pc);// Za kraj petlje
+
+		fixUpEndFor.push(Code.pc + 1);
+		Code.putJump(Code.pc);
+		beginingEndFor.push(Code.pc);// Pocetak uslova
+	}
+
+	public void visit(StartFor startFor) {
+		doWhileAddressStart.push(Code.pc);
+		breakPatchAddress.push(new ArrayList<>());
+		continuePatchAddress.push(new ArrayList<>());
+
+	}
+
+	public void visit(BeginingStmtFor beginingStmtFor) {
+		Code.putJump(doWhileAddressStart.pop());
+		Code.fixup(fixUpEndFor.pop());
+	}
+
+	public void visit(ForStmt forStmt) {
+		int saveBegining = beginingEndFor.pop();
+		Code.putJump(saveBegining);
+		Code.fixup(fixUpEntryFor.pop());
+
+		for (int address : breakPatchAddress.pop()) {
+			Code.fixup(address);
+		}
+
+		for (int address : continuePatchAddress.pop()) {
+			int oldPC = Code.get2(address);
+			Code.put2(address, saveBegining + oldPC );
+		}
+
+	}
+
+}
+
+Matched = (ForStmt) FOR LPAREN StartFor ForCondition DesignatorStatement BeginingStmtFor  LBRACE StatementList RBRACE
+
+
+BeginingStmtFor ::= (BeginingStmtFor) RPAREN;
+
+StartFor ::= (StartFor) DesignatorStatement SEMI;
+
+ForCondition ::= (ForCondition) Condition SEMI;

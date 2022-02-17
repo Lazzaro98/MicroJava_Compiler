@@ -1,0 +1,218 @@
+INFO  02:26:34,525 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  02:26:34,577 - #3 program
+INFO  02:26:34,577 - #45 test301
+INFO  02:26:34,577 - #10 const
+INFO  02:26:34,578 - #45 int
+INFO  02:26:34,579 - #45 nula
+INFO  02:26:34,579 - #11 =
+INFO  02:26:34,579 - #44 0
+INFO  02:26:34,579 - #9 ;
+INFO  02:26:34,580 - #10 const
+INFO  02:26:34,580 - #45 int
+INFO  02:26:34,580 - #45 jedan
+INFO  02:26:34,580 - #11 =
+INFO  02:26:34,581 - #44 1
+INFO  02:26:34,581 - #9 ;
+INFO  02:26:34,581 - #10 const
+INFO  02:26:34,581 - #45 int
+INFO  02:26:34,581 - #45 pet
+INFO  02:26:34,581 - #11 =
+INFO  02:26:34,581 - #44 5
+INFO  02:26:34,581 - #9 ;
+INFO  02:26:34,582 - #45 int
+INFO  02:26:34,583 - #45 niz
+INFO  02:26:34,583 - #12 [
+INFO  02:26:34,583 - #13 ]
+INFO  02:26:34,583 - #9 ;
+INFO  02:26:34,584 - #45 char
+INFO  02:26:34,584 - #45 nizch
+INFO  02:26:34,584 - #12 [
+INFO  02:26:34,585 - #13 ]
+INFO  02:26:34,585 - #9 ;
+INFO  02:26:34,585 - #4 {
+INFO  02:26:34,585 - #17 void
+INFO  02:26:34,585 - #45 main
+INFO  02:26:34,585 - #6 (
+INFO  02:26:34,586 - #7 )
+INFO  02:26:34,586 - #45 int
+INFO  02:26:34,587 - #45 bodovi
+INFO  02:26:34,587 - #9 ;
+INFO  02:26:34,587 - #45 bool
+INFO  02:26:34,587 - #45 bt
+INFO  02:26:34,587 - #9 ;
+INFO  02:26:34,587 - #45 int
+INFO  02:26:34,587 - #45 niz
+INFO  02:26:34,587 - #12 [
+INFO  02:26:34,588 - #13 ]
+INFO  02:26:34,588 - #9 ;
+INFO  02:26:34,588 - #4 {
+INFO  02:26:34,588 - #45 bodovi
+INFO  02:26:34,588 - #11 =
+INFO  02:26:34,589 - #45 bodovi
+INFO  02:26:34,589 - #26 +
+INFO  02:26:34,589 - #44 1
+INFO  02:26:34,590 - #9 ;
+INFO  02:26:34,590 - #5 }
+INFO  02:26:34,591 - #5 }
+INFO  02:26:34,597 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgram(
+      DeclarationListProgram(
+        DeclarationListProgram(
+          DeclarationListProgram(
+            DeclarationListProgramEmpty(
+            ) [DeclarationListProgramEmpty]
+            DeclarationConst(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+               nula
+                NumConstDeclaration(
+                 0
+                ) [NumConstDeclaration]
+                ConstDeclarationPomListEmpty(
+                ) [ConstDeclarationPomListEmpty]
+              ) [ConstDeclaration]
+            ) [DeclarationConst]
+          ) [DeclarationListProgram]
+          DeclarationConst(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+             jedan
+              NumConstDeclaration(
+               1
+              ) [NumConstDeclaration]
+              ConstDeclarationPomListEmpty(
+              ) [ConstDeclarationPomListEmpty]
+            ) [ConstDeclaration]
+          ) [DeclarationConst]
+        ) [DeclarationListProgram]
+        DeclarationConst(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+           pet
+            NumConstDeclaration(
+             5
+            ) [NumConstDeclaration]
+            ConstDeclarationPomListEmpty(
+            ) [ConstDeclarationPomListEmpty]
+          ) [ConstDeclaration]
+        ) [DeclarationConst]
+      ) [DeclarationListProgram]
+      DeclarationVar(
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [DeclarationVar]
+    ) [DeclarationListProgram]
+    DeclarationVar(
+      VarDeclarationSquares(
+        Type(
+         char
+        ) [Type]
+       nizch
+        VarDeclarationListPomEmpty(
+        ) [VarDeclarationListPomEmpty]
+      ) [VarDeclarationSquares]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             bodovi
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             bool
+            ) [Type]
+           bt
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         niz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSingle(
+                 bodovi
+                ) [DesignatorSingle]
+                AddExpr(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         bodovi
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermSingleFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [AddExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  02:26:34,600 - ===================================
+INFO  02:26:34,602 - Deklarisan niz niz tipa int na liniji 9
+INFO  02:26:34,602 - Deklarisan niz nizch tipa char na liniji 10
+INFO  02:26:34,603 - Deklarisana promenljiva bodovi tipa int na liniji 14
+INFO  02:26:34,603 - Deklarisana promenljiva bt tipa bool na liniji 15
+ERROR 02:26:34,603 - Promenljiva niz je vec deklarisana na liniji 16
+INFO  02:26:34,603 -  Print count calls = 0
+INFO  02:26:34,603 -  Deklarisanih promenljivih ima = 4
+INFO  02:26:34,603 - ===================================
+ERROR 02:26:34,604 - Parsiranje neuspesno.

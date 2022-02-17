@@ -1,0 +1,92 @@
+INFO  05:54:38,528 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  05:54:38,579 - #3 program
+INFO  05:54:38,579 - #45 test302
+INFO  05:54:38,579 - #45 int
+INFO  05:54:38,580 - #45 i1
+INFO  05:54:38,581 - #8 ,
+INFO  05:54:38,581 - #45 i2
+INFO  05:54:38,581 - #8 ,
+INFO  05:54:38,581 - #45 i3
+INFO  05:54:38,581 - #9 ;
+INFO  05:54:38,581 - #4 {
+INFO  05:54:38,582 - #17 void
+INFO  05:54:38,582 - #45 main
+INFO  05:54:38,582 - #6 (
+INFO  05:54:38,582 - #7 )
+INFO  05:54:38,583 - #4 {
+INFO  05:54:38,584 - #45 i2
+INFO  05:54:38,584 - #11 =
+INFO  05:54:38,584 - #44 1
+INFO  05:54:38,584 - #9 ;
+INFO  05:54:38,585 - #5 }
+INFO  05:54:38,585 - #5 }
+INFO  05:54:38,591 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationVar(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+       i1
+        VarDeclarationListPom(
+          VarDeclarationListPom(
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+           i2
+          ) [VarDeclarationListPom]
+         i3
+        ) [VarDeclarationListPom]
+      ) [VarDeclaration]
+    ) [DeclarationVar]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSingle(
+                 i2
+                ) [DesignatorSingle]
+                TermExpr(
+                  TermSingleFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  05:54:38,591 - ===================================
+INFO  05:54:38,594 - Deklarisana promenljiva i2 tipa int na liniji 4
+INFO  05:54:38,594 - Deklarisana promenljiva i3 tipa int na liniji 4
+INFO  05:54:38,594 - Deklarisana promenljiva i1 tipa int na liniji 5
+INFO  05:54:38,594 - Obradjuje se funkcija main na liniji 10
+INFO  05:54:38,594 - Dodela vrednosti i2 na liniji 12
+INFO  05:54:38,594 -  Print count calls = 0
+INFO  05:54:38,594 -  Deklarisanih promenljivih ima = 3
+INFO  05:54:38,594 - ===================================
+INFO  05:54:38,595 - Parsiranje uspesno zavrseno

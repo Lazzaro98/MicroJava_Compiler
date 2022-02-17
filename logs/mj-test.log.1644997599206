@@ -1,0 +1,2597 @@
+INFO  08:44:55,343 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  08:44:55,390 - #4 program
+INFO  08:44:55,390 - #46 test302
+INFO  08:44:55,390 - #11 const
+INFO  08:44:55,391 - #46 int
+INFO  08:44:55,392 - #46 pet
+INFO  08:44:55,392 - #12 =
+INFO  08:44:55,392 - #45 5
+INFO  08:44:55,393 - #10 ;
+INFO  08:44:55,393 - #5 {
+INFO  08:44:55,393 - #18 void
+INFO  08:44:55,394 - #46 ispisi
+INFO  08:44:55,394 - #7 (
+INFO  08:44:55,394 - #46 char
+INFO  08:44:55,394 - #46 c
+INFO  08:44:55,394 - #8 )
+INFO  08:44:55,395 - #5 {
+INFO  08:44:55,396 - #24 print
+INFO  08:44:55,397 - #7 (
+INFO  08:44:55,397 - #46 c
+INFO  08:44:55,397 - #8 )
+INFO  08:44:55,399 - #10 ;
+INFO  08:44:55,399 - #6 }
+INFO  08:44:55,399 - #46 int
+INFO  08:44:55,400 - #46 ispisi_with_ret
+INFO  08:44:55,400 - #7 (
+INFO  08:44:55,400 - #46 char
+INFO  08:44:55,400 - #46 c
+INFO  08:44:55,400 - #8 )
+INFO  08:44:55,400 - #5 {
+INFO  08:44:55,400 - #24 print
+INFO  08:44:55,400 - #7 (
+INFO  08:44:55,400 - #46 c
+INFO  08:44:55,400 - #8 )
+INFO  08:44:55,400 - #10 ;
+INFO  08:44:55,400 - #44 return
+INFO  08:44:55,400 - #45 2
+INFO  08:44:55,401 - #10 ;
+INFO  08:44:55,401 - #6 }
+INFO  08:44:55,401 - #46 int
+INFO  08:44:55,401 - #46 inkrementiraj
+INFO  08:44:55,401 - #7 (
+INFO  08:44:55,401 - #46 int
+INFO  08:44:55,401 - #46 x
+INFO  08:44:55,401 - #8 )
+INFO  08:44:55,402 - #5 {
+INFO  08:44:55,402 - #44 return
+INFO  08:44:55,402 - #46 x
+INFO  08:44:55,402 - #27 +
+INFO  08:44:55,402 - #45 1
+INFO  08:44:55,403 - #10 ;
+INFO  08:44:55,403 - #6 }
+INFO  08:44:55,403 - #46 int
+INFO  08:44:55,403 - #46 dekrementiraj
+INFO  08:44:55,403 - #7 (
+INFO  08:44:55,403 - #46 int
+INFO  08:44:55,403 - #46 x
+INFO  08:44:55,403 - #8 )
+INFO  08:44:55,403 - #5 {
+INFO  08:44:55,403 - #44 return
+INFO  08:44:55,403 - #46 x
+INFO  08:44:55,403 - #28 -
+INFO  08:44:55,404 - #45 1
+INFO  08:44:55,404 - #10 ;
+INFO  08:44:55,404 - #6 }
+INFO  08:44:55,404 - #46 int
+INFO  08:44:55,404 - #46 saberi
+INFO  08:44:55,404 - #7 (
+INFO  08:44:55,404 - #46 int
+INFO  08:44:55,404 - #46 a
+INFO  08:44:55,404 - #9 ,
+INFO  08:44:55,404 - #46 int
+INFO  08:44:55,405 - #46 b
+INFO  08:44:55,405 - #8 )
+INFO  08:44:55,405 - #5 {
+INFO  08:44:55,405 - #44 return
+INFO  08:44:55,405 - #46 a
+INFO  08:44:55,405 - #27 +
+INFO  08:44:55,405 - #46 b
+INFO  08:44:55,405 - #10 ;
+INFO  08:44:55,405 - #6 }
+INFO  08:44:55,406 - #46 int
+INFO  08:44:55,406 - #46 oduzmi
+INFO  08:44:55,406 - #7 (
+INFO  08:44:55,406 - #46 int
+INFO  08:44:55,406 - #46 a
+INFO  08:44:55,406 - #9 ,
+INFO  08:44:55,406 - #46 int
+INFO  08:44:55,406 - #46 b
+INFO  08:44:55,406 - #8 )
+INFO  08:44:55,406 - #5 {
+INFO  08:44:55,406 - #44 return
+INFO  08:44:55,406 - #46 a
+INFO  08:44:55,406 - #28 -
+INFO  08:44:55,406 - #46 b
+INFO  08:44:55,407 - #10 ;
+INFO  08:44:55,407 - #6 }
+INFO  08:44:55,407 - #46 int
+INFO  08:44:55,407 - #46 pomnozi
+INFO  08:44:55,407 - #7 (
+INFO  08:44:55,407 - #46 int
+INFO  08:44:55,407 - #46 a
+INFO  08:44:55,407 - #9 ,
+INFO  08:44:55,407 - #46 int
+INFO  08:44:55,407 - #46 b
+INFO  08:44:55,407 - #8 )
+INFO  08:44:55,407 - #5 {
+INFO  08:44:55,407 - #44 return
+INFO  08:44:55,408 - #46 a
+INFO  08:44:55,408 - #29 *
+INFO  08:44:55,408 - #46 b
+INFO  08:44:55,408 - #10 ;
+INFO  08:44:55,409 - #6 }
+INFO  08:44:55,409 - #46 int
+INFO  08:44:55,409 - #46 podeli
+INFO  08:44:55,409 - #7 (
+INFO  08:44:55,409 - #46 int
+INFO  08:44:55,409 - #46 a
+INFO  08:44:55,409 - #9 ,
+INFO  08:44:55,409 - #46 int
+INFO  08:44:55,409 - #46 b
+INFO  08:44:55,409 - #8 )
+INFO  08:44:55,409 - #5 {
+INFO  08:44:55,409 - #44 return
+INFO  08:44:55,409 - #46 a
+INFO  08:44:55,409 - #30 /
+INFO  08:44:55,409 - #46 b
+INFO  08:44:55,410 - #10 ;
+INFO  08:44:55,410 - #6 }
+INFO  08:44:55,410 - #18 void
+INFO  08:44:55,410 - #46 main
+INFO  08:44:55,410 - #7 (
+INFO  08:44:55,410 - #8 )
+INFO  08:44:55,411 - #46 int
+INFO  08:44:55,411 - #46 test1x
+INFO  08:44:55,411 - #10 ;
+INFO  08:44:55,411 - #46 int
+INFO  08:44:55,412 - #46 test1y
+INFO  08:44:55,412 - #10 ;
+INFO  08:44:55,412 - #46 int
+INFO  08:44:55,412 - #46 test2x
+INFO  08:44:55,412 - #10 ;
+INFO  08:44:55,412 - #46 int
+INFO  08:44:55,412 - #46 test2y
+INFO  08:44:55,412 - #10 ;
+INFO  08:44:55,413 - #46 int
+INFO  08:44:55,413 - #46 test4x
+INFO  08:44:55,413 - #10 ;
+INFO  08:44:55,413 - #46 int
+INFO  08:44:55,413 - #46 test4y
+INFO  08:44:55,413 - #10 ;
+INFO  08:44:55,413 - #46 int
+INFO  08:44:55,413 - #46 testniz
+INFO  08:44:55,413 - #13 [
+INFO  08:44:55,414 - #14 ]
+INFO  08:44:55,414 - #10 ;
+INFO  08:44:55,414 - #5 {
+INFO  08:44:55,414 - #46 test1x
+INFO  08:44:55,414 - #12 =
+INFO  08:44:55,414 - #45 2
+INFO  08:44:55,414 - #10 ;
+INFO  08:44:55,414 - #46 test1y
+INFO  08:44:55,415 - #12 =
+INFO  08:44:55,415 - #46 pet
+INFO  08:44:55,415 - #27 +
+INFO  08:44:55,417 - #45 5
+INFO  08:44:55,417 - #28 -
+INFO  08:44:55,417 - #46 test1x
+INFO  08:44:55,418 - #27 +
+INFO  08:44:55,418 - #45 1
+INFO  08:44:55,418 - #10 ;
+INFO  08:44:55,418 - #24 print
+INFO  08:44:55,418 - #7 (
+INFO  08:44:55,418 - #48 T
+INFO  08:44:55,418 - #8 )
+INFO  08:44:55,418 - #10 ;
+INFO  08:44:55,418 - #24 print
+INFO  08:44:55,418 - #7 (
+INFO  08:44:55,418 - #48 E
+INFO  08:44:55,418 - #8 )
+INFO  08:44:55,418 - #10 ;
+INFO  08:44:55,418 - #24 print
+INFO  08:44:55,418 - #7 (
+INFO  08:44:55,418 - #48 S
+INFO  08:44:55,419 - #8 )
+INFO  08:44:55,419 - #10 ;
+INFO  08:44:55,419 - #24 print
+INFO  08:44:55,419 - #7 (
+INFO  08:44:55,419 - #48 T
+INFO  08:44:55,419 - #8 )
+INFO  08:44:55,419 - #10 ;
+INFO  08:44:55,419 - #24 print
+INFO  08:44:55,419 - #7 (
+INFO  08:44:55,419 - #48 1
+INFO  08:44:55,419 - #8 )
+INFO  08:44:55,419 - #10 ;
+INFO  08:44:55,419 - #24 print
+INFO  08:44:55,419 - #7 (
+INFO  08:44:55,419 - #48 :
+INFO  08:44:55,419 - #8 )
+INFO  08:44:55,419 - #10 ;
+INFO  08:44:55,419 - #24 print
+INFO  08:44:55,419 - #7 (
+INFO  08:44:55,419 - #48  
+INFO  08:44:55,419 - #8 )
+INFO  08:44:55,420 - #10 ;
+INFO  08:44:55,420 - #24 print
+INFO  08:44:55,420 - #7 (
+INFO  08:44:55,420 - #46 test1y
+INFO  08:44:55,420 - #8 )
+INFO  08:44:55,420 - #10 ;
+INFO  08:44:55,420 - #24 print
+INFO  08:44:55,420 - #7 (
+INFO  08:44:55,420 - #46 eol
+INFO  08:44:55,420 - #8 )
+INFO  08:44:55,420 - #10 ;
+INFO  08:44:55,420 - #24 print
+INFO  08:44:55,420 - #7 (
+INFO  08:44:55,420 - #48 T
+INFO  08:44:55,420 - #8 )
+INFO  08:44:55,420 - #10 ;
+INFO  08:44:55,420 - #24 print
+INFO  08:44:55,420 - #7 (
+INFO  08:44:55,420 - #48 E
+INFO  08:44:55,420 - #8 )
+INFO  08:44:55,420 - #10 ;
+INFO  08:44:55,420 - #24 print
+INFO  08:44:55,421 - #7 (
+INFO  08:44:55,421 - #48 S
+INFO  08:44:55,421 - #8 )
+INFO  08:44:55,421 - #10 ;
+INFO  08:44:55,421 - #24 print
+INFO  08:44:55,421 - #7 (
+INFO  08:44:55,421 - #48 T
+INFO  08:44:55,421 - #8 )
+INFO  08:44:55,421 - #10 ;
+INFO  08:44:55,421 - #24 print
+INFO  08:44:55,421 - #7 (
+INFO  08:44:55,421 - #48 2
+INFO  08:44:55,421 - #8 )
+INFO  08:44:55,421 - #10 ;
+INFO  08:44:55,421 - #24 print
+INFO  08:44:55,421 - #7 (
+INFO  08:44:55,421 - #48 :
+INFO  08:44:55,421 - #8 )
+INFO  08:44:55,421 - #10 ;
+INFO  08:44:55,421 - #24 print
+INFO  08:44:55,422 - #7 (
+INFO  08:44:55,422 - #48  
+INFO  08:44:55,422 - #8 )
+INFO  08:44:55,423 - #10 ;
+INFO  08:44:55,423 - #46 test2x
+INFO  08:44:55,423 - #12 =
+INFO  08:44:55,423 - #45 15
+INFO  08:44:55,423 - #10 ;
+INFO  08:44:55,423 - #46 test2y
+INFO  08:44:55,423 - #12 =
+INFO  08:44:55,423 - #46 test2x
+INFO  08:44:55,423 - #29 *
+INFO  08:44:55,423 - #46 test2x
+INFO  08:44:55,423 - #27 +
+INFO  08:44:55,423 - #46 test2x
+INFO  08:44:55,423 - #29 *
+INFO  08:44:55,423 - #45 3
+INFO  08:44:55,423 - #28 -
+INFO  08:44:55,424 - #45 6
+INFO  08:44:55,424 - #29 *
+INFO  08:44:55,424 - #45 6
+INFO  08:44:55,424 - #27 +
+INFO  08:44:55,424 - #7 (
+INFO  08:44:55,424 - #46 test2x
+INFO  08:44:55,424 - #27 +
+INFO  08:44:55,424 - #45 3
+INFO  08:44:55,424 - #29 *
+INFO  08:44:55,424 - #46 test2x
+INFO  08:44:55,424 - #8 )
+INFO  08:44:55,424 - #28 -
+INFO  08:44:55,424 - #46 test2x
+INFO  08:44:55,424 - #30 /
+INFO  08:44:55,424 - #45 5
+INFO  08:44:55,424 - #10 ;
+INFO  08:44:55,424 - #24 print
+INFO  08:44:55,425 - #7 (
+INFO  08:44:55,425 - #46 test2y
+INFO  08:44:55,425 - #8 )
+INFO  08:44:55,425 - #10 ;
+INFO  08:44:55,425 - #24 print
+INFO  08:44:55,425 - #7 (
+INFO  08:44:55,425 - #46 eol
+INFO  08:44:55,425 - #8 )
+INFO  08:44:55,425 - #10 ;
+INFO  08:44:55,425 - #24 print
+INFO  08:44:55,425 - #7 (
+INFO  08:44:55,425 - #48 T
+INFO  08:44:55,425 - #8 )
+INFO  08:44:55,425 - #10 ;
+INFO  08:44:55,425 - #24 print
+INFO  08:44:55,425 - #7 (
+INFO  08:44:55,425 - #48 E
+INFO  08:44:55,425 - #8 )
+INFO  08:44:55,425 - #10 ;
+INFO  08:44:55,425 - #24 print
+INFO  08:44:55,425 - #7 (
+INFO  08:44:55,425 - #48 S
+INFO  08:44:55,425 - #8 )
+INFO  08:44:55,426 - #10 ;
+INFO  08:44:55,426 - #24 print
+INFO  08:44:55,426 - #7 (
+INFO  08:44:55,426 - #48 T
+INFO  08:44:55,426 - #8 )
+INFO  08:44:55,426 - #10 ;
+INFO  08:44:55,426 - #24 print
+INFO  08:44:55,426 - #7 (
+INFO  08:44:55,426 - #48 3
+INFO  08:44:55,426 - #8 )
+INFO  08:44:55,426 - #10 ;
+INFO  08:44:55,426 - #24 print
+INFO  08:44:55,426 - #7 (
+INFO  08:44:55,426 - #48 :
+INFO  08:44:55,426 - #8 )
+INFO  08:44:55,426 - #10 ;
+INFO  08:44:55,426 - #24 print
+INFO  08:44:55,427 - #7 (
+INFO  08:44:55,427 - #48  
+INFO  08:44:55,427 - #8 )
+INFO  08:44:55,427 - #10 ;
+INFO  08:44:55,427 - #46 ispisi
+INFO  08:44:55,427 - #7 (
+INFO  08:44:55,427 - #48 T
+INFO  08:44:55,427 - #8 )
+INFO  08:44:55,427 - #10 ;
+INFO  08:44:55,427 - #46 ispisi_with_ret
+INFO  08:44:55,427 - #7 (
+INFO  08:44:55,427 - #48 T
+INFO  08:44:55,428 - #8 )
+INFO  08:44:55,428 - #10 ;
+INFO  08:44:55,428 - #24 print
+INFO  08:44:55,428 - #7 (
+INFO  08:44:55,428 - #46 eol
+INFO  08:44:55,428 - #8 )
+INFO  08:44:55,428 - #10 ;
+INFO  08:44:55,428 - #24 print
+INFO  08:44:55,429 - #7 (
+INFO  08:44:55,429 - #48 T
+INFO  08:44:55,429 - #8 )
+INFO  08:44:55,429 - #10 ;
+INFO  08:44:55,429 - #24 print
+INFO  08:44:55,429 - #7 (
+INFO  08:44:55,429 - #48 E
+INFO  08:44:55,429 - #8 )
+INFO  08:44:55,429 - #10 ;
+INFO  08:44:55,429 - #24 print
+INFO  08:44:55,429 - #7 (
+INFO  08:44:55,429 - #48 S
+INFO  08:44:55,429 - #8 )
+INFO  08:44:55,429 - #10 ;
+INFO  08:44:55,429 - #24 print
+INFO  08:44:55,429 - #7 (
+INFO  08:44:55,430 - #48 T
+INFO  08:44:55,430 - #8 )
+INFO  08:44:55,430 - #10 ;
+INFO  08:44:55,430 - #24 print
+INFO  08:44:55,430 - #7 (
+INFO  08:44:55,430 - #48 4
+INFO  08:44:55,430 - #8 )
+INFO  08:44:55,430 - #10 ;
+INFO  08:44:55,430 - #24 print
+INFO  08:44:55,430 - #7 (
+INFO  08:44:55,430 - #48 :
+INFO  08:44:55,430 - #8 )
+INFO  08:44:55,430 - #10 ;
+INFO  08:44:55,430 - #24 print
+INFO  08:44:55,430 - #7 (
+INFO  08:44:55,430 - #48  
+INFO  08:44:55,430 - #8 )
+INFO  08:44:55,430 - #10 ;
+INFO  08:44:55,430 - #46 test4x
+INFO  08:44:55,430 - #12 =
+INFO  08:44:55,430 - #45 8
+INFO  08:44:55,430 - #10 ;
+INFO  08:44:55,430 - #46 test4y
+INFO  08:44:55,430 - #12 =
+INFO  08:44:55,430 - #46 test4x
+INFO  08:44:55,430 - #29 *
+INFO  08:44:55,430 - #46 test4x
+INFO  08:44:55,431 - #30 /
+INFO  08:44:55,431 - #46 test4x
+INFO  08:44:55,431 - #10 ;
+INFO  08:44:55,431 - #24 print
+INFO  08:44:55,431 - #7 (
+INFO  08:44:55,431 - #46 oduzmi
+INFO  08:44:55,431 - #7 (
+INFO  08:44:55,431 - #46 saberi
+INFO  08:44:55,431 - #7 (
+INFO  08:44:55,431 - #45 57
+INFO  08:44:55,431 - #9 ,
+INFO  08:44:55,431 - #45 31
+INFO  08:44:55,431 - #8 )
+INFO  08:44:55,431 - #9 ,
+INFO  08:44:55,431 - #46 oduzmi
+INFO  08:44:55,431 - #7 (
+INFO  08:44:55,431 - #46 test4x
+INFO  08:44:55,431 - #29 *
+INFO  08:44:55,431 - #46 test4x
+INFO  08:44:55,431 - #9 ,
+INFO  08:44:55,431 - #7 (
+INFO  08:44:55,431 - #46 test4x
+INFO  08:44:55,431 - #30 /
+INFO  08:44:55,431 - #46 test4x
+INFO  08:44:55,431 - #8 )
+INFO  08:44:55,431 - #29 *
+INFO  08:44:55,432 - #7 (
+INFO  08:44:55,432 - #7 (
+INFO  08:44:55,432 - #46 test4x
+INFO  08:44:55,432 - #28 -
+INFO  08:44:55,432 - #45 1
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #29 *
+INFO  08:44:55,432 - #46 test4x
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #10 ;
+INFO  08:44:55,432 - #24 print
+INFO  08:44:55,432 - #7 (
+INFO  08:44:55,432 - #46 eol
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #10 ;
+INFO  08:44:55,432 - #24 print
+INFO  08:44:55,432 - #7 (
+INFO  08:44:55,432 - #48 T
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #10 ;
+INFO  08:44:55,432 - #24 print
+INFO  08:44:55,432 - #7 (
+INFO  08:44:55,432 - #48 E
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #10 ;
+INFO  08:44:55,432 - #24 print
+INFO  08:44:55,432 - #7 (
+INFO  08:44:55,432 - #48 S
+INFO  08:44:55,432 - #8 )
+INFO  08:44:55,432 - #10 ;
+INFO  08:44:55,432 - #24 print
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #48 T
+INFO  08:44:55,433 - #8 )
+INFO  08:44:55,433 - #10 ;
+INFO  08:44:55,433 - #24 print
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #48 5
+INFO  08:44:55,433 - #8 )
+INFO  08:44:55,433 - #10 ;
+INFO  08:44:55,433 - #24 print
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #48 :
+INFO  08:44:55,433 - #8 )
+INFO  08:44:55,433 - #10 ;
+INFO  08:44:55,433 - #24 print
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #48  
+INFO  08:44:55,433 - #8 )
+INFO  08:44:55,433 - #10 ;
+INFO  08:44:55,433 - #24 print
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #46 inkrementiraj
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #46 dekrementiraj
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #46 inkrementiraj
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #46 dekrementiraj
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #46 inkrementiraj
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #46 dekrementiraj
+INFO  08:44:55,433 - #7 (
+INFO  08:44:55,433 - #45 101
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #10 ;
+INFO  08:44:55,434 - #24 print
+INFO  08:44:55,434 - #7 (
+INFO  08:44:55,434 - #46 eol
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,434 - #10 ;
+INFO  08:44:55,434 - #24 print
+INFO  08:44:55,434 - #7 (
+INFO  08:44:55,434 - #48 T
+INFO  08:44:55,434 - #8 )
+INFO  08:44:55,435 - #10 ;
+INFO  08:44:55,435 - #24 print
+INFO  08:44:55,435 - #7 (
+INFO  08:44:55,435 - #48 E
+INFO  08:44:55,435 - #8 )
+INFO  08:44:55,435 - #10 ;
+INFO  08:44:55,435 - #24 print
+INFO  08:44:55,435 - #7 (
+INFO  08:44:55,435 - #48 S
+INFO  08:44:55,435 - #8 )
+INFO  08:44:55,435 - #10 ;
+INFO  08:44:55,435 - #24 print
+INFO  08:44:55,435 - #7 (
+INFO  08:44:55,435 - #48 T
+INFO  08:44:55,435 - #8 )
+INFO  08:44:55,436 - #10 ;
+INFO  08:44:55,436 - #24 print
+INFO  08:44:55,436 - #7 (
+INFO  08:44:55,436 - #48 6
+INFO  08:44:55,436 - #8 )
+INFO  08:44:55,436 - #10 ;
+INFO  08:44:55,436 - #24 print
+INFO  08:44:55,436 - #7 (
+INFO  08:44:55,436 - #48 :
+INFO  08:44:55,436 - #8 )
+INFO  08:44:55,436 - #10 ;
+INFO  08:44:55,436 - #24 print
+INFO  08:44:55,436 - #7 (
+INFO  08:44:55,437 - #48  
+INFO  08:44:55,437 - #8 )
+INFO  08:44:55,437 - #10 ;
+INFO  08:44:55,437 - #46 testniz
+INFO  08:44:55,437 - #12 =
+INFO  08:44:55,437 - #26 new
+INFO  08:44:55,437 - #46 int
+INFO  08:44:55,437 - #13 [
+INFO  08:44:55,437 - #45 5
+INFO  08:44:55,437 - #14 ]
+INFO  08:44:55,437 - #10 ;
+INFO  08:44:55,438 - #46 testniz
+INFO  08:44:55,438 - #13 [
+INFO  08:44:55,438 - #45 0
+INFO  08:44:55,438 - #14 ]
+INFO  08:44:55,438 - #12 =
+INFO  08:44:55,438 - #45 1
+INFO  08:44:55,438 - #10 ;
+INFO  08:44:55,438 - #24 print
+INFO  08:44:55,438 - #7 (
+INFO  08:44:55,438 - #46 testniz
+INFO  08:44:55,438 - #13 [
+INFO  08:44:55,438 - #45 0
+INFO  08:44:55,439 - #14 ]
+INFO  08:44:55,439 - #27 +
+INFO  08:44:55,439 - #45 2
+INFO  08:44:55,439 - #8 )
+INFO  08:44:55,439 - #10 ;
+INFO  08:44:55,439 - #6 }
+INFO  08:44:55,439 - #6 }
+INFO  08:44:55,461 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       pet
+        NumConstDeclaration(
+         5
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationList(
+        MethodDeclarationList(
+          MethodDeclarationList(
+            MethodDeclarationList(
+              MethodDeclarationList(
+                MethodDeclarationList(
+                  MethodDeclarationList(
+                    MethodDeclarationListEmpty(
+                    ) [MethodDeclarationListEmpty]
+                    MethodDeclaration(
+                      MethodVoidName(
+                       ispisi
+                      ) [MethodVoidName]
+                      FormalParams(
+                        FormalParamsSingleSquare(
+                          Type(
+                           char
+                          ) [Type]
+                         c
+                        ) [FormalParamsSingleSquare]
+                        FormalParamsListPomEmpty(
+                        ) [FormalParamsListPomEmpty]
+                      ) [FormalParams]
+                      VarDeclarationListEmpty(
+                      ) [VarDeclarationListEmpty]
+                      ListStatement(
+                        NoStmt(
+                        ) [NoStmt]
+                        MatchedStmt(
+                          StatementNoLabelSingle(
+                            SingleStatementPrint(
+                              TermExpr(
+                                TermSingleFactor(
+                                  FactorDesignator(
+                                    DesignatorSingle(
+                                     c
+                                    ) [DesignatorSingle]
+                                  ) [FactorDesignator]
+                                ) [TermSingleFactor]
+                              ) [TermExpr]
+                            ) [SingleStatementPrint]
+                          ) [StatementNoLabelSingle]
+                        ) [MatchedStmt]
+                      ) [ListStatement]
+                    ) [MethodDeclaration]
+                  ) [MethodDeclarationList]
+                  MethodDeclaration(
+                    MethodTypeName_(
+                      Type(
+                       int
+                      ) [Type]
+                     ispisi_with_ret
+                    ) [MethodTypeName_]
+                    FormalParams(
+                      FormalParamsSingleSquare(
+                        Type(
+                         char
+                        ) [Type]
+                       c
+                      ) [FormalParamsSingleSquare]
+                      FormalParamsListPomEmpty(
+                      ) [FormalParamsListPomEmpty]
+                    ) [FormalParams]
+                    VarDeclarationListEmpty(
+                    ) [VarDeclarationListEmpty]
+                    ListStatement(
+                      ListStatement(
+                        NoStmt(
+                        ) [NoStmt]
+                        MatchedStmt(
+                          StatementNoLabelSingle(
+                            SingleStatementPrint(
+                              TermExpr(
+                                TermSingleFactor(
+                                  FactorDesignator(
+                                    DesignatorSingle(
+                                     c
+                                    ) [DesignatorSingle]
+                                  ) [FactorDesignator]
+                                ) [TermSingleFactor]
+                              ) [TermExpr]
+                            ) [SingleStatementPrint]
+                          ) [StatementNoLabelSingle]
+                        ) [MatchedStmt]
+                      ) [ListStatement]
+                      MatchedStmt(
+                        StatementReturn(
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorNumConst(
+                               2
+                              ) [FactorNumConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [StatementReturn]
+                      ) [MatchedStmt]
+                    ) [ListStatement]
+                  ) [MethodDeclaration]
+                ) [MethodDeclarationList]
+                MethodDeclaration(
+                  MethodTypeName_(
+                    Type(
+                     int
+                    ) [Type]
+                   inkrementiraj
+                  ) [MethodTypeName_]
+                  FormalParams(
+                    FormalParamsSingleSquare(
+                      Type(
+                       int
+                      ) [Type]
+                     x
+                    ) [FormalParamsSingleSquare]
+                    FormalParamsListPomEmpty(
+                    ) [FormalParamsListPomEmpty]
+                  ) [FormalParams]
+                  VarDeclarationListEmpty(
+                  ) [VarDeclarationListEmpty]
+                  ListStatement(
+                    NoStmt(
+                    ) [NoStmt]
+                    MatchedStmt(
+                      StatementReturn(
+                        AddExpr(
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorDesignator(
+                                DesignatorSingle(
+                                 x
+                                ) [DesignatorSingle]
+                              ) [FactorDesignator]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                          AddopPlus(
+                          ) [AddopPlus]
+                          TermSingleFactor(
+                            FactorNumConst(
+                             1
+                            ) [FactorNumConst]
+                          ) [TermSingleFactor]
+                        ) [AddExpr]
+                      ) [StatementReturn]
+                    ) [MatchedStmt]
+                  ) [ListStatement]
+                ) [MethodDeclaration]
+              ) [MethodDeclarationList]
+              MethodDeclaration(
+                MethodTypeName_(
+                  Type(
+                   int
+                  ) [Type]
+                 dekrementiraj
+                ) [MethodTypeName_]
+                FormalParams(
+                  FormalParamsSingleSquare(
+                    Type(
+                     int
+                    ) [Type]
+                   x
+                  ) [FormalParamsSingleSquare]
+                  FormalParamsListPomEmpty(
+                  ) [FormalParamsListPomEmpty]
+                ) [FormalParams]
+                VarDeclarationListEmpty(
+                ) [VarDeclarationListEmpty]
+                ListStatement(
+                  NoStmt(
+                  ) [NoStmt]
+                  MatchedStmt(
+                    StatementReturn(
+                      AddExpr(
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorDesignator(
+                              DesignatorSingle(
+                               x
+                              ) [DesignatorSingle]
+                            ) [FactorDesignator]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                        AddopMinus(
+                        ) [AddopMinus]
+                        TermSingleFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [AddExpr]
+                    ) [StatementReturn]
+                  ) [MatchedStmt]
+                ) [ListStatement]
+              ) [MethodDeclaration]
+            ) [MethodDeclarationList]
+            MethodDeclaration(
+              MethodTypeName_(
+                Type(
+                 int
+                ) [Type]
+               saberi
+              ) [MethodTypeName_]
+              FormalParams(
+                FormalParamsSingleSquare(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [FormalParamsSingleSquare]
+                FormalParamsListPom(
+                  FormalParamsListPomEmpty(
+                  ) [FormalParamsListPomEmpty]
+                  FormalParamsSingleSquare(
+                    Type(
+                     int
+                    ) [Type]
+                   b
+                  ) [FormalParamsSingleSquare]
+                ) [FormalParamsListPom]
+              ) [FormalParams]
+              VarDeclarationListEmpty(
+              ) [VarDeclarationListEmpty]
+              ListStatement(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  StatementReturn(
+                    AddExpr(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorDesignator(
+                            DesignatorSingle(
+                             a
+                            ) [DesignatorSingle]
+                          ) [FactorDesignator]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSingle(
+                           b
+                          ) [DesignatorSingle]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                    ) [AddExpr]
+                  ) [StatementReturn]
+                ) [MatchedStmt]
+              ) [ListStatement]
+            ) [MethodDeclaration]
+          ) [MethodDeclarationList]
+          MethodDeclaration(
+            MethodTypeName_(
+              Type(
+               int
+              ) [Type]
+             oduzmi
+            ) [MethodTypeName_]
+            FormalParams(
+              FormalParamsSingleSquare(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormalParamsSingleSquare]
+              FormalParamsListPom(
+                FormalParamsListPomEmpty(
+                ) [FormalParamsListPomEmpty]
+                FormalParamsSingleSquare(
+                  Type(
+                   int
+                  ) [Type]
+                 b
+                ) [FormalParamsSingleSquare]
+              ) [FormalParamsListPom]
+            ) [FormalParams]
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            ListStatement(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementReturn(
+                  AddExpr(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSingle(
+                           a
+                          ) [DesignatorSingle]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         b
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [AddExpr]
+                ) [StatementReturn]
+              ) [MatchedStmt]
+            ) [ListStatement]
+          ) [MethodDeclaration]
+        ) [MethodDeclarationList]
+        MethodDeclaration(
+          MethodTypeName_(
+            Type(
+             int
+            ) [Type]
+           pomnozi
+          ) [MethodTypeName_]
+          FormalParams(
+            FormalParamsSingleSquare(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamsSingleSquare]
+            FormalParamsListPom(
+              FormalParamsListPomEmpty(
+              ) [FormalParamsListPomEmpty]
+              FormalParamsSingleSquare(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [FormalParamsSingleSquare]
+            ) [FormalParamsListPom]
+          ) [FormalParams]
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementReturn(
+                TermExpr(
+                  TermMulFactor(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         a
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                    MulopMul(
+                    ) [MulopMul]
+                    FactorDesignator(
+                      DesignatorSingle(
+                       b
+                      ) [DesignatorSingle]
+                    ) [FactorDesignator]
+                  ) [TermMulFactor]
+                ) [TermExpr]
+              ) [StatementReturn]
+            ) [MatchedStmt]
+          ) [ListStatement]
+        ) [MethodDeclaration]
+      ) [MethodDeclarationList]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         podeli
+        ) [MethodTypeName_]
+        FormalParams(
+          FormalParamsSingleSquare(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormalParamsSingleSquare]
+          FormalParamsListPom(
+            FormalParamsListPomEmpty(
+            ) [FormalParamsListPomEmpty]
+            FormalParamsSingleSquare(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormalParamsSingleSquare]
+          ) [FormalParamsListPom]
+        ) [FormalParams]
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementReturn(
+              TermExpr(
+                TermMulFactor(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSingle(
+                       a
+                      ) [DesignatorSingle]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                  MulopDiv(
+                  ) [MulopDiv]
+                  FactorDesignator(
+                    DesignatorSingle(
+                     b
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermMulFactor]
+              ) [TermExpr]
+            ) [StatementReturn]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationList(
+                  VarDeclarationList(
+                    VarDeclarationListEmpty(
+                    ) [VarDeclarationListEmpty]
+                    VarDeclaration(
+                      Type(
+                       int
+                      ) [Type]
+                     test1x
+                      VarDeclarationListPomEmpty(
+                      ) [VarDeclarationListPomEmpty]
+                    ) [VarDeclaration]
+                  ) [VarDeclarationList]
+                  VarDeclaration(
+                    Type(
+                     int
+                    ) [Type]
+                   test1y
+                    VarDeclarationListPomEmpty(
+                    ) [VarDeclarationListPomEmpty]
+                  ) [VarDeclaration]
+                ) [VarDeclarationList]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 test2x
+                  VarDeclarationListPomEmpty(
+                  ) [VarDeclarationListPomEmpty]
+                ) [VarDeclaration]
+              ) [VarDeclarationList]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+               test2y
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             test4x
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+           test4y
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         testniz
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            ListStatement(
+              ListStatement(
+                ListStatement(
+                  ListStatement(
+                    ListStatement(
+                      ListStatement(
+                        ListStatement(
+                          ListStatement(
+                            ListStatement(
+                              ListStatement(
+                                ListStatement(
+                                  ListStatement(
+                                    ListStatement(
+                                      ListStatement(
+                                        ListStatement(
+                                          ListStatement(
+                                            ListStatement(
+                                              ListStatement(
+                                                ListStatement(
+                                                  ListStatement(
+                                                    ListStatement(
+                                                      ListStatement(
+                                                        ListStatement(
+                                                          ListStatement(
+                                                            ListStatement(
+                                                              ListStatement(
+                                                                ListStatement(
+                                                                  ListStatement(
+                                                                    ListStatement(
+                                                                      ListStatement(
+                                                                        ListStatement(
+                                                                          ListStatement(
+                                                                            ListStatement(
+                                                                              ListStatement(
+                                                                                ListStatement(
+                                                                                  ListStatement(
+                                                                                    ListStatement(
+                                                                                      ListStatement(
+                                                                                        ListStatement(
+                                                                                          ListStatement(
+                                                                                            ListStatement(
+                                                                                              ListStatement(
+                                                                                                ListStatement(
+                                                                                                  ListStatement(
+                                                                                                    ListStatement(
+                                                                                                      ListStatement(
+                                                                                                        ListStatement(
+                                                                                                          ListStatement(
+                                                                                                            ListStatement(
+                                                                                                              ListStatement(
+                                                                                                                ListStatement(
+                                                                                                                  ListStatement(
+                                                                                                                    ListStatement(
+                                                                                                                      ListStatement(
+                                                                                                                        ListStatement(
+                                                                                                                          ListStatement(
+                                                                                                                            ListStatement(
+                                                                                                                              ListStatement(
+                                                                                                                                ListStatement(
+                                                                                                                                  NoStmt(
+                                                                                                                                  ) [NoStmt]
+                                                                                                                                  MatchedStmt(
+                                                                                                                                    StatementNoLabelSingle(
+                                                                                                                                      SingleStatementDesignator(
+                                                                                                                                        DesignatorStatementEq(
+                                                                                                                                          DesignatorSingle(
+                                                                                                                                           test1x
+                                                                                                                                          ) [DesignatorSingle]
+                                                                                                                                          TermExpr(
+                                                                                                                                            TermSingleFactor(
+                                                                                                                                              FactorNumConst(
+                                                                                                                                               2
+                                                                                                                                              ) [FactorNumConst]
+                                                                                                                                            ) [TermSingleFactor]
+                                                                                                                                          ) [TermExpr]
+                                                                                                                                        ) [DesignatorStatementEq]
+                                                                                                                                      ) [SingleStatementDesignator]
+                                                                                                                                    ) [StatementNoLabelSingle]
+                                                                                                                                  ) [MatchedStmt]
+                                                                                                                                ) [ListStatement]
+                                                                                                                                MatchedStmt(
+                                                                                                                                  StatementNoLabelSingle(
+                                                                                                                                    SingleStatementDesignator(
+                                                                                                                                      DesignatorStatementEq(
+                                                                                                                                        DesignatorSingle(
+                                                                                                                                         test1y
+                                                                                                                                        ) [DesignatorSingle]
+                                                                                                                                        AddExpr(
+                                                                                                                                          AddExpr(
+                                                                                                                                            AddExpr(
+                                                                                                                                              TermExpr(
+                                                                                                                                                TermSingleFactor(
+                                                                                                                                                  FactorDesignator(
+                                                                                                                                                    DesignatorSingle(
+                                                                                                                                                     pet
+                                                                                                                                                    ) [DesignatorSingle]
+                                                                                                                                                  ) [FactorDesignator]
+                                                                                                                                                ) [TermSingleFactor]
+                                                                                                                                              ) [TermExpr]
+                                                                                                                                              AddopPlus(
+                                                                                                                                              ) [AddopPlus]
+                                                                                                                                              TermSingleFactor(
+                                                                                                                                                FactorNumConst(
+                                                                                                                                                 5
+                                                                                                                                                ) [FactorNumConst]
+                                                                                                                                              ) [TermSingleFactor]
+                                                                                                                                            ) [AddExpr]
+                                                                                                                                            AddopMinus(
+                                                                                                                                            ) [AddopMinus]
+                                                                                                                                            TermSingleFactor(
+                                                                                                                                              FactorDesignator(
+                                                                                                                                                DesignatorSingle(
+                                                                                                                                                 test1x
+                                                                                                                                                ) [DesignatorSingle]
+                                                                                                                                              ) [FactorDesignator]
+                                                                                                                                            ) [TermSingleFactor]
+                                                                                                                                          ) [AddExpr]
+                                                                                                                                          AddopPlus(
+                                                                                                                                          ) [AddopPlus]
+                                                                                                                                          TermSingleFactor(
+                                                                                                                                            FactorNumConst(
+                                                                                                                                             1
+                                                                                                                                            ) [FactorNumConst]
+                                                                                                                                          ) [TermSingleFactor]
+                                                                                                                                        ) [AddExpr]
+                                                                                                                                      ) [DesignatorStatementEq]
+                                                                                                                                    ) [SingleStatementDesignator]
+                                                                                                                                  ) [StatementNoLabelSingle]
+                                                                                                                                ) [MatchedStmt]
+                                                                                                                              ) [ListStatement]
+                                                                                                                              MatchedStmt(
+                                                                                                                                StatementNoLabelSingle(
+                                                                                                                                  SingleStatementPrint(
+                                                                                                                                    TermExpr(
+                                                                                                                                      TermSingleFactor(
+                                                                                                                                        FactorCharConst(
+                                                                                                                                         T
+                                                                                                                                        ) [FactorCharConst]
+                                                                                                                                      ) [TermSingleFactor]
+                                                                                                                                    ) [TermExpr]
+                                                                                                                                  ) [SingleStatementPrint]
+                                                                                                                                ) [StatementNoLabelSingle]
+                                                                                                                              ) [MatchedStmt]
+                                                                                                                            ) [ListStatement]
+                                                                                                                            MatchedStmt(
+                                                                                                                              StatementNoLabelSingle(
+                                                                                                                                SingleStatementPrint(
+                                                                                                                                  TermExpr(
+                                                                                                                                    TermSingleFactor(
+                                                                                                                                      FactorCharConst(
+                                                                                                                                       E
+                                                                                                                                      ) [FactorCharConst]
+                                                                                                                                    ) [TermSingleFactor]
+                                                                                                                                  ) [TermExpr]
+                                                                                                                                ) [SingleStatementPrint]
+                                                                                                                              ) [StatementNoLabelSingle]
+                                                                                                                            ) [MatchedStmt]
+                                                                                                                          ) [ListStatement]
+                                                                                                                          MatchedStmt(
+                                                                                                                            StatementNoLabelSingle(
+                                                                                                                              SingleStatementPrint(
+                                                                                                                                TermExpr(
+                                                                                                                                  TermSingleFactor(
+                                                                                                                                    FactorCharConst(
+                                                                                                                                     S
+                                                                                                                                    ) [FactorCharConst]
+                                                                                                                                  ) [TermSingleFactor]
+                                                                                                                                ) [TermExpr]
+                                                                                                                              ) [SingleStatementPrint]
+                                                                                                                            ) [StatementNoLabelSingle]
+                                                                                                                          ) [MatchedStmt]
+                                                                                                                        ) [ListStatement]
+                                                                                                                        MatchedStmt(
+                                                                                                                          StatementNoLabelSingle(
+                                                                                                                            SingleStatementPrint(
+                                                                                                                              TermExpr(
+                                                                                                                                TermSingleFactor(
+                                                                                                                                  FactorCharConst(
+                                                                                                                                   T
+                                                                                                                                  ) [FactorCharConst]
+                                                                                                                                ) [TermSingleFactor]
+                                                                                                                              ) [TermExpr]
+                                                                                                                            ) [SingleStatementPrint]
+                                                                                                                          ) [StatementNoLabelSingle]
+                                                                                                                        ) [MatchedStmt]
+                                                                                                                      ) [ListStatement]
+                                                                                                                      MatchedStmt(
+                                                                                                                        StatementNoLabelSingle(
+                                                                                                                          SingleStatementPrint(
+                                                                                                                            TermExpr(
+                                                                                                                              TermSingleFactor(
+                                                                                                                                FactorCharConst(
+                                                                                                                                 1
+                                                                                                                                ) [FactorCharConst]
+                                                                                                                              ) [TermSingleFactor]
+                                                                                                                            ) [TermExpr]
+                                                                                                                          ) [SingleStatementPrint]
+                                                                                                                        ) [StatementNoLabelSingle]
+                                                                                                                      ) [MatchedStmt]
+                                                                                                                    ) [ListStatement]
+                                                                                                                    MatchedStmt(
+                                                                                                                      StatementNoLabelSingle(
+                                                                                                                        SingleStatementPrint(
+                                                                                                                          TermExpr(
+                                                                                                                            TermSingleFactor(
+                                                                                                                              FactorCharConst(
+                                                                                                                               :
+                                                                                                                              ) [FactorCharConst]
+                                                                                                                            ) [TermSingleFactor]
+                                                                                                                          ) [TermExpr]
+                                                                                                                        ) [SingleStatementPrint]
+                                                                                                                      ) [StatementNoLabelSingle]
+                                                                                                                    ) [MatchedStmt]
+                                                                                                                  ) [ListStatement]
+                                                                                                                  MatchedStmt(
+                                                                                                                    StatementNoLabelSingle(
+                                                                                                                      SingleStatementPrint(
+                                                                                                                        TermExpr(
+                                                                                                                          TermSingleFactor(
+                                                                                                                            FactorCharConst(
+                                                                                                                              
+                                                                                                                            ) [FactorCharConst]
+                                                                                                                          ) [TermSingleFactor]
+                                                                                                                        ) [TermExpr]
+                                                                                                                      ) [SingleStatementPrint]
+                                                                                                                    ) [StatementNoLabelSingle]
+                                                                                                                  ) [MatchedStmt]
+                                                                                                                ) [ListStatement]
+                                                                                                                MatchedStmt(
+                                                                                                                  StatementNoLabelSingle(
+                                                                                                                    SingleStatementPrint(
+                                                                                                                      TermExpr(
+                                                                                                                        TermSingleFactor(
+                                                                                                                          FactorDesignator(
+                                                                                                                            DesignatorSingle(
+                                                                                                                             test1y
+                                                                                                                            ) [DesignatorSingle]
+                                                                                                                          ) [FactorDesignator]
+                                                                                                                        ) [TermSingleFactor]
+                                                                                                                      ) [TermExpr]
+                                                                                                                    ) [SingleStatementPrint]
+                                                                                                                  ) [StatementNoLabelSingle]
+                                                                                                                ) [MatchedStmt]
+                                                                                                              ) [ListStatement]
+                                                                                                              MatchedStmt(
+                                                                                                                StatementNoLabelSingle(
+                                                                                                                  SingleStatementPrint(
+                                                                                                                    TermExpr(
+                                                                                                                      TermSingleFactor(
+                                                                                                                        FactorDesignator(
+                                                                                                                          DesignatorSingle(
+                                                                                                                           eol
+                                                                                                                          ) [DesignatorSingle]
+                                                                                                                        ) [FactorDesignator]
+                                                                                                                      ) [TermSingleFactor]
+                                                                                                                    ) [TermExpr]
+                                                                                                                  ) [SingleStatementPrint]
+                                                                                                                ) [StatementNoLabelSingle]
+                                                                                                              ) [MatchedStmt]
+                                                                                                            ) [ListStatement]
+                                                                                                            MatchedStmt(
+                                                                                                              StatementNoLabelSingle(
+                                                                                                                SingleStatementPrint(
+                                                                                                                  TermExpr(
+                                                                                                                    TermSingleFactor(
+                                                                                                                      FactorCharConst(
+                                                                                                                       T
+                                                                                                                      ) [FactorCharConst]
+                                                                                                                    ) [TermSingleFactor]
+                                                                                                                  ) [TermExpr]
+                                                                                                                ) [SingleStatementPrint]
+                                                                                                              ) [StatementNoLabelSingle]
+                                                                                                            ) [MatchedStmt]
+                                                                                                          ) [ListStatement]
+                                                                                                          MatchedStmt(
+                                                                                                            StatementNoLabelSingle(
+                                                                                                              SingleStatementPrint(
+                                                                                                                TermExpr(
+                                                                                                                  TermSingleFactor(
+                                                                                                                    FactorCharConst(
+                                                                                                                     E
+                                                                                                                    ) [FactorCharConst]
+                                                                                                                  ) [TermSingleFactor]
+                                                                                                                ) [TermExpr]
+                                                                                                              ) [SingleStatementPrint]
+                                                                                                            ) [StatementNoLabelSingle]
+                                                                                                          ) [MatchedStmt]
+                                                                                                        ) [ListStatement]
+                                                                                                        MatchedStmt(
+                                                                                                          StatementNoLabelSingle(
+                                                                                                            SingleStatementPrint(
+                                                                                                              TermExpr(
+                                                                                                                TermSingleFactor(
+                                                                                                                  FactorCharConst(
+                                                                                                                   S
+                                                                                                                  ) [FactorCharConst]
+                                                                                                                ) [TermSingleFactor]
+                                                                                                              ) [TermExpr]
+                                                                                                            ) [SingleStatementPrint]
+                                                                                                          ) [StatementNoLabelSingle]
+                                                                                                        ) [MatchedStmt]
+                                                                                                      ) [ListStatement]
+                                                                                                      MatchedStmt(
+                                                                                                        StatementNoLabelSingle(
+                                                                                                          SingleStatementPrint(
+                                                                                                            TermExpr(
+                                                                                                              TermSingleFactor(
+                                                                                                                FactorCharConst(
+                                                                                                                 T
+                                                                                                                ) [FactorCharConst]
+                                                                                                              ) [TermSingleFactor]
+                                                                                                            ) [TermExpr]
+                                                                                                          ) [SingleStatementPrint]
+                                                                                                        ) [StatementNoLabelSingle]
+                                                                                                      ) [MatchedStmt]
+                                                                                                    ) [ListStatement]
+                                                                                                    MatchedStmt(
+                                                                                                      StatementNoLabelSingle(
+                                                                                                        SingleStatementPrint(
+                                                                                                          TermExpr(
+                                                                                                            TermSingleFactor(
+                                                                                                              FactorCharConst(
+                                                                                                               2
+                                                                                                              ) [FactorCharConst]
+                                                                                                            ) [TermSingleFactor]
+                                                                                                          ) [TermExpr]
+                                                                                                        ) [SingleStatementPrint]
+                                                                                                      ) [StatementNoLabelSingle]
+                                                                                                    ) [MatchedStmt]
+                                                                                                  ) [ListStatement]
+                                                                                                  MatchedStmt(
+                                                                                                    StatementNoLabelSingle(
+                                                                                                      SingleStatementPrint(
+                                                                                                        TermExpr(
+                                                                                                          TermSingleFactor(
+                                                                                                            FactorCharConst(
+                                                                                                             :
+                                                                                                            ) [FactorCharConst]
+                                                                                                          ) [TermSingleFactor]
+                                                                                                        ) [TermExpr]
+                                                                                                      ) [SingleStatementPrint]
+                                                                                                    ) [StatementNoLabelSingle]
+                                                                                                  ) [MatchedStmt]
+                                                                                                ) [ListStatement]
+                                                                                                MatchedStmt(
+                                                                                                  StatementNoLabelSingle(
+                                                                                                    SingleStatementPrint(
+                                                                                                      TermExpr(
+                                                                                                        TermSingleFactor(
+                                                                                                          FactorCharConst(
+                                                                                                            
+                                                                                                          ) [FactorCharConst]
+                                                                                                        ) [TermSingleFactor]
+                                                                                                      ) [TermExpr]
+                                                                                                    ) [SingleStatementPrint]
+                                                                                                  ) [StatementNoLabelSingle]
+                                                                                                ) [MatchedStmt]
+                                                                                              ) [ListStatement]
+                                                                                              MatchedStmt(
+                                                                                                StatementNoLabelSingle(
+                                                                                                  SingleStatementDesignator(
+                                                                                                    DesignatorStatementEq(
+                                                                                                      DesignatorSingle(
+                                                                                                       test2x
+                                                                                                      ) [DesignatorSingle]
+                                                                                                      TermExpr(
+                                                                                                        TermSingleFactor(
+                                                                                                          FactorNumConst(
+                                                                                                           15
+                                                                                                          ) [FactorNumConst]
+                                                                                                        ) [TermSingleFactor]
+                                                                                                      ) [TermExpr]
+                                                                                                    ) [DesignatorStatementEq]
+                                                                                                  ) [SingleStatementDesignator]
+                                                                                                ) [StatementNoLabelSingle]
+                                                                                              ) [MatchedStmt]
+                                                                                            ) [ListStatement]
+                                                                                            MatchedStmt(
+                                                                                              StatementNoLabelSingle(
+                                                                                                SingleStatementDesignator(
+                                                                                                  DesignatorStatementEq(
+                                                                                                    DesignatorSingle(
+                                                                                                     test2y
+                                                                                                    ) [DesignatorSingle]
+                                                                                                    AddExpr(
+                                                                                                      AddExpr(
+                                                                                                        AddExpr(
+                                                                                                          AddExpr(
+                                                                                                            TermExpr(
+                                                                                                              TermMulFactor(
+                                                                                                                TermSingleFactor(
+                                                                                                                  FactorDesignator(
+                                                                                                                    DesignatorSingle(
+                                                                                                                     test2x
+                                                                                                                    ) [DesignatorSingle]
+                                                                                                                  ) [FactorDesignator]
+                                                                                                                ) [TermSingleFactor]
+                                                                                                                MulopMul(
+                                                                                                                ) [MulopMul]
+                                                                                                                FactorDesignator(
+                                                                                                                  DesignatorSingle(
+                                                                                                                   test2x
+                                                                                                                  ) [DesignatorSingle]
+                                                                                                                ) [FactorDesignator]
+                                                                                                              ) [TermMulFactor]
+                                                                                                            ) [TermExpr]
+                                                                                                            AddopPlus(
+                                                                                                            ) [AddopPlus]
+                                                                                                            TermMulFactor(
+                                                                                                              TermSingleFactor(
+                                                                                                                FactorDesignator(
+                                                                                                                  DesignatorSingle(
+                                                                                                                   test2x
+                                                                                                                  ) [DesignatorSingle]
+                                                                                                                ) [FactorDesignator]
+                                                                                                              ) [TermSingleFactor]
+                                                                                                              MulopMul(
+                                                                                                              ) [MulopMul]
+                                                                                                              FactorNumConst(
+                                                                                                               3
+                                                                                                              ) [FactorNumConst]
+                                                                                                            ) [TermMulFactor]
+                                                                                                          ) [AddExpr]
+                                                                                                          AddopMinus(
+                                                                                                          ) [AddopMinus]
+                                                                                                          TermMulFactor(
+                                                                                                            TermSingleFactor(
+                                                                                                              FactorNumConst(
+                                                                                                               6
+                                                                                                              ) [FactorNumConst]
+                                                                                                            ) [TermSingleFactor]
+                                                                                                            MulopMul(
+                                                                                                            ) [MulopMul]
+                                                                                                            FactorNumConst(
+                                                                                                             6
+                                                                                                            ) [FactorNumConst]
+                                                                                                          ) [TermMulFactor]
+                                                                                                        ) [AddExpr]
+                                                                                                        AddopPlus(
+                                                                                                        ) [AddopPlus]
+                                                                                                        TermSingleFactor(
+                                                                                                          FactorExpr(
+                                                                                                            AddExpr(
+                                                                                                              TermExpr(
+                                                                                                                TermSingleFactor(
+                                                                                                                  FactorDesignator(
+                                                                                                                    DesignatorSingle(
+                                                                                                                     test2x
+                                                                                                                    ) [DesignatorSingle]
+                                                                                                                  ) [FactorDesignator]
+                                                                                                                ) [TermSingleFactor]
+                                                                                                              ) [TermExpr]
+                                                                                                              AddopPlus(
+                                                                                                              ) [AddopPlus]
+                                                                                                              TermMulFactor(
+                                                                                                                TermSingleFactor(
+                                                                                                                  FactorNumConst(
+                                                                                                                   3
+                                                                                                                  ) [FactorNumConst]
+                                                                                                                ) [TermSingleFactor]
+                                                                                                                MulopMul(
+                                                                                                                ) [MulopMul]
+                                                                                                                FactorDesignator(
+                                                                                                                  DesignatorSingle(
+                                                                                                                   test2x
+                                                                                                                  ) [DesignatorSingle]
+                                                                                                                ) [FactorDesignator]
+                                                                                                              ) [TermMulFactor]
+                                                                                                            ) [AddExpr]
+                                                                                                          ) [FactorExpr]
+                                                                                                        ) [TermSingleFactor]
+                                                                                                      ) [AddExpr]
+                                                                                                      AddopMinus(
+                                                                                                      ) [AddopMinus]
+                                                                                                      TermMulFactor(
+                                                                                                        TermSingleFactor(
+                                                                                                          FactorDesignator(
+                                                                                                            DesignatorSingle(
+                                                                                                             test2x
+                                                                                                            ) [DesignatorSingle]
+                                                                                                          ) [FactorDesignator]
+                                                                                                        ) [TermSingleFactor]
+                                                                                                        MulopDiv(
+                                                                                                        ) [MulopDiv]
+                                                                                                        FactorNumConst(
+                                                                                                         5
+                                                                                                        ) [FactorNumConst]
+                                                                                                      ) [TermMulFactor]
+                                                                                                    ) [AddExpr]
+                                                                                                  ) [DesignatorStatementEq]
+                                                                                                ) [SingleStatementDesignator]
+                                                                                              ) [StatementNoLabelSingle]
+                                                                                            ) [MatchedStmt]
+                                                                                          ) [ListStatement]
+                                                                                          MatchedStmt(
+                                                                                            StatementNoLabelSingle(
+                                                                                              SingleStatementPrint(
+                                                                                                TermExpr(
+                                                                                                  TermSingleFactor(
+                                                                                                    FactorDesignator(
+                                                                                                      DesignatorSingle(
+                                                                                                       test2y
+                                                                                                      ) [DesignatorSingle]
+                                                                                                    ) [FactorDesignator]
+                                                                                                  ) [TermSingleFactor]
+                                                                                                ) [TermExpr]
+                                                                                              ) [SingleStatementPrint]
+                                                                                            ) [StatementNoLabelSingle]
+                                                                                          ) [MatchedStmt]
+                                                                                        ) [ListStatement]
+                                                                                        MatchedStmt(
+                                                                                          StatementNoLabelSingle(
+                                                                                            SingleStatementPrint(
+                                                                                              TermExpr(
+                                                                                                TermSingleFactor(
+                                                                                                  FactorDesignator(
+                                                                                                    DesignatorSingle(
+                                                                                                     eol
+                                                                                                    ) [DesignatorSingle]
+                                                                                                  ) [FactorDesignator]
+                                                                                                ) [TermSingleFactor]
+                                                                                              ) [TermExpr]
+                                                                                            ) [SingleStatementPrint]
+                                                                                          ) [StatementNoLabelSingle]
+                                                                                        ) [MatchedStmt]
+                                                                                      ) [ListStatement]
+                                                                                      MatchedStmt(
+                                                                                        StatementNoLabelSingle(
+                                                                                          SingleStatementPrint(
+                                                                                            TermExpr(
+                                                                                              TermSingleFactor(
+                                                                                                FactorCharConst(
+                                                                                                 T
+                                                                                                ) [FactorCharConst]
+                                                                                              ) [TermSingleFactor]
+                                                                                            ) [TermExpr]
+                                                                                          ) [SingleStatementPrint]
+                                                                                        ) [StatementNoLabelSingle]
+                                                                                      ) [MatchedStmt]
+                                                                                    ) [ListStatement]
+                                                                                    MatchedStmt(
+                                                                                      StatementNoLabelSingle(
+                                                                                        SingleStatementPrint(
+                                                                                          TermExpr(
+                                                                                            TermSingleFactor(
+                                                                                              FactorCharConst(
+                                                                                               E
+                                                                                              ) [FactorCharConst]
+                                                                                            ) [TermSingleFactor]
+                                                                                          ) [TermExpr]
+                                                                                        ) [SingleStatementPrint]
+                                                                                      ) [StatementNoLabelSingle]
+                                                                                    ) [MatchedStmt]
+                                                                                  ) [ListStatement]
+                                                                                  MatchedStmt(
+                                                                                    StatementNoLabelSingle(
+                                                                                      SingleStatementPrint(
+                                                                                        TermExpr(
+                                                                                          TermSingleFactor(
+                                                                                            FactorCharConst(
+                                                                                             S
+                                                                                            ) [FactorCharConst]
+                                                                                          ) [TermSingleFactor]
+                                                                                        ) [TermExpr]
+                                                                                      ) [SingleStatementPrint]
+                                                                                    ) [StatementNoLabelSingle]
+                                                                                  ) [MatchedStmt]
+                                                                                ) [ListStatement]
+                                                                                MatchedStmt(
+                                                                                  StatementNoLabelSingle(
+                                                                                    SingleStatementPrint(
+                                                                                      TermExpr(
+                                                                                        TermSingleFactor(
+                                                                                          FactorCharConst(
+                                                                                           T
+                                                                                          ) [FactorCharConst]
+                                                                                        ) [TermSingleFactor]
+                                                                                      ) [TermExpr]
+                                                                                    ) [SingleStatementPrint]
+                                                                                  ) [StatementNoLabelSingle]
+                                                                                ) [MatchedStmt]
+                                                                              ) [ListStatement]
+                                                                              MatchedStmt(
+                                                                                StatementNoLabelSingle(
+                                                                                  SingleStatementPrint(
+                                                                                    TermExpr(
+                                                                                      TermSingleFactor(
+                                                                                        FactorCharConst(
+                                                                                         3
+                                                                                        ) [FactorCharConst]
+                                                                                      ) [TermSingleFactor]
+                                                                                    ) [TermExpr]
+                                                                                  ) [SingleStatementPrint]
+                                                                                ) [StatementNoLabelSingle]
+                                                                              ) [MatchedStmt]
+                                                                            ) [ListStatement]
+                                                                            MatchedStmt(
+                                                                              StatementNoLabelSingle(
+                                                                                SingleStatementPrint(
+                                                                                  TermExpr(
+                                                                                    TermSingleFactor(
+                                                                                      FactorCharConst(
+                                                                                       :
+                                                                                      ) [FactorCharConst]
+                                                                                    ) [TermSingleFactor]
+                                                                                  ) [TermExpr]
+                                                                                ) [SingleStatementPrint]
+                                                                              ) [StatementNoLabelSingle]
+                                                                            ) [MatchedStmt]
+                                                                          ) [ListStatement]
+                                                                          MatchedStmt(
+                                                                            StatementNoLabelSingle(
+                                                                              SingleStatementPrint(
+                                                                                TermExpr(
+                                                                                  TermSingleFactor(
+                                                                                    FactorCharConst(
+                                                                                      
+                                                                                    ) [FactorCharConst]
+                                                                                  ) [TermSingleFactor]
+                                                                                ) [TermExpr]
+                                                                              ) [SingleStatementPrint]
+                                                                            ) [StatementNoLabelSingle]
+                                                                          ) [MatchedStmt]
+                                                                        ) [ListStatement]
+                                                                        MatchedStmt(
+                                                                          StatementNoLabelSingle(
+                                                                            SingleStatementDesignator(
+                                                                              DesignatorStatementActParams(
+                                                                                DesignatorSingle(
+                                                                                 ispisi
+                                                                                ) [DesignatorSingle]
+                                                                                ActParamsSingle(
+                                                                                  TermExpr(
+                                                                                    TermSingleFactor(
+                                                                                      FactorCharConst(
+                                                                                       T
+                                                                                      ) [FactorCharConst]
+                                                                                    ) [TermSingleFactor]
+                                                                                  ) [TermExpr]
+                                                                                ) [ActParamsSingle]
+                                                                              ) [DesignatorStatementActParams]
+                                                                            ) [SingleStatementDesignator]
+                                                                          ) [StatementNoLabelSingle]
+                                                                        ) [MatchedStmt]
+                                                                      ) [ListStatement]
+                                                                      MatchedStmt(
+                                                                        StatementNoLabelSingle(
+                                                                          SingleStatementDesignator(
+                                                                            DesignatorStatementActParams(
+                                                                              DesignatorSingle(
+                                                                               ispisi_with_ret
+                                                                              ) [DesignatorSingle]
+                                                                              ActParamsSingle(
+                                                                                TermExpr(
+                                                                                  TermSingleFactor(
+                                                                                    FactorCharConst(
+                                                                                     T
+                                                                                    ) [FactorCharConst]
+                                                                                  ) [TermSingleFactor]
+                                                                                ) [TermExpr]
+                                                                              ) [ActParamsSingle]
+                                                                            ) [DesignatorStatementActParams]
+                                                                          ) [SingleStatementDesignator]
+                                                                        ) [StatementNoLabelSingle]
+                                                                      ) [MatchedStmt]
+                                                                    ) [ListStatement]
+                                                                    MatchedStmt(
+                                                                      StatementNoLabelSingle(
+                                                                        SingleStatementPrint(
+                                                                          TermExpr(
+                                                                            TermSingleFactor(
+                                                                              FactorDesignator(
+                                                                                DesignatorSingle(
+                                                                                 eol
+                                                                                ) [DesignatorSingle]
+                                                                              ) [FactorDesignator]
+                                                                            ) [TermSingleFactor]
+                                                                          ) [TermExpr]
+                                                                        ) [SingleStatementPrint]
+                                                                      ) [StatementNoLabelSingle]
+                                                                    ) [MatchedStmt]
+                                                                  ) [ListStatement]
+                                                                  MatchedStmt(
+                                                                    StatementNoLabelSingle(
+                                                                      SingleStatementPrint(
+                                                                        TermExpr(
+                                                                          TermSingleFactor(
+                                                                            FactorCharConst(
+                                                                             T
+                                                                            ) [FactorCharConst]
+                                                                          ) [TermSingleFactor]
+                                                                        ) [TermExpr]
+                                                                      ) [SingleStatementPrint]
+                                                                    ) [StatementNoLabelSingle]
+                                                                  ) [MatchedStmt]
+                                                                ) [ListStatement]
+                                                                MatchedStmt(
+                                                                  StatementNoLabelSingle(
+                                                                    SingleStatementPrint(
+                                                                      TermExpr(
+                                                                        TermSingleFactor(
+                                                                          FactorCharConst(
+                                                                           E
+                                                                          ) [FactorCharConst]
+                                                                        ) [TermSingleFactor]
+                                                                      ) [TermExpr]
+                                                                    ) [SingleStatementPrint]
+                                                                  ) [StatementNoLabelSingle]
+                                                                ) [MatchedStmt]
+                                                              ) [ListStatement]
+                                                              MatchedStmt(
+                                                                StatementNoLabelSingle(
+                                                                  SingleStatementPrint(
+                                                                    TermExpr(
+                                                                      TermSingleFactor(
+                                                                        FactorCharConst(
+                                                                         S
+                                                                        ) [FactorCharConst]
+                                                                      ) [TermSingleFactor]
+                                                                    ) [TermExpr]
+                                                                  ) [SingleStatementPrint]
+                                                                ) [StatementNoLabelSingle]
+                                                              ) [MatchedStmt]
+                                                            ) [ListStatement]
+                                                            MatchedStmt(
+                                                              StatementNoLabelSingle(
+                                                                SingleStatementPrint(
+                                                                  TermExpr(
+                                                                    TermSingleFactor(
+                                                                      FactorCharConst(
+                                                                       T
+                                                                      ) [FactorCharConst]
+                                                                    ) [TermSingleFactor]
+                                                                  ) [TermExpr]
+                                                                ) [SingleStatementPrint]
+                                                              ) [StatementNoLabelSingle]
+                                                            ) [MatchedStmt]
+                                                          ) [ListStatement]
+                                                          MatchedStmt(
+                                                            StatementNoLabelSingle(
+                                                              SingleStatementPrint(
+                                                                TermExpr(
+                                                                  TermSingleFactor(
+                                                                    FactorCharConst(
+                                                                     4
+                                                                    ) [FactorCharConst]
+                                                                  ) [TermSingleFactor]
+                                                                ) [TermExpr]
+                                                              ) [SingleStatementPrint]
+                                                            ) [StatementNoLabelSingle]
+                                                          ) [MatchedStmt]
+                                                        ) [ListStatement]
+                                                        MatchedStmt(
+                                                          StatementNoLabelSingle(
+                                                            SingleStatementPrint(
+                                                              TermExpr(
+                                                                TermSingleFactor(
+                                                                  FactorCharConst(
+                                                                   :
+                                                                  ) [FactorCharConst]
+                                                                ) [TermSingleFactor]
+                                                              ) [TermExpr]
+                                                            ) [SingleStatementPrint]
+                                                          ) [StatementNoLabelSingle]
+                                                        ) [MatchedStmt]
+                                                      ) [ListStatement]
+                                                      MatchedStmt(
+                                                        StatementNoLabelSingle(
+                                                          SingleStatementPrint(
+                                                            TermExpr(
+                                                              TermSingleFactor(
+                                                                FactorCharConst(
+                                                                  
+                                                                ) [FactorCharConst]
+                                                              ) [TermSingleFactor]
+                                                            ) [TermExpr]
+                                                          ) [SingleStatementPrint]
+                                                        ) [StatementNoLabelSingle]
+                                                      ) [MatchedStmt]
+                                                    ) [ListStatement]
+                                                    MatchedStmt(
+                                                      StatementNoLabelSingle(
+                                                        SingleStatementDesignator(
+                                                          DesignatorStatementEq(
+                                                            DesignatorSingle(
+                                                             test4x
+                                                            ) [DesignatorSingle]
+                                                            TermExpr(
+                                                              TermSingleFactor(
+                                                                FactorNumConst(
+                                                                 8
+                                                                ) [FactorNumConst]
+                                                              ) [TermSingleFactor]
+                                                            ) [TermExpr]
+                                                          ) [DesignatorStatementEq]
+                                                        ) [SingleStatementDesignator]
+                                                      ) [StatementNoLabelSingle]
+                                                    ) [MatchedStmt]
+                                                  ) [ListStatement]
+                                                  MatchedStmt(
+                                                    StatementNoLabelSingle(
+                                                      SingleStatementDesignator(
+                                                        DesignatorStatementEq(
+                                                          DesignatorSingle(
+                                                           test4y
+                                                          ) [DesignatorSingle]
+                                                          TermExpr(
+                                                            TermMulFactor(
+                                                              TermMulFactor(
+                                                                TermSingleFactor(
+                                                                  FactorDesignator(
+                                                                    DesignatorSingle(
+                                                                     test4x
+                                                                    ) [DesignatorSingle]
+                                                                  ) [FactorDesignator]
+                                                                ) [TermSingleFactor]
+                                                                MulopMul(
+                                                                ) [MulopMul]
+                                                                FactorDesignator(
+                                                                  DesignatorSingle(
+                                                                   test4x
+                                                                  ) [DesignatorSingle]
+                                                                ) [FactorDesignator]
+                                                              ) [TermMulFactor]
+                                                              MulopDiv(
+                                                              ) [MulopDiv]
+                                                              FactorDesignator(
+                                                                DesignatorSingle(
+                                                                 test4x
+                                                                ) [DesignatorSingle]
+                                                              ) [FactorDesignator]
+                                                            ) [TermMulFactor]
+                                                          ) [TermExpr]
+                                                        ) [DesignatorStatementEq]
+                                                      ) [SingleStatementDesignator]
+                                                    ) [StatementNoLabelSingle]
+                                                  ) [MatchedStmt]
+                                                ) [ListStatement]
+                                                MatchedStmt(
+                                                  StatementNoLabelSingle(
+                                                    SingleStatementPrint(
+                                                      TermExpr(
+                                                        TermSingleFactor(
+                                                          FuncCallP(
+                                                            DesignatorSingle(
+                                                             oduzmi
+                                                            ) [DesignatorSingle]
+                                                            ActParams(
+                                                              ActParamsSingle(
+                                                                TermExpr(
+                                                                  TermSingleFactor(
+                                                                    FuncCallP(
+                                                                      DesignatorSingle(
+                                                                       saberi
+                                                                      ) [DesignatorSingle]
+                                                                      ActParams(
+                                                                        ActParamsSingle(
+                                                                          TermExpr(
+                                                                            TermSingleFactor(
+                                                                              FactorNumConst(
+                                                                               57
+                                                                              ) [FactorNumConst]
+                                                                            ) [TermSingleFactor]
+                                                                          ) [TermExpr]
+                                                                        ) [ActParamsSingle]
+                                                                        TermExpr(
+                                                                          TermSingleFactor(
+                                                                            FactorNumConst(
+                                                                             31
+                                                                            ) [FactorNumConst]
+                                                                          ) [TermSingleFactor]
+                                                                        ) [TermExpr]
+                                                                      ) [ActParams]
+                                                                    ) [FuncCallP]
+                                                                  ) [TermSingleFactor]
+                                                                ) [TermExpr]
+                                                              ) [ActParamsSingle]
+                                                              TermExpr(
+                                                                TermSingleFactor(
+                                                                  FuncCallP(
+                                                                    DesignatorSingle(
+                                                                     oduzmi
+                                                                    ) [DesignatorSingle]
+                                                                    ActParams(
+                                                                      ActParamsSingle(
+                                                                        TermExpr(
+                                                                          TermMulFactor(
+                                                                            TermSingleFactor(
+                                                                              FactorDesignator(
+                                                                                DesignatorSingle(
+                                                                                 test4x
+                                                                                ) [DesignatorSingle]
+                                                                              ) [FactorDesignator]
+                                                                            ) [TermSingleFactor]
+                                                                            MulopMul(
+                                                                            ) [MulopMul]
+                                                                            FactorDesignator(
+                                                                              DesignatorSingle(
+                                                                               test4x
+                                                                              ) [DesignatorSingle]
+                                                                            ) [FactorDesignator]
+                                                                          ) [TermMulFactor]
+                                                                        ) [TermExpr]
+                                                                      ) [ActParamsSingle]
+                                                                      TermExpr(
+                                                                        TermMulFactor(
+                                                                          TermSingleFactor(
+                                                                            FactorExpr(
+                                                                              TermExpr(
+                                                                                TermMulFactor(
+                                                                                  TermSingleFactor(
+                                                                                    FactorDesignator(
+                                                                                      DesignatorSingle(
+                                                                                       test4x
+                                                                                      ) [DesignatorSingle]
+                                                                                    ) [FactorDesignator]
+                                                                                  ) [TermSingleFactor]
+                                                                                  MulopDiv(
+                                                                                  ) [MulopDiv]
+                                                                                  FactorDesignator(
+                                                                                    DesignatorSingle(
+                                                                                     test4x
+                                                                                    ) [DesignatorSingle]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [TermMulFactor]
+                                                                              ) [TermExpr]
+                                                                            ) [FactorExpr]
+                                                                          ) [TermSingleFactor]
+                                                                          MulopMul(
+                                                                          ) [MulopMul]
+                                                                          FactorExpr(
+                                                                            TermExpr(
+                                                                              TermMulFactor(
+                                                                                TermSingleFactor(
+                                                                                  FactorExpr(
+                                                                                    AddExpr(
+                                                                                      TermExpr(
+                                                                                        TermSingleFactor(
+                                                                                          FactorDesignator(
+                                                                                            DesignatorSingle(
+                                                                                             test4x
+                                                                                            ) [DesignatorSingle]
+                                                                                          ) [FactorDesignator]
+                                                                                        ) [TermSingleFactor]
+                                                                                      ) [TermExpr]
+                                                                                      AddopMinus(
+                                                                                      ) [AddopMinus]
+                                                                                      TermSingleFactor(
+                                                                                        FactorNumConst(
+                                                                                         1
+                                                                                        ) [FactorNumConst]
+                                                                                      ) [TermSingleFactor]
+                                                                                    ) [AddExpr]
+                                                                                  ) [FactorExpr]
+                                                                                ) [TermSingleFactor]
+                                                                                MulopMul(
+                                                                                ) [MulopMul]
+                                                                                FactorDesignator(
+                                                                                  DesignatorSingle(
+                                                                                   test4x
+                                                                                  ) [DesignatorSingle]
+                                                                                ) [FactorDesignator]
+                                                                              ) [TermMulFactor]
+                                                                            ) [TermExpr]
+                                                                          ) [FactorExpr]
+                                                                        ) [TermMulFactor]
+                                                                      ) [TermExpr]
+                                                                    ) [ActParams]
+                                                                  ) [FuncCallP]
+                                                                ) [TermSingleFactor]
+                                                              ) [TermExpr]
+                                                            ) [ActParams]
+                                                          ) [FuncCallP]
+                                                        ) [TermSingleFactor]
+                                                      ) [TermExpr]
+                                                    ) [SingleStatementPrint]
+                                                  ) [StatementNoLabelSingle]
+                                                ) [MatchedStmt]
+                                              ) [ListStatement]
+                                              MatchedStmt(
+                                                StatementNoLabelSingle(
+                                                  SingleStatementPrint(
+                                                    TermExpr(
+                                                      TermSingleFactor(
+                                                        FactorDesignator(
+                                                          DesignatorSingle(
+                                                           eol
+                                                          ) [DesignatorSingle]
+                                                        ) [FactorDesignator]
+                                                      ) [TermSingleFactor]
+                                                    ) [TermExpr]
+                                                  ) [SingleStatementPrint]
+                                                ) [StatementNoLabelSingle]
+                                              ) [MatchedStmt]
+                                            ) [ListStatement]
+                                            MatchedStmt(
+                                              StatementNoLabelSingle(
+                                                SingleStatementPrint(
+                                                  TermExpr(
+                                                    TermSingleFactor(
+                                                      FactorCharConst(
+                                                       T
+                                                      ) [FactorCharConst]
+                                                    ) [TermSingleFactor]
+                                                  ) [TermExpr]
+                                                ) [SingleStatementPrint]
+                                              ) [StatementNoLabelSingle]
+                                            ) [MatchedStmt]
+                                          ) [ListStatement]
+                                          MatchedStmt(
+                                            StatementNoLabelSingle(
+                                              SingleStatementPrint(
+                                                TermExpr(
+                                                  TermSingleFactor(
+                                                    FactorCharConst(
+                                                     E
+                                                    ) [FactorCharConst]
+                                                  ) [TermSingleFactor]
+                                                ) [TermExpr]
+                                              ) [SingleStatementPrint]
+                                            ) [StatementNoLabelSingle]
+                                          ) [MatchedStmt]
+                                        ) [ListStatement]
+                                        MatchedStmt(
+                                          StatementNoLabelSingle(
+                                            SingleStatementPrint(
+                                              TermExpr(
+                                                TermSingleFactor(
+                                                  FactorCharConst(
+                                                   S
+                                                  ) [FactorCharConst]
+                                                ) [TermSingleFactor]
+                                              ) [TermExpr]
+                                            ) [SingleStatementPrint]
+                                          ) [StatementNoLabelSingle]
+                                        ) [MatchedStmt]
+                                      ) [ListStatement]
+                                      MatchedStmt(
+                                        StatementNoLabelSingle(
+                                          SingleStatementPrint(
+                                            TermExpr(
+                                              TermSingleFactor(
+                                                FactorCharConst(
+                                                 T
+                                                ) [FactorCharConst]
+                                              ) [TermSingleFactor]
+                                            ) [TermExpr]
+                                          ) [SingleStatementPrint]
+                                        ) [StatementNoLabelSingle]
+                                      ) [MatchedStmt]
+                                    ) [ListStatement]
+                                    MatchedStmt(
+                                      StatementNoLabelSingle(
+                                        SingleStatementPrint(
+                                          TermExpr(
+                                            TermSingleFactor(
+                                              FactorCharConst(
+                                               5
+                                              ) [FactorCharConst]
+                                            ) [TermSingleFactor]
+                                          ) [TermExpr]
+                                        ) [SingleStatementPrint]
+                                      ) [StatementNoLabelSingle]
+                                    ) [MatchedStmt]
+                                  ) [ListStatement]
+                                  MatchedStmt(
+                                    StatementNoLabelSingle(
+                                      SingleStatementPrint(
+                                        TermExpr(
+                                          TermSingleFactor(
+                                            FactorCharConst(
+                                             :
+                                            ) [FactorCharConst]
+                                          ) [TermSingleFactor]
+                                        ) [TermExpr]
+                                      ) [SingleStatementPrint]
+                                    ) [StatementNoLabelSingle]
+                                  ) [MatchedStmt]
+                                ) [ListStatement]
+                                MatchedStmt(
+                                  StatementNoLabelSingle(
+                                    SingleStatementPrint(
+                                      TermExpr(
+                                        TermSingleFactor(
+                                          FactorCharConst(
+                                            
+                                          ) [FactorCharConst]
+                                        ) [TermSingleFactor]
+                                      ) [TermExpr]
+                                    ) [SingleStatementPrint]
+                                  ) [StatementNoLabelSingle]
+                                ) [MatchedStmt]
+                              ) [ListStatement]
+                              MatchedStmt(
+                                StatementNoLabelSingle(
+                                  SingleStatementPrint(
+                                    TermExpr(
+                                      TermSingleFactor(
+                                        FuncCallP(
+                                          DesignatorSingle(
+                                           inkrementiraj
+                                          ) [DesignatorSingle]
+                                          ActParamsSingle(
+                                            TermExpr(
+                                              TermSingleFactor(
+                                                FuncCallP(
+                                                  DesignatorSingle(
+                                                   dekrementiraj
+                                                  ) [DesignatorSingle]
+                                                  ActParamsSingle(
+                                                    TermExpr(
+                                                      TermSingleFactor(
+                                                        FuncCallP(
+                                                          DesignatorSingle(
+                                                           inkrementiraj
+                                                          ) [DesignatorSingle]
+                                                          ActParamsSingle(
+                                                            TermExpr(
+                                                              TermSingleFactor(
+                                                                FuncCallP(
+                                                                  DesignatorSingle(
+                                                                   dekrementiraj
+                                                                  ) [DesignatorSingle]
+                                                                  ActParamsSingle(
+                                                                    TermExpr(
+                                                                      TermSingleFactor(
+                                                                        FuncCallP(
+                                                                          DesignatorSingle(
+                                                                           inkrementiraj
+                                                                          ) [DesignatorSingle]
+                                                                          ActParamsSingle(
+                                                                            TermExpr(
+                                                                              TermSingleFactor(
+                                                                                FuncCallP(
+                                                                                  DesignatorSingle(
+                                                                                   dekrementiraj
+                                                                                  ) [DesignatorSingle]
+                                                                                  ActParamsSingle(
+                                                                                    TermExpr(
+                                                                                      TermSingleFactor(
+                                                                                        FactorNumConst(
+                                                                                         101
+                                                                                        ) [FactorNumConst]
+                                                                                      ) [TermSingleFactor]
+                                                                                    ) [TermExpr]
+                                                                                  ) [ActParamsSingle]
+                                                                                ) [FuncCallP]
+                                                                              ) [TermSingleFactor]
+                                                                            ) [TermExpr]
+                                                                          ) [ActParamsSingle]
+                                                                        ) [FuncCallP]
+                                                                      ) [TermSingleFactor]
+                                                                    ) [TermExpr]
+                                                                  ) [ActParamsSingle]
+                                                                ) [FuncCallP]
+                                                              ) [TermSingleFactor]
+                                                            ) [TermExpr]
+                                                          ) [ActParamsSingle]
+                                                        ) [FuncCallP]
+                                                      ) [TermSingleFactor]
+                                                    ) [TermExpr]
+                                                  ) [ActParamsSingle]
+                                                ) [FuncCallP]
+                                              ) [TermSingleFactor]
+                                            ) [TermExpr]
+                                          ) [ActParamsSingle]
+                                        ) [FuncCallP]
+                                      ) [TermSingleFactor]
+                                    ) [TermExpr]
+                                  ) [SingleStatementPrint]
+                                ) [StatementNoLabelSingle]
+                              ) [MatchedStmt]
+                            ) [ListStatement]
+                            MatchedStmt(
+                              StatementNoLabelSingle(
+                                SingleStatementPrint(
+                                  TermExpr(
+                                    TermSingleFactor(
+                                      FactorDesignator(
+                                        DesignatorSingle(
+                                         eol
+                                        ) [DesignatorSingle]
+                                      ) [FactorDesignator]
+                                    ) [TermSingleFactor]
+                                  ) [TermExpr]
+                                ) [SingleStatementPrint]
+                              ) [StatementNoLabelSingle]
+                            ) [MatchedStmt]
+                          ) [ListStatement]
+                          MatchedStmt(
+                            StatementNoLabelSingle(
+                              SingleStatementPrint(
+                                TermExpr(
+                                  TermSingleFactor(
+                                    FactorCharConst(
+                                     T
+                                    ) [FactorCharConst]
+                                  ) [TermSingleFactor]
+                                ) [TermExpr]
+                              ) [SingleStatementPrint]
+                            ) [StatementNoLabelSingle]
+                          ) [MatchedStmt]
+                        ) [ListStatement]
+                        MatchedStmt(
+                          StatementNoLabelSingle(
+                            SingleStatementPrint(
+                              TermExpr(
+                                TermSingleFactor(
+                                  FactorCharConst(
+                                   E
+                                  ) [FactorCharConst]
+                                ) [TermSingleFactor]
+                              ) [TermExpr]
+                            ) [SingleStatementPrint]
+                          ) [StatementNoLabelSingle]
+                        ) [MatchedStmt]
+                      ) [ListStatement]
+                      MatchedStmt(
+                        StatementNoLabelSingle(
+                          SingleStatementPrint(
+                            TermExpr(
+                              TermSingleFactor(
+                                FactorCharConst(
+                                 S
+                                ) [FactorCharConst]
+                              ) [TermSingleFactor]
+                            ) [TermExpr]
+                          ) [SingleStatementPrint]
+                        ) [StatementNoLabelSingle]
+                      ) [MatchedStmt]
+                    ) [ListStatement]
+                    MatchedStmt(
+                      StatementNoLabelSingle(
+                        SingleStatementPrint(
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorCharConst(
+                               T
+                              ) [FactorCharConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [SingleStatementPrint]
+                      ) [StatementNoLabelSingle]
+                    ) [MatchedStmt]
+                  ) [ListStatement]
+                  MatchedStmt(
+                    StatementNoLabelSingle(
+                      SingleStatementPrint(
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorCharConst(
+                             6
+                            ) [FactorCharConst]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [SingleStatementPrint]
+                    ) [StatementNoLabelSingle]
+                  ) [MatchedStmt]
+                ) [ListStatement]
+                MatchedStmt(
+                  StatementNoLabelSingle(
+                    SingleStatementPrint(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorCharConst(
+                           :
+                          ) [FactorCharConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [SingleStatementPrint]
+                  ) [StatementNoLabelSingle]
+                ) [MatchedStmt]
+              ) [ListStatement]
+              MatchedStmt(
+                StatementNoLabelSingle(
+                  SingleStatementPrint(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorCharConst(
+                          
+                        ) [FactorCharConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [SingleStatementPrint]
+                ) [StatementNoLabelSingle]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     testniz
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNewSquare(
+                          Type(
+                           int
+                          ) [Type]
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorNumConst(
+                               5
+                              ) [FactorNumConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [FactorNewSquare]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSquare(
+                    DesignatorSingle(
+                     testniz
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorSquare]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              AddExpr(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSquare(
+                        DesignatorSingle(
+                         testniz
+                        ) [DesignatorSingle]
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorNumConst(
+                             0
+                            ) [FactorNumConst]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [DesignatorSquare]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+                AddopPlus(
+                ) [AddopPlus]
+                TermSingleFactor(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [AddExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  08:44:55,466 - ===================================
+INFO  08:44:55,469 - Deklarisana konstanta pet na liniji 4
+INFO  08:44:55,469 - Obradjuje se funkcija ispisi na liniji 8
+INFO  08:44:55,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 9
+INFO  08:44:55,469 - Obradjuje se funkcija ispisi_with_ret na liniji 12
+INFO  08:44:55,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 13
+INFO  08:44:55,469 - Obradjuje se funkcija inkrementiraj na liniji 17
+INFO  08:44:55,469 - Obradjuje se funkcija dekrementiraj na liniji 21
+INFO  08:44:55,469 - Obradjuje se funkcija saberi na liniji 25
+INFO  08:44:55,469 - Obradjuje se funkcija oduzmi na liniji 29
+INFO  08:44:55,470 - Obradjuje se funkcija pomnozi na liniji 33
+INFO  08:44:55,470 - Obradjuje se funkcija podeli na liniji 37
+INFO  08:44:55,470 - Obradjuje se funkcija main na liniji 42
+INFO  08:44:55,470 - Deklarisana promenljiva test1x tipa int na liniji 43
+INFO  08:44:55,470 - Deklarisana promenljiva test1y tipa int na liniji 44
+INFO  08:44:55,470 - Deklarisana promenljiva test2x tipa int na liniji 45
+INFO  08:44:55,470 - Deklarisana promenljiva test2y tipa int na liniji 46
+INFO  08:44:55,470 - Deklarisana promenljiva test4x tipa int na liniji 47
+INFO  08:44:55,470 - Deklarisana promenljiva test4y tipa int na liniji 48
+INFO  08:44:55,470 - Deklarisan niz testniz tipa int na liniji 49
+INFO  08:44:55,470 - Dodela vrednosti test1x na liniji 52
+INFO  08:44:55,470 - Dodela vrednosti test1y na liniji 53
+INFO  08:44:55,470 - Obradjena char konstanta T i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Obradjena char konstanta E i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Obradjena char konstanta S i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Obradjena char konstanta T i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Obradjena char konstanta 1 i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Obradjena char konstanta : i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Obradjena char konstanta   i setovan joj je tip char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 54
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 55
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 56
+INFO  08:44:55,470 - Obradjena char konstanta T i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:55,470 - Obradjena char konstanta E i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:55,470 - Obradjena char konstanta S i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:55,470 - Obradjena char konstanta T i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:55,470 - Obradjena char konstanta 2 i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:55,470 - Obradjena char konstanta : i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:55,470 - Obradjena char konstanta   i setovan joj je tip char na liniji 59
+INFO  08:44:55,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 59
+INFO  08:44:56,469 - Dodela vrednosti test2x na liniji 60
+INFO  08:44:56,469 - Dodela vrednosti test2y na liniji 61
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 62
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 63
+INFO  08:44:56,469 - Obradjena char konstanta T i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta E i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta S i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta T i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta 3 i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta : i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta   i setovan joj je tip char na liniji 66
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 66
+INFO  08:44:56,469 - Obradjena char konstanta T i setovan joj je tip char na liniji 67
+INFO  08:44:56,469 - Pozivanje funkcije ispisi na liniji 67
+INFO  08:44:56,469 - Obradjena char konstanta T i setovan joj je tip char na liniji 68
+INFO  08:44:56,469 - Pozivanje funkcije ispisi_with_ret na liniji 68
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 69
+INFO  08:44:56,469 - Obradjena char konstanta T i setovan joj je tip char na liniji 72
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,469 - Obradjena char konstanta E i setovan joj je tip char na liniji 72
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,469 - Obradjena char konstanta S i setovan joj je tip char na liniji 72
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,469 - Obradjena char konstanta T i setovan joj je tip char na liniji 72
+INFO  08:44:56,469 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,469 - Obradjena char konstanta 4 i setovan joj je tip char na liniji 72
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,470 - Obradjena char konstanta : i setovan joj je tip char na liniji 72
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,470 - Obradjena char konstanta   i setovan joj je tip char na liniji 72
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 72
+INFO  08:44:56,470 - Dodela vrednosti test4x na liniji 73
+INFO  08:44:56,470 - Dodela vrednosti test4y na liniji 74
+INFO  08:44:56,470 - Pozivanje funkcije saberi na liniji 75
+INFO  08:44:56,470 - Pozivanje funkcije oduzmi na liniji 75
+INFO  08:44:56,470 - Pozivanje funkcije oduzmi na liniji 75
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 75
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 76
+INFO  08:44:56,470 - Obradjena char konstanta T i setovan joj je tip char na liniji 79
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,470 - Obradjena char konstanta E i setovan joj je tip char na liniji 79
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,470 - Obradjena char konstanta S i setovan joj je tip char na liniji 79
+INFO  08:44:56,470 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,470 - Obradjena char konstanta T i setovan joj je tip char na liniji 79
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,828 - Obradjena char konstanta 5 i setovan joj je tip char na liniji 79
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,828 - Obradjena char konstanta : i setovan joj je tip char na liniji 79
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,828 - Obradjena char konstanta   i setovan joj je tip char na liniji 79
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 79
+INFO  08:44:56,828 - Pozivanje funkcije dekrementiraj na liniji 80
+INFO  08:44:56,828 - Pozivanje funkcije inkrementiraj na liniji 80
+INFO  08:44:56,828 - Pozivanje funkcije dekrementiraj na liniji 80
+INFO  08:44:56,828 - Pozivanje funkcije inkrementiraj na liniji 80
+INFO  08:44:56,828 - Pozivanje funkcije dekrementiraj na liniji 80
+INFO  08:44:56,828 - Pozivanje funkcije inkrementiraj na liniji 80
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 80
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 81
+INFO  08:44:56,828 - Obradjena char konstanta T i setovan joj je tip char na liniji 84
+INFO  08:44:56,828 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,828 - Obradjena char konstanta E i setovan joj je tip char na liniji 84
+INFO  08:44:56,829 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,829 - Obradjena char konstanta S i setovan joj je tip char na liniji 84
+INFO  08:44:56,829 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,829 - Obradjena char konstanta T i setovan joj je tip char na liniji 84
+INFO  08:44:56,829 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,829 - Obradjena char konstanta 6 i setovan joj je tip char na liniji 84
+INFO  08:44:56,829 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,829 - Obradjena char konstanta : i setovan joj je tip char na liniji 84
+INFO  08:44:56,829 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,829 - Obradjena char konstanta   i setovan joj je tip char na liniji 84
+INFO  08:44:56,829 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 84
+INFO  08:44:56,829 - Napravljen je niz objekata tipa arr na liniji 85
+INFO  08:44:56,829 - Dodela vrednosti testniz na liniji 85
+INFO  08:44:56,835 - Pristupiljeno elementu niza testniz na liniji 86
+INFO  08:44:56,835 - Dodela vrednosti null na liniji 86
+INFO  08:44:56,835 - Pristupiljeno elementu niza testniz na liniji 87
+INFO  08:44:56,835 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 87
+INFO  08:44:56,836 -  Print count calls = 0
+INFO  08:44:56,836 -  Deklarisanih promenljivih ima = 7
+INFO  08:44:56,836 - ===================================
+INFO  08:44:56,849 - Parsiranje uspesno zavrseno

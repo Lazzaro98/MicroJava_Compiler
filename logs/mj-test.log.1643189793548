@@ -1,0 +1,136 @@
+INFO  10:20:13,576 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  10:20:13,634 - #4 program
+INFO  10:20:13,634 - #46 test301
+INFO  10:20:13,634 - #11 const
+INFO  10:20:13,635 - #46 int
+INFO  10:20:13,635 - #46 jedan
+INFO  10:20:13,636 - #12 =
+INFO  10:20:13,636 - #45 1
+INFO  10:20:13,636 - #10 ;
+INFO  10:20:13,637 - #5 {
+INFO  10:20:13,637 - #18 void
+INFO  10:20:13,637 - #46 main
+INFO  10:20:13,638 - #7 (
+INFO  10:20:13,638 - #8 )
+INFO  10:20:13,638 - #46 int
+INFO  10:20:13,639 - #46 bodovi
+INFO  10:20:13,639 - #10 ;
+INFO  10:20:13,639 - #5 {
+INFO  10:20:13,640 - #46 bodovi
+INFO  10:20:13,640 - #12 =
+INFO  10:20:13,640 - #46 jedan
+INFO  10:20:13,641 - #28 -
+INFO  10:20:13,642 - #45 1
+INFO  10:20:13,643 - #10 ;
+INFO  10:20:13,643 - #24 print
+INFO  10:20:13,643 - #7 (
+INFO  10:20:13,644 - #46 bodovi
+INFO  10:20:13,644 - #8 )
+INFO  10:20:13,644 - #10 ;
+INFO  10:20:13,644 - #6 }
+INFO  10:20:13,644 - #6 }
+INFO  10:20:13,651 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       jedan
+        NumConstDeclaration(
+         1
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   bodovi
+                  ) [DesignatorSingle]
+                  AddExpr(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSingle(
+                           jedan
+                          ) [DesignatorSingle]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    TermSingleFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [AddExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     bodovi
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  10:20:13,652 - ===================================
+INFO  10:20:13,655 - Deklarisana konstanta jedan na liniji 4
+INFO  10:20:13,655 - Obradjuje se funkcija main na liniji 6
+INFO  10:20:13,655 - Deklarisana promenljiva bodovi tipa int na liniji 7
+INFO  10:20:13,656 - Dodela vrednosti bodovi na liniji 10
+INFO  10:20:13,656 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 11
+INFO  10:20:13,656 -  Print count calls = 0
+INFO  10:20:13,656 -  Deklarisanih promenljivih ima = 1
+INFO  10:20:13,657 - ===================================
+INFO  10:20:13,662 - Parsiranje uspesno zavrseno

@@ -1,0 +1,183 @@
+INFO  22:38:20,022 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:38:20,080 - #3 program
+INFO  22:38:20,081 - #45 test301
+INFO  22:38:20,081 - #16 record
+INFO  22:38:20,082 - #45 TestRecord
+INFO  22:38:20,082 - #4 {
+INFO  22:38:20,082 - #45 int
+INFO  22:38:20,082 - #45 p
+INFO  22:38:20,083 - #12 [
+INFO  22:38:20,083 - #13 ]
+INFO  22:38:20,083 - #9 ;
+INFO  22:38:20,084 - #45 int
+INFO  22:38:20,084 - #45 k
+INFO  22:38:20,084 - #9 ;
+INFO  22:38:20,084 - #45 TestRecord
+INFO  22:38:20,084 - #45 t1
+INFO  22:38:20,084 - #9 ;
+INFO  22:38:20,084 - #5 }
+INFO  22:38:20,085 - #4 {
+INFO  22:38:20,085 - #17 void
+INFO  22:38:20,085 - #45 inkrement
+INFO  22:38:20,086 - #6 (
+INFO  22:38:20,086 - #7 )
+INFO  22:38:20,087 - #45 TestRecord
+INFO  22:38:20,087 - #45 t2
+INFO  22:38:20,087 - #9 ;
+INFO  22:38:20,087 - #4 {
+INFO  22:38:20,088 - #45 t2
+INFO  22:38:20,088 - #20 .
+INFO  22:38:20,089 - #45 t1
+INFO  22:38:20,089 - #20 .
+INFO  22:38:20,089 - #45 p
+INFO  22:38:20,089 - #12 [
+INFO  22:38:20,090 - #44 1
+INFO  22:38:20,090 - #13 ]
+INFO  22:38:20,090 - #11 =
+INFO  22:38:20,091 - #44 1
+INFO  22:38:20,091 - #9 ;
+INFO  22:38:20,091 - #5 }
+INFO  22:38:20,091 - #17 void
+INFO  22:38:20,092 - #45 main
+INFO  22:38:20,092 - #6 (
+INFO  22:38:20,092 - #7 )
+INFO  22:38:20,092 - #4 {
+INFO  22:38:20,092 - #5 }
+INFO  22:38:20,092 - #5 }
+INFO  22:38:20,097 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationListEmpty(
+              ) [VarDeclarationListEmpty]
+              VarDeclarationSquares(
+                Type(
+                 int
+                ) [Type]
+               p
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclarationSquares]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             k
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t1
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodVoidName(
+         inkrement
+        ) [MethodVoidName]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t2
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSquare(
+                    DesignatorDot(
+                      DesignatorDot(
+                        DesignatorSingle(
+                         t2
+                        ) [DesignatorSingle]
+                       t1
+                      ) [DesignatorDot]
+                     p
+                    ) [DesignatorDot]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorSquare]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:38:20,098 - ===================================
+INFO  22:38:20,101 - Deklaracija niza p  na liniji 7
+INFO  22:38:20,102 - Deklarisana promenljiva k na liniji 8
+INFO  22:38:20,102 - Deklarisana promenljiva t1 na liniji 9
+INFO  22:38:20,102 - Obradjuje se funkcija inkrement na liniji 14
+INFO  22:38:20,102 - Deklarisana promenljiva t2 na liniji 15
+INFO  22:38:20,102 - Dohvatanje vrednosti polja t1 klase t2  na liniji 17
+INFO  22:38:20,103 - Dohvatanje vrednosti polja p klase t1  na liniji 17
+INFO  22:38:20,103 - Dohvatanje elementa niza  na liniji 17
+INFO  22:38:20,103 - Dodela vrednosti  na liniji 17
+ERROR 22:38:20,103 - Greska na liniji 17 :  nekompatibilni tipovi u dodeli vrednosti! 
+INFO  22:38:20,103 - Obradjuje se funkcija main na liniji 21
+INFO  22:38:20,104 -  Print count calls = 0
+INFO  22:38:20,104 -  Deklarisanih promenljivih ima = 3
+INFO  22:38:20,104 - ===================================
+ERROR 22:38:20,104 - Parsiranje neuspesno.

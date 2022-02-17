@@ -1,0 +1,197 @@
+INFO  16:43:40,098 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  16:43:40,173 - #3 program
+INFO  16:43:40,174 - #45 test301
+INFO  16:43:40,174 - #16 record
+INFO  16:43:40,175 - #45 TestRecord
+INFO  16:43:40,175 - #4 {
+INFO  16:43:40,175 - #45 int
+INFO  16:43:40,176 - #45 p
+INFO  16:43:40,177 - #9 ;
+INFO  16:43:40,177 - #45 int
+INFO  16:43:40,178 - #45 p1
+INFO  16:43:40,178 - #9 ;
+INFO  16:43:40,178 - #45 int
+INFO  16:43:40,178 - #45 p2
+INFO  16:43:40,178 - #9 ;
+INFO  16:43:40,178 - #45 TestRecord
+INFO  16:43:40,178 - #45 t1
+INFO  16:43:40,178 - #9 ;
+INFO  16:43:40,178 - #5 }
+INFO  16:43:40,178 - #4 {
+INFO  16:43:40,179 - #45 int
+INFO  16:43:40,180 - #45 inkrement
+INFO  16:43:40,180 - #6 (
+INFO  16:43:40,181 - #7 )
+INFO  16:43:40,181 - #45 TestRecord
+INFO  16:43:40,181 - #45 t2
+INFO  16:43:40,181 - #9 ;
+INFO  16:43:40,181 - #45 char
+INFO  16:43:40,181 - #45 x
+INFO  16:43:40,181 - #9 ;
+INFO  16:43:40,181 - #4 {
+INFO  16:43:40,181 - #45 x
+INFO  16:43:40,182 - #11 =
+INFO  16:43:40,182 - #44 2
+INFO  16:43:40,182 - #9 ;
+INFO  16:43:40,183 - #43 return
+INFO  16:43:40,183 - #44 2
+INFO  16:43:40,183 - #9 ;
+INFO  16:43:40,183 - #5 }
+INFO  16:43:40,183 - #17 void
+INFO  16:43:40,184 - #45 main
+INFO  16:43:40,184 - #6 (
+INFO  16:43:40,184 - #7 )
+INFO  16:43:40,184 - #4 {
+INFO  16:43:40,184 - #5 }
+INFO  16:43:40,184 - #5 }
+INFO  16:43:40,197 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationListEmpty(
+                ) [VarDeclarationListEmpty]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 p
+                  VarDeclarationListPomEmpty(
+                  ) [VarDeclarationListPomEmpty]
+                ) [VarDeclaration]
+              ) [VarDeclarationList]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+               p1
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclaration]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             p2
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             TestRecord
+            ) [Type]
+           t1
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         inkrement
+        ) [MethodTypeName_]
+        FormParsDerived1(
+        ) [FormParsDerived1]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationListEmpty(
+            ) [VarDeclarationListEmpty]
+            VarDeclaration(
+              Type(
+               TestRecord
+              ) [Type]
+             t2
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+           x
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     x
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementReturn(
+              TermExpr(
+                TermSingleFactor(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [StatementReturn]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:43:40,198 - ===================================
+INFO  16:43:40,213 - Deklarisana promenljiva p na liniji 7
+INFO  16:43:40,213 - Deklarisana promenljiva p1 na liniji 8
+INFO  16:43:40,213 - Deklarisana promenljiva p2 na liniji 9
+INFO  16:43:40,213 - Deklarisana promenljiva t1 na liniji 10
+INFO  16:43:40,213 - Obradjuje se funkcija inkrement na liniji 16
+INFO  16:43:40,213 - Deklarisana promenljiva t2 na liniji 17
+INFO  16:43:40,213 - Deklarisana promenljiva x na liniji 18
+INFO  16:43:40,213 - Dodela vrednosti  na liniji 20

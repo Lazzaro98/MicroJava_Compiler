@@ -1,0 +1,183 @@
+INFO  08:52:14,933 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  08:52:14,994 - #4 program
+INFO  08:52:14,994 - #46 test302
+INFO  08:52:14,994 - #11 const
+INFO  08:52:14,995 - #46 int
+INFO  08:52:14,996 - #46 pet
+INFO  08:52:14,997 - #12 =
+INFO  08:52:14,997 - #45 5
+INFO  08:52:14,997 - #10 ;
+INFO  08:52:14,998 - #5 {
+INFO  08:52:14,998 - #18 void
+INFO  08:52:14,999 - #46 main
+INFO  08:52:14,999 - #7 (
+INFO  08:52:14,999 - #8 )
+INFO  08:52:15,000 - #46 int
+INFO  08:52:15,001 - #46 test1x
+INFO  08:52:15,001 - #10 ;
+INFO  08:52:15,002 - #5 {
+INFO  08:52:15,002 - #46 testniz
+INFO  08:52:15,004 - #12 =
+INFO  08:52:15,005 - #26 new
+INFO  08:52:15,005 - #46 int
+INFO  08:52:15,006 - #13 [
+INFO  08:52:15,006 - #45 5
+INFO  08:52:15,006 - #14 ]
+INFO  08:52:15,007 - #10 ;
+INFO  08:52:15,007 - #46 test1x
+INFO  08:52:15,007 - #12 =
+INFO  08:52:15,007 - #46 test1x
+INFO  08:52:15,008 - #10 ;
+INFO  08:52:15,008 - #46 test1x
+INFO  08:52:15,008 - #12 =
+INFO  08:52:15,008 - #46 testniz
+INFO  08:52:15,008 - #13 [
+INFO  08:52:15,008 - #45 1
+INFO  08:52:15,008 - #14 ]
+INFO  08:52:15,008 - #10 ;
+INFO  08:52:15,008 - #6 }
+INFO  08:52:15,008 - #6 }
+INFO  08:52:15,013 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       pet
+        NumConstDeclaration(
+         5
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         test1x
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     testniz
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNewSquare(
+                          Type(
+                           int
+                          ) [Type]
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorNumConst(
+                               5
+                              ) [FactorNumConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [FactorNewSquare]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   test1x
+                  ) [DesignatorSingle]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         test1x
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementEq(
+                DesignatorSingle(
+                 test1x
+                ) [DesignatorSingle]
+                TermExpr(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSquare(
+                        DesignatorSingle(
+                         testniz
+                        ) [DesignatorSingle]
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorNumConst(
+                             1
+                            ) [FactorNumConst]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [DesignatorSquare]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+              ) [DesignatorStatementEq]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  08:52:15,014 - ===================================
+INFO  08:52:15,017 - Deklarisana konstanta pet na liniji 4
+INFO  08:52:15,018 - Obradjuje se funkcija main na liniji 10
+INFO  08:52:15,018 - Deklarisana promenljiva test1x tipa int na liniji 11
+ERROR 08:52:15,018 - Ime testniz nije deklarisano  na liniji 14
+INFO  08:52:15,018 - Napravljen je niz objekata tipa arr na liniji 14
+ERROR 08:52:15,018 - Greska: Nedozvoljena dodela vrednosti designator-u koji nije element niza ili promenljiva  na liniji 14
+INFO  08:52:15,018 - Dodela vrednosti test1x na liniji 15
+ERROR 08:52:15,018 - Ime testniz nije deklarisano  na liniji 16
+ERROR 08:52:15,019 - Pokusali ste da indeksirate objekat koji nije niz na liniji 16
+ERROR 08:52:15,019 - Nekompatibilni tipovi u dodeli vrednosti! none i int na liniji 16
+INFO  08:52:15,019 -  Print count calls = 0
+INFO  08:52:15,020 -  Deklarisanih promenljivih ima = 1
+INFO  08:52:15,020 - ===================================
+ERROR 08:52:15,021 - Parsiranje neuspesno.

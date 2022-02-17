@@ -1,0 +1,183 @@
+INFO  22:24:44,439 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:24:44,488 - #4 program
+INFO  22:24:44,489 - #46 test302
+INFO  22:24:44,489 - #11 const
+INFO  22:24:44,490 - #46 int
+INFO  22:24:44,490 - #46 pet
+INFO  22:24:44,492 - #12 =
+INFO  22:24:44,492 - #45 5
+INFO  22:24:44,492 - #10 ;
+INFO  22:24:44,493 - #5 {
+INFO  22:24:44,493 - #46 int
+INFO  22:24:44,493 - #46 oduzmi
+INFO  22:24:44,494 - #7 (
+INFO  22:24:44,494 - #46 int
+INFO  22:24:44,494 - #46 a
+INFO  22:24:44,494 - #9 ,
+INFO  22:24:44,494 - #46 int
+INFO  22:24:44,495 - #46 b
+INFO  22:24:44,495 - #8 )
+INFO  22:24:44,495 - #5 {
+INFO  22:24:44,495 - #44 return
+INFO  22:24:44,499 - #46 a
+INFO  22:24:44,500 - #28 -
+INFO  22:24:44,500 - #46 b
+INFO  22:24:44,501 - #10 ;
+INFO  22:24:44,501 - #6 }
+INFO  22:24:44,501 - #18 void
+INFO  22:24:44,501 - #46 main
+INFO  22:24:44,501 - #7 (
+INFO  22:24:44,501 - #8 )
+INFO  22:24:44,502 - #5 {
+INFO  22:24:44,502 - #24 print
+INFO  22:24:44,502 - #7 (
+INFO  22:24:44,502 - #46 oduzmi
+INFO  22:24:44,502 - #7 (
+INFO  22:24:44,502 - #45 3
+INFO  22:24:44,502 - #9 ,
+INFO  22:24:44,502 - #45 5
+INFO  22:24:44,502 - #8 )
+INFO  22:24:44,503 - #8 )
+INFO  22:24:44,503 - #10 ;
+INFO  22:24:44,503 - #6 }
+INFO  22:24:44,504 - #6 }
+INFO  22:24:44,510 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       pet
+        NumConstDeclaration(
+         5
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodTypeName_(
+          Type(
+           int
+          ) [Type]
+         oduzmi
+        ) [MethodTypeName_]
+        FormalParams(
+          FormalParamsSingleSquare(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormalParamsSingleSquare]
+          FormalParamsListPom(
+            FormalParamsListPomEmpty(
+            ) [FormalParamsListPomEmpty]
+            FormalParamsSingleSquare(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormalParamsSingleSquare]
+          ) [FormalParamsListPom]
+        ) [FormalParams]
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementReturn(
+              AddExpr(
+                TermExpr(
+                  TermSingleFactor(
+                    FactorDesignator(
+                      DesignatorSingle(
+                       a
+                      ) [DesignatorSingle]
+                    ) [FactorDesignator]
+                  ) [TermSingleFactor]
+                ) [TermExpr]
+                AddopMinus(
+                ) [AddopMinus]
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     b
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [AddExpr]
+            ) [StatementReturn]
+          ) [MatchedStmt]
+        ) [ListStatement]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FuncCallP(
+                    DesignatorSingle(
+                     oduzmi
+                    ) [DesignatorSingle]
+                    ActParams(
+                      ActParamsSingle(
+                        TermExpr(
+                          TermSingleFactor(
+                            FactorNumConst(
+                             3
+                            ) [FactorNumConst]
+                          ) [TermSingleFactor]
+                        ) [TermExpr]
+                      ) [ActParamsSingle]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           5
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [ActParams]
+                  ) [FuncCallP]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:24:44,511 - ===================================
+INFO  22:24:44,513 - Deklarisana konstanta pet na liniji 4
+INFO  22:24:44,513 - Obradjuje se funkcija oduzmi na liniji 8
+INFO  22:24:44,514 - Obradjuje se funkcija main na liniji 12
+INFO  22:24:44,514 - Pozivanje funkcije oduzmi na liniji 19
+INFO  22:24:44,514 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 19
+INFO  22:24:44,514 -  Print count calls = 0
+INFO  22:24:44,514 -  Deklarisanih promenljivih ima = 0
+INFO  22:24:44,514 - ===================================
+INFO  22:24:44,518 - Parsiranje uspesno zavrseno

@@ -1,0 +1,200 @@
+INFO  23:24:16,401 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  23:24:16,457 - #3 program
+INFO  23:24:16,457 - #45 test301
+INFO  23:24:16,457 - #16 record
+INFO  23:24:16,458 - #45 TestRecord
+INFO  23:24:16,459 - #4 {
+INFO  23:24:16,459 - #45 int
+INFO  23:24:16,460 - #45 p
+INFO  23:24:16,464 - #12 [
+INFO  23:24:16,464 - #13 ]
+INFO  23:24:16,464 - #9 ;
+INFO  23:24:16,465 - #45 int
+INFO  23:24:16,465 - #45 k
+INFO  23:24:16,465 - #9 ;
+INFO  23:24:16,465 - #45 TestRecord
+INFO  23:24:16,466 - #45 pom
+INFO  23:24:16,466 - #12 [
+INFO  23:24:16,466 - #13 ]
+INFO  23:24:16,466 - #9 ;
+INFO  23:24:16,466 - #5 }
+INFO  23:24:16,466 - #4 {
+INFO  23:24:16,467 - #17 void
+INFO  23:24:16,467 - #45 inkrement
+INFO  23:24:16,467 - #6 (
+INFO  23:24:16,468 - #45 int
+INFO  23:24:16,468 - #45 a
+INFO  23:24:16,468 - #7 )
+INFO  23:24:16,468 - #45 TestRecord
+INFO  23:24:16,468 - #45 t2
+INFO  23:24:16,468 - #12 [
+INFO  23:24:16,469 - #13 ]
+INFO  23:24:16,469 - #9 ;
+INFO  23:24:16,469 - #4 {
+INFO  23:24:16,469 - #5 }
+INFO  23:24:16,469 - #17 void
+INFO  23:24:16,470 - #45 main
+INFO  23:24:16,470 - #6 (
+INFO  23:24:16,470 - #7 )
+INFO  23:24:16,471 - #45 int
+INFO  23:24:16,471 - #45 p
+INFO  23:24:16,471 - #12 [
+INFO  23:24:16,471 - #13 ]
+INFO  23:24:16,472 - #9 ;
+INFO  23:24:16,472 - #4 {
+INFO  23:24:16,472 - #45 inkrement
+INFO  23:24:16,472 - #6 (
+INFO  23:24:16,473 - #45 p
+INFO  23:24:16,473 - #12 [
+INFO  23:24:16,473 - #44 2
+INFO  23:24:16,473 - #13 ]
+INFO  23:24:16,474 - #7 )
+INFO  23:24:16,474 - #9 ;
+INFO  23:24:16,474 - #5 }
+INFO  23:24:16,475 - #5 }
+INFO  23:24:16,483 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationRecord(
+      RecordDeclaration(
+        RecordDeclarationName(
+         TestRecord
+        ) [RecordDeclarationName]
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationListEmpty(
+              ) [VarDeclarationListEmpty]
+              VarDeclarationSquares(
+                Type(
+                 int
+                ) [Type]
+               p
+                VarDeclarationListPomEmpty(
+                ) [VarDeclarationListPomEmpty]
+              ) [VarDeclarationSquares]
+            ) [VarDeclarationList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+             k
+              VarDeclarationListPomEmpty(
+              ) [VarDeclarationListPomEmpty]
+            ) [VarDeclaration]
+          ) [VarDeclarationList]
+          VarDeclarationSquares(
+            Type(
+             TestRecord
+            ) [Type]
+           pom
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclarationSquares]
+        ) [VarDeclarationList]
+      ) [RecordDeclaration]
+    ) [DeclarationRecord]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationListEmpty(
+      ) [MethodDeclarationListEmpty]
+      MethodDeclaration(
+        MethodVoidName(
+         inkrement
+        ) [MethodVoidName]
+        FormalParams(
+          FormalParamsSingleSquare(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormalParamsSingleSquare]
+          FormalParamsListPomEmpty(
+          ) [FormalParamsListPomEmpty]
+        ) [FormalParams]
+        VarDeclarationList(
+          VarDeclarationListEmpty(
+          ) [VarDeclarationListEmpty]
+          VarDeclarationSquares(
+            Type(
+             TestRecord
+            ) [Type]
+           t2
+            VarDeclarationListPomEmpty(
+            ) [VarDeclarationListPomEmpty]
+          ) [VarDeclarationSquares]
+        ) [VarDeclarationList]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclarationSquares(
+          Type(
+           int
+          ) [Type]
+         p
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclarationSquares]
+      ) [VarDeclarationList]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementDesignator(
+              DesignatorStatementActParams(
+                DesignatorSingle(
+                 inkrement
+                ) [DesignatorSingle]
+                ActParamsSingle(
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSquare(
+                          DesignatorSingle(
+                           p
+                          ) [DesignatorSingle]
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorNumConst(
+                               2
+                              ) [FactorNumConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [DesignatorSquare]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [ActParamsSingle]
+              ) [DesignatorStatementActParams]
+            ) [SingleStatementDesignator]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:24:16,484 - ===================================
+INFO  23:24:16,488 - Deklaracija niza p  na liniji 7
+INFO  23:24:16,489 - Deklarisana promenljiva k na liniji 8
+INFO  23:24:16,489 - Deklaracija niza pom  na liniji 9
+INFO  23:24:16,489 - Obradjuje se funkcija inkrement na liniji 14
+INFO  23:24:16,490 - Deklaracija niza t2  na liniji 15
+INFO  23:24:16,490 - Obradjuje se funkcija main na liniji 21
+INFO  23:24:16,490 - Deklaracija niza p  na liniji 22
+INFO  23:24:16,491 - Dohvatanje elementa niza  na liniji 24

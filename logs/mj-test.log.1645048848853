@@ -1,0 +1,61 @@
+INFO  22:59:31,327 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  22:59:31,390 - #4 program
+INFO  22:59:31,391 - #46 test301
+INFO  22:59:31,391 - #5 {
+INFO  22:59:31,392 - #18 void
+INFO  22:59:31,392 - #46 main
+INFO  22:59:31,392 - #7 (
+INFO  22:59:31,392 - #8 )
+INFO  22:59:31,393 - #5 {
+INFO  22:59:31,394 - #24 print
+INFO  22:59:31,395 - #7 (
+INFO  22:59:31,395 - #48 y
+INFO  22:59:31,395 - #8 )
+INFO  22:59:31,395 - #10 ;
+INFO  22:59:31,395 - #6 }
+INFO  22:59:31,396 - #6 }
+INFO  22:59:31,401 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorCharConst(
+                   y
+                  ) [FactorCharConst]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:59:31,403 - ===================================
+INFO  22:59:31,405 - Obradjuje se funkcija main na liniji 7
+INFO  22:59:31,406 - Obradjena char konstanta y i setovan joj je tip char na liniji 11
+INFO  22:59:31,406 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 11
+INFO  22:59:31,406 -  Print count calls = 0
+INFO  22:59:31,406 -  Deklarisanih promenljivih ima = 0
+INFO  22:59:31,406 - ===================================
+INFO  22:59:31,411 - Parsiranje uspesno zavrseno

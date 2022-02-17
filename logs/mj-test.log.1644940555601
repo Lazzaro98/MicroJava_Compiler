@@ -1,0 +1,60 @@
+INFO  16:51:12,493 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  16:51:12,545 - #4 program
+INFO  16:51:12,546 - #46 test302
+INFO  16:51:12,546 - #5 {
+INFO  16:51:12,546 - #18 void
+INFO  16:51:12,547 - #46 main
+INFO  16:51:12,547 - #7 (
+INFO  16:51:12,547 - #8 )
+INFO  16:51:12,548 - #5 {
+INFO  16:51:12,548 - #24 print
+INFO  16:51:12,549 - #7 (
+INFO  16:51:12,549 - #45 6
+INFO  16:51:12,549 - #8 )
+INFO  16:51:12,549 - #10 ;
+INFO  16:51:12,549 - #6 }
+INFO  16:51:12,549 - #6 }
+INFO  16:51:12,554 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorNumConst(
+                   6
+                  ) [FactorNumConst]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:51:12,554 - ===================================
+INFO  16:51:12,557 - Obradjuje se funkcija main na liniji 6
+INFO  16:51:12,557 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 8
+INFO  16:51:12,557 -  Print count calls = 0
+INFO  16:51:12,557 -  Deklarisanih promenljivih ima = 0
+INFO  16:51:12,557 - ===================================
+INFO  16:51:12,560 - Parsiranje uspesno zavrseno

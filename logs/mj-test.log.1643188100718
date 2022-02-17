@@ -1,0 +1,165 @@
+INFO  10:08:04,157 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  10:08:04,209 - #4 program
+INFO  10:08:04,209 - #46 test301
+INFO  10:08:04,209 - #11 const
+INFO  10:08:04,210 - #46 int
+INFO  10:08:04,210 - #46 nula
+INFO  10:08:04,211 - #12 =
+INFO  10:08:04,211 - #45 0
+INFO  10:08:04,211 - #10 ;
+INFO  10:08:04,212 - #5 {
+INFO  10:08:04,212 - #18 void
+INFO  10:08:04,213 - #46 main
+INFO  10:08:04,213 - #7 (
+INFO  10:08:04,213 - #8 )
+INFO  10:08:04,213 - #46 int
+INFO  10:08:04,214 - #46 bodovi
+INFO  10:08:04,214 - #10 ;
+INFO  10:08:04,215 - #5 {
+INFO  10:08:04,215 - #46 bodovi
+INFO  10:08:04,216 - #12 =
+INFO  10:08:04,216 - #45 0
+INFO  10:08:04,217 - #10 ;
+INFO  10:08:04,218 - #46 bodovi
+INFO  10:08:04,218 - #12 =
+INFO  10:08:04,218 - #46 bodovi
+INFO  10:08:04,218 - #27 +
+INFO  10:08:04,218 - #46 jedan
+INFO  10:08:04,219 - #10 ;
+INFO  10:08:04,220 - #24 print
+INFO  10:08:04,220 - #7 (
+INFO  10:08:04,220 - #46 bodovi
+INFO  10:08:04,220 - #8 )
+INFO  10:08:04,220 - #10 ;
+INFO  10:08:04,220 - #6 }
+INFO  10:08:04,221 - #6 }
+INFO  10:08:04,225 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgram(
+    DeclarationListProgramEmpty(
+    ) [DeclarationListProgramEmpty]
+    DeclarationConst(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+       nula
+        NumConstDeclaration(
+         0
+        ) [NumConstDeclaration]
+        ConstDeclarationPomListEmpty(
+        ) [ConstDeclarationPomListEmpty]
+      ) [ConstDeclaration]
+    ) [DeclarationConst]
+  ) [DeclarationListProgram]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          ListStatement(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementNoLabelSingle(
+                SingleStatementDesignator(
+                  DesignatorStatementEq(
+                    DesignatorSingle(
+                     bodovi
+                    ) [DesignatorSingle]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [DesignatorStatementEq]
+                ) [SingleStatementDesignator]
+              ) [StatementNoLabelSingle]
+            ) [MatchedStmt]
+          ) [ListStatement]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   bodovi
+                  ) [DesignatorSingle]
+                  AddExpr(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSingle(
+                           bodovi
+                          ) [DesignatorSingle]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermSingleFactor(
+                      FactorDesignator(
+                        DesignatorSingle(
+                         jedan
+                        ) [DesignatorSingle]
+                      ) [FactorDesignator]
+                    ) [TermSingleFactor]
+                  ) [AddExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementNoLabelSingle(
+            SingleStatementPrint(
+              TermExpr(
+                TermSingleFactor(
+                  FactorDesignator(
+                    DesignatorSingle(
+                     bodovi
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                ) [TermSingleFactor]
+              ) [TermExpr]
+            ) [SingleStatementPrint]
+          ) [StatementNoLabelSingle]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  10:08:04,226 - ===================================
+INFO  10:08:04,229 - Deklarisana konstanta nula na liniji 4
+INFO  10:08:04,229 - Obradjuje se funkcija main na liniji 6
+INFO  10:08:04,229 - Deklarisana promenljiva bodovi tipa int na liniji 7
+INFO  10:08:04,230 - Dodela vrednosti bodovi na liniji 9
+ERROR 10:08:04,230 - Ime jedan nije deklarisano  na liniji 11
+ERROR 10:08:04,230 -  Nekompatibilni tipovi u izrazu za sabiranje/oduzimanje. Ne mozete sabrati/oduzeti int i none na liniji 11
+ERROR 10:08:04,230 - Nekompatibilni tipovi u dodeli vrednosti! none i int na liniji 11
+INFO  10:08:04,230 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 12
+INFO  10:08:04,230 -  Print count calls = 0
+INFO  10:08:04,230 -  Deklarisanih promenljivih ima = 1
+INFO  10:08:04,230 - ===================================
+ERROR 10:08:04,231 - Parsiranje neuspesno.

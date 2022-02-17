@@ -1,0 +1,181 @@
+INFO  15:29:22,719 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  15:29:22,779 - #4 program
+INFO  15:29:22,779 - #46 test302
+INFO  15:29:22,779 - #5 {
+INFO  15:29:22,781 - #18 void
+INFO  15:29:22,781 - #46 main
+INFO  15:29:22,782 - #7 (
+INFO  15:29:22,782 - #8 )
+INFO  15:29:22,783 - #46 int
+INFO  15:29:22,784 - #46 i
+INFO  15:29:22,784 - #10 ;
+INFO  15:29:22,785 - #5 {
+INFO  15:29:22,786 - #46 i
+INFO  15:29:22,787 - #12 =
+INFO  15:29:22,787 - #45 2
+INFO  15:29:22,787 - #10 ;
+INFO  15:29:22,788 - #40 do
+INFO  15:29:22,788 - #5 {
+INFO  15:29:22,789 - #24 print
+INFO  15:29:22,789 - #7 (
+INFO  15:29:22,789 - #46 i
+INFO  15:29:22,790 - #8 )
+INFO  15:29:22,791 - #10 ;
+INFO  15:29:22,791 - #46 i
+INFO  15:29:22,791 - #19 ++
+INFO  15:29:22,791 - #10 ;
+INFO  15:29:22,792 - #6 }
+INFO  15:29:22,792 - #41 while
+INFO  15:29:22,793 - #7 (
+INFO  15:29:22,793 - #46 i
+INFO  15:29:22,795 - #35 <
+INFO  15:29:22,795 - #45 5
+INFO  15:29:22,797 - #8 )
+INFO  15:29:22,799 - #10 ;
+INFO  15:29:22,799 - #6 }
+INFO  15:29:22,799 - #6 }
+INFO  15:29:22,808 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationList(
+        VarDeclarationListEmpty(
+        ) [VarDeclarationListEmpty]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+         i
+          VarDeclarationListPomEmpty(
+          ) [VarDeclarationListPomEmpty]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      ListStatement(
+        ListStatement(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementNoLabelSingle(
+              SingleStatementDesignator(
+                DesignatorStatementEq(
+                  DesignatorSingle(
+                   i
+                  ) [DesignatorSingle]
+                  TermExpr(
+                    TermSingleFactor(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [TermSingleFactor]
+                  ) [TermExpr]
+                ) [DesignatorStatementEq]
+              ) [SingleStatementDesignator]
+            ) [StatementNoLabelSingle]
+          ) [MatchedStmt]
+        ) [ListStatement]
+        MatchedStmt(
+          StatementDoWhile(
+            DoStmt(
+            ) [DoStmt]
+            ListStatement(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementsLabelListNoLabel(
+                  Statements(
+                    ListStatement(
+                      ListStatement(
+                        NoStmt(
+                        ) [NoStmt]
+                        MatchedStmt(
+                          StatementNoLabelSingle(
+                            SingleStatementPrint(
+                              TermExpr(
+                                TermSingleFactor(
+                                  FactorDesignator(
+                                    DesignatorSingle(
+                                     i
+                                    ) [DesignatorSingle]
+                                  ) [FactorDesignator]
+                                ) [TermSingleFactor]
+                              ) [TermExpr]
+                            ) [SingleStatementPrint]
+                          ) [StatementNoLabelSingle]
+                        ) [MatchedStmt]
+                      ) [ListStatement]
+                      MatchedStmt(
+                        StatementNoLabelSingle(
+                          SingleStatementDesignator(
+                            DesignatorStatementInc(
+                              DesignatorSingle(
+                               i
+                              ) [DesignatorSingle]
+                            ) [DesignatorStatementInc]
+                          ) [SingleStatementDesignator]
+                        ) [StatementNoLabelSingle]
+                      ) [MatchedStmt]
+                    ) [ListStatement]
+                  ) [Statements]
+                ) [StatementsLabelListNoLabel]
+              ) [MatchedStmt]
+            ) [ListStatement]
+            DoCondition1(
+              DoConditionStart1(
+              ) [DoConditionStart1]
+              Condition(
+                CondTerm(
+                  ConditionFactor(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorDesignator(
+                          DesignatorSingle(
+                           i
+                          ) [DesignatorSingle]
+                        ) [FactorDesignator]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    LessOperator(
+                    ) [LessOperator]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         5
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [ConditionFactor]
+                  ConditionFactorListEmpty(
+                  ) [ConditionFactorListEmpty]
+                ) [CondTerm]
+                ConditionTermListEmpty(
+                ) [ConditionTermListEmpty]
+              ) [Condition]
+            ) [DoCondition1]
+          ) [StatementDoWhile]
+        ) [MatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:29:22,810 - ===================================
+INFO  15:29:22,817 - Obradjuje se funkcija main na liniji 5
+INFO  15:29:22,817 - Deklarisana promenljiva i tipa int na liniji 6
+INFO  15:29:22,817 - Dodela vrednosti i na liniji 8
+INFO  15:29:22,818 - Izvrsavanje naredbe print nad argumentom tipa int na liniji 10
+INFO  15:29:22,818 - Inkrementiranje promenljive i na liniji 11
+INFO  15:29:22,818 - Izvrsavanje poredjenje izraza  na liniji 12
+INFO  15:29:22,819 -  Print count calls = 0
+INFO  15:29:22,819 -  Deklarisanih promenljivih ima = 1
+INFO  15:29:22,819 - ===================================
+INFO  15:29:22,831 - Parsiranje uspesno zavrseno

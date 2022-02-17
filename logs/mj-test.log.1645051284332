@@ -1,0 +1,140 @@
+INFO  23:41:10,501 - Compiling source file: C:\Users\milan\Desktop\Faks\PP1\Projekat\Video pripreme\Leksicka analiza\Izvorni kod\MJCompiler\test\program.mj
+INFO  23:41:10,553 - #4 program
+INFO  23:41:10,553 - #46 test301
+INFO  23:41:10,553 - #5 {
+INFO  23:41:10,554 - #18 void
+INFO  23:41:10,555 - #46 main
+INFO  23:41:10,555 - #7 (
+INFO  23:41:10,555 - #8 )
+INFO  23:41:10,555 - #5 {
+INFO  23:41:10,556 - #37 if
+INFO  23:41:10,556 - #7 (
+INFO  23:41:10,556 - #45 2
+INFO  23:41:10,556 - #33 >
+INFO  23:41:10,557 - #45 1
+INFO  23:41:10,557 - #49 &&
+INFO  23:41:10,558 - #45 3
+INFO  23:41:10,558 - #33 >
+INFO  23:41:10,559 - #45 1
+INFO  23:41:10,559 - #8 )
+INFO  23:41:10,560 - #5 {
+INFO  23:41:10,560 - #24 print
+INFO  23:41:10,561 - #7 (
+INFO  23:41:10,561 - #48 y
+INFO  23:41:10,562 - #8 )
+INFO  23:41:10,562 - #10 ;
+INFO  23:41:10,562 - #6 }
+INFO  23:41:10,562 - #6 }
+INFO  23:41:10,563 - #6 }
+INFO  23:41:10,568 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclarationListProgramEmpty(
+  ) [DeclarationListProgramEmpty]
+  MethodDeclarationList(
+    MethodDeclarationListEmpty(
+    ) [MethodDeclarationListEmpty]
+    MethodDeclaration(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclarationListEmpty(
+      ) [VarDeclarationListEmpty]
+      ListStatement(
+        NoStmt(
+        ) [NoStmt]
+        UnmatchedStmt(
+          UnmatchedIf(
+            IFCondition1(
+              Condition(
+                CondTerm(
+                  ConditionFactor(
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                    GreaterOp(
+                    ) [GreaterOp]
+                    TermExpr(
+                      TermSingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermSingleFactor]
+                    ) [TermExpr]
+                  ) [ConditionFactor]
+                  ConditionFactorList(
+                    LeftAnd1(
+                      ConditionFactorListEmpty(
+                      ) [ConditionFactorListEmpty]
+                    ) [LeftAnd1]
+                    ConditionFactor(
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           3
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                      GreaterOp(
+                      ) [GreaterOp]
+                      TermExpr(
+                        TermSingleFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [TermSingleFactor]
+                      ) [TermExpr]
+                    ) [ConditionFactor]
+                  ) [ConditionFactorList]
+                ) [CondTerm]
+                ConditionTermListEmpty(
+                ) [ConditionTermListEmpty]
+              ) [Condition]
+            ) [IFCondition1]
+            MatchedStmt(
+              StatementsLabelListNoLabel(
+                Statements(
+                  ListStatement(
+                    NoStmt(
+                    ) [NoStmt]
+                    MatchedStmt(
+                      StatementNoLabelSingle(
+                        SingleStatementPrint(
+                          TermExpr(
+                            TermSingleFactor(
+                              FactorCharConst(
+                               y
+                              ) [FactorCharConst]
+                            ) [TermSingleFactor]
+                          ) [TermExpr]
+                        ) [SingleStatementPrint]
+                      ) [StatementNoLabelSingle]
+                    ) [MatchedStmt]
+                  ) [ListStatement]
+                ) [Statements]
+              ) [StatementsLabelListNoLabel]
+            ) [MatchedStmt]
+          ) [UnmatchedIf]
+        ) [UnmatchedStmt]
+      ) [ListStatement]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:41:10,568 - ===================================
+INFO  23:41:10,572 - Obradjuje se funkcija main na liniji 7
+INFO  23:41:10,572 - Izvrsavanje poredjenje izraza  na liniji 11
+INFO  23:41:10,572 - Izvrsavanje poredjenje izraza  na liniji 11
+INFO  23:41:10,572 - Obradjena char konstanta y i setovan joj je tip char na liniji 12
+INFO  23:41:10,572 - Izvrsavanje naredbe print nad argumentom tipa char na liniji 12
+INFO  23:41:10,572 - Obrada IF naredbe  na liniji 11
+INFO  23:41:10,573 -  Print count calls = 0
+INFO  23:41:10,573 -  Deklarisanih promenljivih ima = 0
+INFO  23:41:10,573 - ===================================
+INFO  23:41:10,580 - Parsiranje uspesno zavrseno
